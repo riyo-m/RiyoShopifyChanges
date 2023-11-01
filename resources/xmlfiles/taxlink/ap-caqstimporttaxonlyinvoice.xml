@@ -1,0 +1,176 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.vertexinc.com/vertextl/taxIntegration/types/">
+	<soapenv:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:MessageID>uuid:ec477fd0-1a8e-41a2-8ea7-1b74292ca045</wsa:MessageID>
+		<wsa:Action>calculation</wsa:Action>
+	</soapenv:Header>
+	<soapenv:Body>
+		<typ:calculation>
+			<typ:trxHeader>
+				<typ:ApplicationId>200</typ:ApplicationId>
+				<typ:ApplicationShortname>AP</typ:ApplicationShortname>
+				<typ:DefaultTaxationCountry>CA</typ:DefaultTaxationCountry>
+				<typ:DocEventStatus>UPDATED</typ:DocEventStatus>
+				<typ:EntityCode>AP_INVOICES</typ:EntityCode>
+				<typ:EventClassCode>STANDARD INVOICES</typ:EventClassCode>
+				<typ:EventTypeCode>STANDARD UPDATED</typ:EventTypeCode>
+				<typ:EndPointUrl>https://ecog-dev1.fa.us2.oraclecloud.com</typ:EndPointUrl>
+				<typ:FirstPtyOrgId>300000006749957</typ:FirstPtyOrgId>
+				<typ:HdrTrxUserKey1>CALCULATE</typ:HdrTrxUserKey1>
+				<typ:InternalOrganizationId>300000006755657</typ:InternalOrganizationId>
+				<typ:LedgerId>300000001139009</typ:LedgerId>
+				<typ:LegalEntityId>300000001140058</typ:LegalEntityId>
+				<typ:LegalEntityNumber>RICA103142</typ:LegalEntityNumber>
+				<typ:LogLevel>SEVERE</typ:LogLevel>
+				<typ:TrxCurrencyCode>CAD</typ:TrxCurrencyCode>
+				<typ:TrxDate>2022-12-21</typ:TrxDate>
+				<typ:TrxHeaderAmt>100</typ:TrxHeaderAmt>
+				<typ:TrxId>488504</typ:TrxId>
+				<typ:TrxNumber>AUTOTST_APCAQSTIMPORTTAXONLYINVOICE_56740</typ:TrxNumber>
+			</typ:trxHeader>
+			<typ:trxLineList>
+				<typ:trxLine>
+					<typ:ApplicationId>200</typ:ApplicationId>
+					<typ:BillFromGeographyType1>ADDRESS1</typ:BillFromGeographyType1>
+					<typ:BillFromGeographyType10>PROVINCE</typ:BillFromGeographyType10>
+					<typ:BillFromGeographyType2>ADDRESS2</typ:BillFromGeographyType2>
+					<typ:BillFromGeographyType3>ADDRESS3</typ:BillFromGeographyType3>
+					<typ:BillFromGeographyType4>ADDRESS4</typ:BillFromGeographyType4>
+					<typ:BillFromGeographyType5>COUNTRY</typ:BillFromGeographyType5>
+					<typ:BillFromGeographyType6>STATE</typ:BillFromGeographyType6>
+					<typ:BillFromGeographyType7>COUNTY</typ:BillFromGeographyType7>
+					<typ:BillFromGeographyType8>CITY</typ:BillFromGeographyType8>
+					<typ:BillFromGeographyType9>POSTALCODE</typ:BillFromGeographyType9>
+					<typ:BillFromGeographyValue1>90 Bloor St E</typ:BillFromGeographyValue1>
+					<typ:BillFromGeographyValue10>Ontario</typ:BillFromGeographyValue10>
+					<typ:BillFromGeographyValue5>CA</typ:BillFromGeographyValue5>
+					<typ:BillFromGeographyValue8>toronto</typ:BillFromGeographyValue8>
+					<typ:BillFromGeographyValue9>M4W 1A7</typ:BillFromGeographyValue9>
+					<typ:BillFromLocationId>300000008642005</typ:BillFromLocationId>
+					<typ:BillThirdPtyAcctId>300000008641998</typ:BillThirdPtyAcctId>
+					<typ:BillThirdPtyAcctSiteId>300000008642013</typ:BillThirdPtyAcctSiteId>
+					<typ:BillToGeographyType1>ADDRESS1</typ:BillToGeographyType1>
+					<typ:BillToGeographyType10>PROVINCE</typ:BillToGeographyType10>
+					<typ:BillToGeographyType2>ADDRESS2</typ:BillToGeographyType2>
+					<typ:BillToGeographyType3>ADDRESS3</typ:BillToGeographyType3>
+					<typ:BillToGeographyType4>ADDRESS4</typ:BillToGeographyType4>
+					<typ:BillToGeographyType5>COUNTRY</typ:BillToGeographyType5>
+					<typ:BillToGeographyType6>STATE</typ:BillToGeographyType6>
+					<typ:BillToGeographyType7>COUNTY</typ:BillToGeographyType7>
+					<typ:BillToGeographyType8>CITY</typ:BillToGeographyType8>
+					<typ:BillToGeographyType9>POSTALCODE</typ:BillToGeographyType9>
+					<typ:BillToGeographyValue1>100 Milverton Drive</typ:BillToGeographyValue1>
+					<typ:BillToGeographyValue10>Ontario</typ:BillToGeographyValue10>
+					<typ:BillToGeographyValue5>CA</typ:BillToGeographyValue5>
+					<typ:BillToGeographyValue8>Mississauga</typ:BillToGeographyValue8>
+					<typ:BillToGeographyValue9>L5R 3P4</typ:BillToGeographyValue9>
+					<typ:BillToLocationId>300000001141674</typ:BillToLocationId>
+					<typ:EntityCode>AP_INVOICES</typ:EntityCode>
+					<typ:EventClassCode>STANDARD INVOICES</typ:EventClassCode>
+					<typ:LineAmt>100</typ:LineAmt>
+					<typ:LineAmtIncludesTaxFlag>N</typ:LineAmtIncludesTaxFlag>
+					<typ:LineClass>STANDARD INVOICES</typ:LineClass>
+					<typ:LineLevelAction>LINE_INFO_TAX_ONLY</typ:LineLevelAction>
+					<typ:LinesDetFactorId>300000033221227</typ:LinesDetFactorId>
+					<typ:MinimumAccountableUnit>0.01</typ:MinimumAccountableUnit>
+					<typ:Precision>2</typ:Precision>
+					<typ:PseudoTrxLineFlag>Y</typ:PseudoTrxLineFlag>
+					<typ:ShipFromGeographyType1>ADDRESS1</typ:ShipFromGeographyType1>
+					<typ:ShipFromGeographyType10>PROVINCE</typ:ShipFromGeographyType10>
+					<typ:ShipFromGeographyType2>ADDRESS2</typ:ShipFromGeographyType2>
+					<typ:ShipFromGeographyType3>ADDRESS3</typ:ShipFromGeographyType3>
+					<typ:ShipFromGeographyType4>ADDRESS4</typ:ShipFromGeographyType4>
+					<typ:ShipFromGeographyType5>COUNTRY</typ:ShipFromGeographyType5>
+					<typ:ShipFromGeographyType6>STATE</typ:ShipFromGeographyType6>
+					<typ:ShipFromGeographyType7>COUNTY</typ:ShipFromGeographyType7>
+					<typ:ShipFromGeographyType8>CITY</typ:ShipFromGeographyType8>
+					<typ:ShipFromGeographyType9>POSTALCODE</typ:ShipFromGeographyType9>
+					<typ:ShipFromGeographyValue1>90 Bloor St E</typ:ShipFromGeographyValue1>
+					<typ:ShipFromGeographyValue10>Ontario</typ:ShipFromGeographyValue10>
+					<typ:ShipFromGeographyValue5>CA</typ:ShipFromGeographyValue5>
+					<typ:ShipFromGeographyValue8>toronto</typ:ShipFromGeographyValue8>
+					<typ:ShipFromGeographyValue9>M4W 1A7</typ:ShipFromGeographyValue9>
+					<typ:ShipFromLocationId>300000008642005</typ:ShipFromLocationId>
+					<typ:ShipThirdPtyAcctId>300000008641998</typ:ShipThirdPtyAcctId>
+					<typ:ShipThirdPtyAcctSiteId>300000008642013</typ:ShipThirdPtyAcctSiteId>
+					<typ:ShipToGeographyType1>ADDRESS1</typ:ShipToGeographyType1>
+					<typ:ShipToGeographyType10>PROVINCE</typ:ShipToGeographyType10>
+					<typ:ShipToGeographyType2>ADDRESS2</typ:ShipToGeographyType2>
+					<typ:ShipToGeographyType3>ADDRESS3</typ:ShipToGeographyType3>
+					<typ:ShipToGeographyType4>ADDRESS4</typ:ShipToGeographyType4>
+					<typ:ShipToGeographyType5>COUNTRY</typ:ShipToGeographyType5>
+					<typ:ShipToGeographyType6>STATE</typ:ShipToGeographyType6>
+					<typ:ShipToGeographyType7>COUNTY</typ:ShipToGeographyType7>
+					<typ:ShipToGeographyType8>CITY</typ:ShipToGeographyType8>
+					<typ:ShipToGeographyType9>POSTALCODE</typ:ShipToGeographyType9>
+					<typ:ShipToGeographyValue1>100 Milverton Drive</typ:ShipToGeographyValue1>
+					<typ:ShipToGeographyValue10>Ontario</typ:ShipToGeographyValue10>
+					<typ:ShipToGeographyValue5>CA</typ:ShipToGeographyValue5>
+					<typ:ShipToGeographyValue8>Mississauga</typ:ShipToGeographyValue8>
+					<typ:ShipToGeographyValue9>L5R 3P4</typ:ShipToGeographyValue9>
+					<typ:ShipToLocationId>300000001141674</typ:ShipToLocationId>
+					<typ:TaxReportingFlag>Y</typ:TaxReportingFlag>
+					<typ:TrxId>488504</typ:TrxId>
+					<typ:TrxLineId>1</typ:TrxLineId>
+					<typ:TrxLineNumber>1</typ:TrxLineNumber>
+					<typ:TrxLevelType>LINE</typ:TrxLevelType>
+					<typ:VendorNumber>10044</typ:VendorNumber>
+				</typ:trxLine>
+			</typ:trxLineList>
+			<typ:trxDetailTaxLineList>
+				<typ:trxDetailTaxLine>
+					<typ:ApplicationId>200</typ:ApplicationId>
+					<typ:CancelFlag>N</typ:CancelFlag>
+					<typ:CompoundingTaxFlag>N</typ:CompoundingTaxFlag>
+					<typ:CopiedFromOtherDocFlag>N</typ:CopiedFromOtherDocFlag>
+					<typ:DeleteFlag>N</typ:DeleteFlag>
+					<typ:EntityCode>AP_INVOICES</typ:EntityCode>
+					<typ:EventClassCode>STANDARD INVOICES</typ:EventClassCode>
+					<typ:InternalOrganizationId>300000006755657</typ:InternalOrganizationId>
+					<typ:LedgerId>300000001139009</typ:LedgerId>
+					<typ:LegalEntityId>300000001140058</typ:LegalEntityId>
+					<typ:LegalReportingStatus>000000000000000</typ:LegalReportingStatus>
+					<typ:LineAmt>100</typ:LineAmt>
+					<typ:ManuallyEnteredFlag>Y</typ:ManuallyEnteredFlag>
+					<typ:MinimumAccountableUnit>0.01</typ:MinimumAccountableUnit>
+					<typ:OffsetFlag>N</typ:OffsetFlag>
+					<typ:OverriddenFlag>Y</typ:OverriddenFlag>
+					<typ:Precision>2</typ:Precision>
+					<typ:ReportableFlag>Y</typ:ReportableFlag>
+					<typ:ReportingOnlyFlag>N</typ:ReportingOnlyFlag>
+					<typ:RoundingLevelCode>HEADER</typ:RoundingLevelCode>
+					<typ:RoundingRuleCode>NEAREST</typ:RoundingRuleCode>
+					<typ:SelfAssessedFlag>N</typ:SelfAssessedFlag>
+					<typ:Tax>PROVINCE CA QC QST IMPORT</typ:Tax>
+					<typ:TaxAmt>100</typ:TaxAmt>
+					<typ:TaxAmtIncludedFlag>N</typ:TaxAmtIncludedFlag>
+					<typ:TaxAmtTaxCurr>100</typ:TaxAmtTaxCurr>
+					<typ:TaxApportionmentLineNumber>1</typ:TaxApportionmentLineNumber>
+					<typ:TaxCurrencyCode>CAD</typ:TaxCurrencyCode>
+					<typ:TaxCurrencyConversionDate>2022-12-21</typ:TaxCurrencyConversionDate>
+					<typ:TaxCurrencyConversionRate>1</typ:TaxCurrencyConversionRate>
+					<typ:TaxDate>2022-12-21</typ:TaxDate>
+					<typ:TaxDetermineDate>2022-12-21</typ:TaxDetermineDate>
+					<typ:TaxJurisdictionCode>VTX_CA_QC_IMPORT_QST</typ:TaxJurisdictionCode>
+					<typ:TaxLineId>300000033221228</typ:TaxLineId>
+					<typ:TaxLineNumber>1</typ:TaxLineNumber>
+					<typ:TaxOnlyLineFlag>Y</typ:TaxOnlyLineFlag>
+					<typ:TaxPointBasis>INVOICE</typ:TaxPointBasis>
+					<typ:TaxRate>9.975</typ:TaxRate>
+					<typ:TaxRateCode>VTX_CA_QST_IMPORT_STD</typ:TaxRateCode>
+					<typ:TaxRateType>PERCENTAGE</typ:TaxRateType>
+					<typ:TaxRegimeCode>VERTEX CA QST</typ:TaxRegimeCode>
+					<typ:TaxStatusCode>STANDARD</typ:TaxStatusCode>
+					<typ:TaxableAmt>1002.51</typ:TaxableAmt>
+					<typ:TaxableAmtTaxCurr>1002.51</typ:TaxableAmtTaxCurr>
+					<typ:TrxCurrencyCode>CAD</typ:TrxCurrencyCode>
+					<typ:TrxDate>2022-12-21</typ:TrxDate>
+					<typ:TrxId>488504</typ:TrxId>
+					<typ:TrxLevelType>LINE</typ:TrxLevelType>
+					<typ:TrxLineId>1</typ:TrxLineId>
+					<typ:UnroundedTaxAmt>100</typ:UnroundedTaxAmt>
+					<typ:UnroundedTaxableAmt>1002.50626566416040100251</typ:UnroundedTaxableAmt>
+				</typ:trxDetailTaxLine>
+			</typ:trxDetailTaxLineList>
+		</typ:calculation>
+	</soapenv:Body>
+</soapenv:Envelope>

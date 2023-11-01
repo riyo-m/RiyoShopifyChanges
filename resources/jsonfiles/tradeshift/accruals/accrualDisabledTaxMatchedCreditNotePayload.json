@@ -1,0 +1,106 @@
+{
+  "TaxConnectorRequestVersion" : "1.0",
+  "TenantId" : "a0cddd0f-aac0-4abe-ad2d-289c1aa862bb",
+  "DocumentId" : "121e18e2-81d4-11eb-8dcd-0000ac130003",
+  "DocumentNumber" : "3",
+  "DocumentType" : "creditnote",
+  "DocumentProfileId" : "tradeshift.requisition.ubl.1.0",
+  "DocumentIssueDate" : "2020-06-10T19:15:46.869Z",
+  "CurrencyCode" : "USD",
+  "IsAudited" : false,
+  "SellerChargedTax" : 11,
+  "BuyerInfo" : {
+    "BuyerUUID" : "1b48b3c0-1564-4532-93ac-e567520af919",
+    "CustomerAssignedId" : null,
+    "BusinessAddress" : {
+      "Country" : {
+        "IdentificationCode" : {
+          "value" : "US"
+        }
+      }
+    },
+    "DeliveryAddress" : {
+      "StreetName" : {
+        "value" : "123 Test Dr"
+      },
+      "CityName" : {
+        "value" : "King Of Prussia"
+      },
+      "PostalZone" : {
+        "value" : "19406"
+      },
+      "CountrySubentity" : {
+        "value" : "PA"
+      },
+      "Country" : {
+        "IdentificationCode" : {
+          "value" : "US"
+        }
+      }
+    }
+  },
+  "SupplierInfo" : { },
+  "Lines" : [ {
+    "CodingLineId" : "987e18e2-81d4-11eb-8dcd-0242ac131001",
+    "DocumentLineId" : "987e18e2-81d4-11eb-8dcd-0242ac131001",
+    "BuyerInfo" : {
+      "CustomerAssignedId" : null,
+      "BusinessAddress" : null,
+      "DeliveryAddress" : null
+    },
+    "SupplierInfo" : {
+      "SupplierName" : "Services Supplier, Inc",
+      "SupplierUUID" : "8eeec025-1ca2-4fa5-8e0d-532b18ac84db",
+      "BusinessAddress" : {
+        "StreetName" : {
+          "value" : "555 Main St."
+        },
+        "CityName" : {
+          "value" : "Lansdale"
+        },
+        "PostalZone" : {
+          "value" : "19446"
+        },
+        "CountrySubentity" : {
+          "value" : "PA"
+        },
+        "Country" : {
+          "IdentificationCode" : {
+            "value" : "US"
+          }
+        }
+      }
+    },
+    "Amount" : {
+      "value" : 100,
+      "currencyID" : "USD"
+    },
+    "Quantity" : {
+      "value" : 5,
+      "unitCode" : "DOZ"
+    },
+    "Codes" : [ {
+      "ID" : {
+        "value" : "vendor"
+      },
+      "Name" : {
+        "value" : "Paper"
+      },
+      "Value" : {
+        "value" : "123"
+      }
+    } ]
+  } ],
+  "Charges" : [ {
+    "CodingLineId" : "987e18e2-81d4-11eb-8dcd-0242ac130202",
+    "ChargeId" : "987e18e2-81d4-11eb-8dcd-0242ac130202",
+    "ChargeCode" : "Freight Cost",
+    "ChargeReason" : null,
+    "Amount" : {
+      "value" : 100,
+      "currencyID" : "USD"
+    },
+    "Percentage" : null,
+    "Codes" : [ ]
+  } ]
+}

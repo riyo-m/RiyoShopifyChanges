@@ -1,0 +1,36 @@
+{
+  "purchaseMessageType": "ACCRUAL",
+  "buyer": {
+	"company": "kns9241",
+	"destination": {
+	  "City": "Berwyn",
+	  "MainDivision": "PA",
+	  "PostalCode": "19312",
+	  "Country": "USA"
+	}
+  },
+  "vendor": {
+	"vendorCode": {
+	  "value": "Acme"
+	},
+	"physicalOrigin": {
+	  "city": "Berwyn",
+	  "mainDivision": "PA",
+	  "postalCode": "19312",
+	  "country": "USA"
+	}
+  },
+  "lineItems": [
+	{
+	  "lineItemNumber": "1",
+	  "purchase": {
+		"value": "WIDGET"
+	  },
+	  "ChargedTax": "4",
+	  "ExtendedPrice": "100"
+	}
+  ],
+  "documentNumber": "12345",
+  "documentDate": "2017-12-18",
+  "transactionType": "PURCHASE"
+}

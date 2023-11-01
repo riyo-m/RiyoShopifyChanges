@@ -1,0 +1,170 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.vertexinc.com/vertextl/taxIntegration/types/">
+	<soapenv:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:MessageID>uuid:b4611e5a-9183-478d-a124-2e56c8fbb47a</wsa:MessageID>
+		<wsa:Action>calculation</wsa:Action>
+	</soapenv:Header>
+	<soapenv:Body>
+		<typ:calculation>
+			<typ:trxHeader>
+				<typ:ApplicationId>222</typ:ApplicationId>
+				<typ:ApplicationShortname>AR</typ:ApplicationShortname>
+				<typ:BatchSourceName>Manual</typ:BatchSourceName>
+				<typ:CtrlHdrTxApplFlag>N</typ:CtrlHdrTxApplFlag>
+				<typ:DefaultTaxationCountry>US</typ:DefaultTaxationCountry>
+				<typ:DocEventStatus>VALIDATED_FOR_TAX</typ:DocEventStatus>
+				<typ:EntityCode>TRANSACTIONS</typ:EntityCode>
+				<typ:EventClassCode>INVOICE</typ:EventClassCode>
+				<typ:EstablishmentId>300000001140074</typ:EstablishmentId>
+				<typ:EstablishmentNumber>1010</typ:EstablishmentNumber>
+				<typ:EventClassMappingId>4</typ:EventClassMappingId>
+				<typ:EventTypeCode>INV_CREATE</typ:EventTypeCode>
+				<typ:EndPointUrl>https://ecog-test.fa.us2.oraclecloud.com</typ:EndPointUrl>
+				<typ:FirstPtyOrgId>300000004221936</typ:FirstPtyOrgId>
+				<typ:HdrTrxUserKey1>CALCULATE</typ:HdrTrxUserKey1>
+				<typ:HistoricalFlag>N</typ:HistoricalFlag>
+				<typ:HqEstbPartyTaxProfId>300000001140233</typ:HqEstbPartyTaxProfId>
+				<typ:InternalOrganizationId>300000005503393</typ:InternalOrganizationId>
+				<typ:LedgerId>300000001139008</typ:LedgerId>
+				<typ:LegalEntityId>300000001140056</typ:LegalEntityId>
+				<typ:LegalEntityNumber>RIUS108111</typ:LegalEntityNumber>
+				<typ:LogLevel>SEVERE</typ:LogLevel>
+				<typ:ReceivablesTrxTypeSeqId>34</typ:ReceivablesTrxTypeSeqId>
+				<typ:TrxCurrencyCode>USD</typ:TrxCurrencyCode>
+				<typ:TrxDate>2022-09-27</typ:TrxDate>
+				<typ:TrxDueDate>2022-06-11</typ:TrxDueDate>
+				<typ:TrxId>325825</typ:TrxId>
+				<typ:TrxLevelType>ITEM</typ:TrxLevelType>
+				<typ:TrxNumber>AUTOTST_ARINVRECYCLINGFEE_83804</typ:TrxNumber>
+			</typ:trxHeader>
+			<typ:trxLineList>
+				<typ:trxLine>
+					<typ:AccountCcid>14028</typ:AccountCcid>
+					<typ:ApplicationId>222</typ:ApplicationId>
+					<typ:AccountString>3211-50-42125-000-0000-0000</typ:AccountString>
+					<typ:AssessableValue>1000</typ:AssessableValue>
+					<typ:BillFromGeographyType1>ADDRESS1</typ:BillFromGeographyType1>
+					<typ:BillFromGeographyType10>PROVINCE</typ:BillFromGeographyType10>
+					<typ:BillFromGeographyType2>ADDRESS2</typ:BillFromGeographyType2>
+					<typ:BillFromGeographyType3>ADDRESS3</typ:BillFromGeographyType3>
+					<typ:BillFromGeographyType4>ADDRESS4</typ:BillFromGeographyType4>
+					<typ:BillFromGeographyType5>COUNTRY</typ:BillFromGeographyType5>
+					<typ:BillFromGeographyType6>STATE</typ:BillFromGeographyType6>
+					<typ:BillFromGeographyType7>COUNTY</typ:BillFromGeographyType7>
+					<typ:BillFromGeographyType8>CITY</typ:BillFromGeographyType8>
+					<typ:BillFromGeographyType9>POSTALCODE</typ:BillFromGeographyType9>
+					<typ:BillFromGeographyValue1>5430 One Shields Avenue</typ:BillFromGeographyValue1>
+					<typ:BillFromGeographyValue5>US</typ:BillFromGeographyValue5>
+					<typ:BillFromGeographyValue6>Pennsylvania</typ:BillFromGeographyValue6>
+					<typ:BillFromGeographyValue8>Berwyn</typ:BillFromGeographyValue8>
+					<typ:BillFromGeographyValue9>19312</typ:BillFromGeographyValue9>
+					<typ:BillFromLocationId>300000001141673</typ:BillFromLocationId>
+					<typ:BillThirdPtyAcctId>300000005514504</typ:BillThirdPtyAcctId>
+					<typ:BillThirdPtyAcctSiteId>300000005514533</typ:BillThirdPtyAcctSiteId>
+					<typ:BillToGeographyType1>ADDRESS1</typ:BillToGeographyType1>
+					<typ:BillToGeographyType10>PROVINCE</typ:BillToGeographyType10>
+					<typ:BillToGeographyType2>ADDRESS2</typ:BillToGeographyType2>
+					<typ:BillToGeographyType3>ADDRESS3</typ:BillToGeographyType3>
+					<typ:BillToGeographyType4>ADDRESS4</typ:BillToGeographyType4>
+					<typ:BillToGeographyType5>COUNTRY</typ:BillToGeographyType5>
+					<typ:BillToGeographyType6>STATE</typ:BillToGeographyType6>
+					<typ:BillToGeographyType7>COUNTY</typ:BillToGeographyType7>
+					<typ:BillToGeographyType8>CITY</typ:BillToGeographyType8>
+					<typ:BillToGeographyType9>POSTALCODE</typ:BillToGeographyType9>
+					<typ:BillToGeographyValue1>32 Avenue Of The Americas</typ:BillToGeographyValue1>
+					<typ:BillToGeographyValue5>US</typ:BillToGeographyValue5>
+					<typ:BillToGeographyValue6>New York</typ:BillToGeographyValue6>
+					<typ:BillToGeographyValue7>New York</typ:BillToGeographyValue7>
+					<typ:BillToGeographyValue8>New York</typ:BillToGeographyValue8>
+					<typ:BillToGeographyValue9>10022</typ:BillToGeographyValue9>
+					<typ:BillToGeocode>330612010</typ:BillToGeocode>
+					<typ:BillToLocationId>300000005514535</typ:BillToLocationId>
+					<typ:BillToPartyName>MCC Customer 1</typ:BillToPartyName>
+					<typ:BillToPartyNumber>11009</typ:BillToPartyNumber>
+					<typ:BillToSiteRegNumber>SiteRegLevel123</typ:BillToSiteRegNumber>
+					<typ:CashDiscount>0</typ:CashDiscount>
+					<typ:EntityCode>TRANSACTIONS</typ:EntityCode>
+					<typ:EventClassCode>INVOICE</typ:EventClassCode>
+					<typ:ExemptionControlFlag>S</typ:ExemptionControlFlag>
+					<typ:LineAmt>1000</typ:LineAmt>
+					<typ:LineAmtIncludesTaxFlag>S</typ:LineAmtIncludesTaxFlag>
+					<typ:LineClass>INVOICE</typ:LineClass>
+					<typ:LineLevelAction>CREATE</typ:LineLevelAction>
+					<typ:LinesDetFactorId>6035255</typ:LinesDetFactorId>
+					<typ:PoaGeographyType1>ADDRESS1</typ:PoaGeographyType1>
+					<typ:PoaGeographyType10>PROVINCE</typ:PoaGeographyType10>
+					<typ:PoaGeographyType2>ADDRESS2</typ:PoaGeographyType2>
+					<typ:PoaGeographyType3>ADDRESS3</typ:PoaGeographyType3>
+					<typ:PoaGeographyType4>ADDRESS4</typ:PoaGeographyType4>
+					<typ:PoaGeographyType5>COUNTRY</typ:PoaGeographyType5>
+					<typ:PoaGeographyType6>STATE</typ:PoaGeographyType6>
+					<typ:PoaGeographyType7>COUNTY</typ:PoaGeographyType7>
+					<typ:PoaGeographyType8>CITY</typ:PoaGeographyType8>
+					<typ:PoaGeographyType9>POSTALCODE</typ:PoaGeographyType9>
+					<typ:PoaGeographyValue1>5430 One Shields Avenue</typ:PoaGeographyValue1>
+					<typ:PoaGeographyValue5>US</typ:PoaGeographyValue5>
+					<typ:PoaGeographyValue6>Pennsylvania</typ:PoaGeographyValue6>
+					<typ:PoaGeographyValue8>Berwyn</typ:PoaGeographyValue8>
+					<typ:PoaGeographyValue9>19312</typ:PoaGeographyValue9>
+					<typ:PoaLocationId>300000001141673</typ:PoaLocationId>
+					<typ:Precision>2</typ:Precision>
+					<typ:ProductCode>MONITOR</typ:ProductCode>
+					<typ:ProductDescription>MONITOR</typ:ProductDescription>
+					<typ:ProductFiscClassification>Photography_Equipment</typ:ProductFiscClassification>
+					<typ:ProductId>300000014256241</typ:ProductId>
+					<typ:ProductOrgId>300000004140051</typ:ProductOrgId>
+					<typ:ProductType>GOODS</typ:ProductType>
+					<typ:ShipFromGeographyType1>ADDRESS1</typ:ShipFromGeographyType1>
+					<typ:ShipFromGeographyType10>PROVINCE</typ:ShipFromGeographyType10>
+					<typ:ShipFromGeographyType2>ADDRESS2</typ:ShipFromGeographyType2>
+					<typ:ShipFromGeographyType3>ADDRESS3</typ:ShipFromGeographyType3>
+					<typ:ShipFromGeographyType4>ADDRESS4</typ:ShipFromGeographyType4>
+					<typ:ShipFromGeographyType5>COUNTRY</typ:ShipFromGeographyType5>
+					<typ:ShipFromGeographyType6>STATE</typ:ShipFromGeographyType6>
+					<typ:ShipFromGeographyType7>COUNTY</typ:ShipFromGeographyType7>
+					<typ:ShipFromGeographyType8>CITY</typ:ShipFromGeographyType8>
+					<typ:ShipFromGeographyType9>POSTALCODE</typ:ShipFromGeographyType9>
+					<typ:ShipFromGeographyValue1>5430 One Shields Avenue</typ:ShipFromGeographyValue1>
+					<typ:ShipFromGeographyValue5>US</typ:ShipFromGeographyValue5>
+					<typ:ShipFromGeographyValue6>Pennsylvania</typ:ShipFromGeographyValue6>
+					<typ:ShipFromGeographyValue8>Berwyn</typ:ShipFromGeographyValue8>
+					<typ:ShipFromGeographyValue9>19312</typ:ShipFromGeographyValue9>
+					<typ:ShipFromLocationId>300000001141673</typ:ShipFromLocationId>
+					<typ:ShipToGeographyType1>ADDRESS1</typ:ShipToGeographyType1>
+					<typ:ShipToGeographyType10>PROVINCE</typ:ShipToGeographyType10>
+					<typ:ShipToGeographyType2>ADDRESS2</typ:ShipToGeographyType2>
+					<typ:ShipToGeographyType3>ADDRESS3</typ:ShipToGeographyType3>
+					<typ:ShipToGeographyType4>ADDRESS4</typ:ShipToGeographyType4>
+					<typ:ShipToGeographyType5>COUNTRY</typ:ShipToGeographyType5>
+					<typ:ShipToGeographyType6>STATE</typ:ShipToGeographyType6>
+					<typ:ShipToGeographyType7>COUNTY</typ:ShipToGeographyType7>
+					<typ:ShipToGeographyType8>CITY</typ:ShipToGeographyType8>
+					<typ:ShipToGeographyType9>POSTALCODE</typ:ShipToGeographyType9>
+					<typ:ShipToGeographyValue1>875 Los Angeles St</typ:ShipToGeographyValue1>
+					<typ:ShipToGeographyValue5>US</typ:ShipToGeographyValue5>
+					<typ:ShipToGeographyValue6>California</typ:ShipToGeographyValue6>
+					<typ:ShipToGeographyValue7>Los Angeles</typ:ShipToGeographyValue7>
+					<typ:ShipToGeographyValue8>Los Angeles</typ:ShipToGeographyValue8>
+					<typ:ShipToGeographyValue9>90001</typ:ShipToGeographyValue9>
+					<typ:ShipToLocationId>300000014256246</typ:ShipToLocationId>
+					<typ:ShipToPartyName>MCC Customer 1</typ:ShipToPartyName>
+					<typ:ShipToPartyNumber>11009</typ:ShipToPartyNumber>
+					<typ:TaxReportingFlag>Y</typ:TaxReportingFlag>
+					<typ:TrxBusinessCategory>SALES_TRANSACTION</typ:TrxBusinessCategory>
+					<typ:TrxId>325825</typ:TrxId>
+					<typ:TrxLineCurrencyCode>USD</typ:TrxLineCurrencyCode>
+					<typ:TrxLineDescription>MONITOR</typ:TrxLineDescription>
+					<typ:TrxLineGlDate>2022-09-27</typ:TrxLineGlDate>
+					<typ:TrxLineId>300000029176804</typ:TrxLineId>
+					<typ:TrxLineNumber>1</typ:TrxLineNumber>
+					<typ:TrxLinePrecision>2</typ:TrxLinePrecision>
+					<typ:TrxLineQuantity>5</typ:TrxLineQuantity>
+					<typ:TrxLineType>ITEM</typ:TrxLineType>
+					<typ:TrxLevelType>LINE</typ:TrxLevelType>
+					<typ:TrxTypeDescription>Regular Invoice</typ:TrxTypeDescription>
+					<typ:UnitPrice>200</typ:UnitPrice>
+					<typ:UomCode>zzu</typ:UomCode>
+				</typ:trxLine>
+			</typ:trxLineList>
+		</typ:calculation>
+	</soapenv:Body>
+</soapenv:Envelope>

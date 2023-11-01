@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_Regression">
+	<test verbose="2" preserve-order="true"
+		  name="C:/connector-quality-java/ConnectorQuality/src/com/vertex/quality/connectors/taxlink">
+		<groups>
+			<run>
+				<include name="taxlink_ui_regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkOnboardingDashboardTests">
+				<methods>
+					<include name="exportToCSVOnboardingDashboardTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkBusinessUnitTests">
+				<methods>
+					<include name="exportToCSVBusinessUnitTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkLegalEntityTests">
+				<methods>
+					<include name="verifyExportToCSVLegalEntityTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPInvoiceSourceTests">
+				<methods>
+					<include name="verifyExportToCSVAPInvoiceSrcTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkArTransactionTypeTests">
+				<methods>
+					<include name="exportToCSVArTransactionTypeTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkArTransactionSourceTests">
+				<methods>
+					<include name="exportToCSVArTransactionSourceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkSupplierTypeTests">
+				<methods>
+					<include name="verifyExportToCSVSupplierTypeTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkOfflineBIPExtractJobsTests">
+				<methods>
+					<include name="verifyExportToCSVOfflineBIPSTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkRealTimeBIPTests">
+				<methods>
+					<include name="verifyExportToCSVRealTimeBIPTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkUserProfileOptionsTests">
+				<methods>
+					<include name="verifyExportToCSVUserProfileOptionsTest"/>
+					<include name="verifyExportToCSVSystemProfileOptionsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="exportToCSVPreRulesMappingTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="exportToCSVPostRulesMappingTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkConditionSetsTests">
+				<methods>
+					<include name="exportToCSVConditionSetsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkInvPreCalcRulesMappingTests">
+				<methods>
+					<include name="exportToCSVInvPreCalcRulesMappingTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkJournalOutputFileTests">
+				<methods>
+					<include name="exportToCSVJournalOutputRulesMappingTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkProjectOutputFileTests">
+				<methods>
+					<include name="exportToCSVProjectOutputRulesMappingTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkInvConditionSetsTests">
+				<methods>
+					<include name="exportToCSVInvConditionSetsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkSuppliesTests">
+				<methods>
+					<include name="exportToCSVArTaxCalculationExclusionsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPScanInvSrcTests">
+				<methods>
+					<include name="exportToCSVAPScanInvSrcTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPAssumeTaxSrcTests">
+				<methods>
+					<include name="exportToCSVAPAssumeTaxSrcTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPTaxActRangesTests">
+				<methods>
+					<include name="exportToCSV_UnderchargedTest"/>
+					<include name="exportToCSV_OverchargedTest"/>
+					<include name="exportToCSV_ZerochargedTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPTaxActOverrideTests">
+				<methods>
+					<include name="exportToCSV_UnderchargedOverrideTest"/>
+					<include name="exportToCSV_OverchargedOverrideTest"/>
+					<include name="exportToCSV_ZerochargedOverrideTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPTaxCalcExclTests">
+				<methods>
+					<include name="exportToCSVAPTaxCalcExclTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkPoTaxCalcExclTests">
+				<methods>
+					<include name="exportToCSVPoTaxCalcExclTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkLookupsTests">
+				<methods>
+					<include name="exportToCSV_VTX_CALC_EXCL_TAXES_Test"/>
+					<include name="exportToCSV_VTX_IMPOSITION_TYPE_Test"/>
+					<include name="exportToCSVLookupsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkMonitoringTests">
+				<methods>
+					<include name="viewSummaryReportTest"/>
+					<include name="exportToCSVPollingJobsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkUsersTests">
+				<methods>
+					<include name="exportToCSVUsersTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkCloneInstanceTests">
+				<methods>
+					<include name="verifyExportToCSVCloneInstanceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkCleanUpInstanceTests">
+				<methods>
+					<include name="verifyExportToCSVCleanUpInstanceTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:erp="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/" xmlns:typ="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/types/">
+	<soapenv:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+		</wsse:Security>
+		<wsa:Action>http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/uploadFileToUcm</wsa:Action>
+		<wsa:MessageID>uuid:46fac3e6-a997-4af5-9d79-4d1fdfbeecd4</wsa:MessageID>
+	</soapenv:Header>
+	<soapenv:Body>
+		<typ:uploadFileToUcm>
+			<typ:document>
+				<erp:Content>cid:39221130323</erp:Content>
+				<erp:FileName>Vertex_TransactionExtract_200_ApCanadaBuTest.zip</erp:FileName>
+				<erp:DocumentAccount>fin/tax/export</erp:DocumentAccount>
+				<erp:ContentType>zip</erp:ContentType>
+				<erp:DocumentTitle>Vertex_TransactionExtract_200_ApCanadaBuTest</erp:DocumentTitle>
+				<erp:DocumentAuthor>Vertex</erp:DocumentAuthor>
+				<erp:DocumentSecurityGroup>FAFusionImportExport</erp:DocumentSecurityGroup>
+			</typ:document>
+		</typ:uploadFileToUcm>
+	</soapenv:Body>
+</soapenv:Envelope>

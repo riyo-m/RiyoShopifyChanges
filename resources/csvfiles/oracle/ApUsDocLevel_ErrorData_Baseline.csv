@@ -1,0 +1,6 @@
+﻿P_APPL_ID,P_TRX_NUM,TRX_ID,LOAD_REQUEST_ID,ERROR_STRING,TRX_NUMBER
+200,LH031721%,569728,714297,"VERTEX-0018-Error during transformation:Large number detected for TrxHeaderAmt for trxId:569728",LH031721ZZ_EC840_B02
+200,LH031721%,569729,714297,"VERTEX-0018-Error during transformation:Large number detected for AssessableValue for trxId:569729 trxLineId:1",LH031721ZZ_EC840_B03
+200,LH031721%,569730,714297,"VERTEX-0018-Error during transformation:Large number detected for TrxHeaderAmt for trxId:569730",LH031721ZZ_EC840_B04
+200,LH031721%,569732,714297,"VERTEX-0008-Vertex Tax Engine Error:VertexInvalidAddressException:No tax areas were found during the lookup. The address fields are inconsistent for the specified asOfDate. (Street Information=999 BAD ADDRESS, Street Information 2=null, Pos",LH031721ZZ_EC892_A01
+200,LH031721%,569716,714297,"VERTEX-0008-Vertex Tax Engine Error:VertexInvalidAddressException:No tax areas were found during the lookup. The address fields are inconsistent for the specified asOfDate. (Street Information=999 BAD ADDRESS, Street Information 2=null, Pos",LH031721BADADDR_A01

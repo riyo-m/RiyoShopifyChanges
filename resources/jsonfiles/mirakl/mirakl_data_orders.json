@@ -1,0 +1,660 @@
+{
+  "orders_input": {
+	"channel_code": "US",
+	"commercial_id": "MIR-ROHIT-210605",
+	"customer": {
+	  "billing_address": {
+		"city": "Paris",
+		"civility": "Mr.",
+		"company": null,
+		"country": "FRANCE",
+		"country_iso_code": "FRA",
+		"firstname": "Juan",
+		"lastname": "Cao",
+		"state": null,
+		"street_1": "MIRAKL",
+		"street_2": "27 bis rue Copernic",
+		"zip_code": "75116"
+	  },
+	  "civility": "Mr.",
+	  "customer_id": "356-30-5081",
+	  "email": "JuanJCao@gustr.com",
+	  "firstname": "Juan",
+	  "lastname": "Cao",
+	  "locale": "es_ES",
+	  "shipping_address": {
+		"additional_info": null,
+		"city": "Paris",
+		"civility": "Mr.",
+		"company": null,
+		"country": "FRANCE",
+		"country_iso_code": "FRA",
+		"firstname": "Juan",
+		"internal_additional_info": null,
+		"lastname": "Cao",
+		"state": null,
+		"street_1": "MIRAKL",
+		"street_2": "27 bis rue Copernic",
+		"zip_code": "75116"
+	  }
+	},
+	"offers": [
+	  {
+		"currency_iso_code": "EUR",
+		"delivery_date": {
+		  "earliest": "2021-09-03T08:07:22.326Z",
+		  "latest": "2021-09-05T08:07:22.326Z"
+		},
+		"leadtime_to_ship": 5,
+		"offer_id": "2029",
+		"offer_price": 15,
+		"shipping_deadline": "2021-09-01T08:07:22.326Z",
+		"order_line_additional_fields": [
+		],
+		"price": 45,
+		"quantity": 3,
+		"shipping_price": 8,
+		"shipping_taxes": [
+		],
+		"shipping_type_code": "STD",
+		"taxes": [
+		],
+		"shipping_from": {
+		  "address": {
+			"city": null,
+			"country_iso_code": "FRA",
+			"state": null,
+			"street_1": null,
+			"street_2": null,
+			"zip_code": null
+		  }
+		}
+	  }
+	],
+	"order_additional_fields": [
+	],
+	"order_tax_mode": "TAX_EXCLUDED",
+	"payment_info": {
+	  "imprint_number": "My_Imprint_Number",
+	  "payment_type": "Visa"
+	},
+	"payment_workflow": "PAY_ON_DELIVERY",
+	"references": {
+	  "order_reference_for_customer": "ref_customer"
+	},
+	"scored": true,
+	"shipping_zone_code": "INT1"
+  },
+  "customer_input": {
+	"customers": [
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Dr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Eddie",
+			"lastname": "Longo",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Dr.",
+		  "customer_id": "546-77-7143",
+		  "email": "EddieDLongo@fleckens.hu",
+		  "firstname": "Eddie",
+		  "lastname": "Longo",
+		  "locale": "en_US",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Dr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Eddie",
+			"internal_additional_info": null,
+			"lastname": "Longo",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		},
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Mr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Richard",
+			"lastname": "Charlton",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Mr.",
+		  "customer_id": "547-03-3477",
+		  "email": "RichardCCharlton@teleworm.us",
+		  "firstname": "Richard",
+		  "lastname": "Charlton",
+		  "locale": "en_US",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Mr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Richard",
+			"internal_additional_info": null,
+			"lastname": "Charlton",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		},
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Dr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "James",
+			"lastname": "Crump",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Dr.",
+		  "customer_id": "449-99-9120",
+		  "email": "JamesMCrump@fleckens.hu",
+		  "firstname": "James",
+		  "lastname": "Crump",
+		  "locale": "en_US",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Dr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "James",
+			"internal_additional_info": null,
+			"lastname": "Crump",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		},
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Mr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Wayne",
+			"lastname": "Myers",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Mr.",
+		  "customer_id": "370-98-5470",
+		  "email": "WayneMMyers@einrot.com",
+		  "firstname": "Wayne",
+		  "lastname": "Myers",
+		  "locale": "fr_FR",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Mr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Wayne",
+			"internal_additional_info": null,
+			"lastname": "Myers",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		},
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Mr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Wayne",
+			"lastname": "Myers",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Mr.",
+		  "customer_id": "370-98-5470",
+		  "email": "WayneMMyers@einrot.com",
+		  "firstname": "Wayne",
+		  "lastname": "Myers",
+		  "locale": "fr_FR",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Mr.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Wayne",
+			"internal_additional_info": null,
+			"lastname": "Myers",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		},
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Mrs.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Leah",
+			"lastname": "Fazio",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Mrs.",
+		  "customer_id": "316-64-7774",
+		  "email": "LeahRFazio@cuvox.de",
+		  "firstname": "Leah",
+		  "lastname": "Fazio",
+		  "locale": "en_US",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Mrs.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Leah",
+			"internal_additional_info": null,
+			"lastname": "Fazio",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		},
+		{
+		  "billing_address": {
+			"city": "Paris",
+			"civility": "Ms.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Debi",
+			"lastname": "Russell",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  },
+		  "civility": "Ms.",
+		  "customer_id": "449-75-7939",
+		  "email": "DebiERussell@gustr.com",
+		  "firstname": "Debi",
+		  "lastname": "Russell",
+		  "locale": "en_US",
+		  "shipping_address": {
+			"additional_info": null,
+			"city": "Paris",
+			"civility": "Ms.",
+			"company": null,
+			"country": "FRANCE",
+			"country_iso_code": "FRA",
+			"firstname": "Debi",
+			"internal_additional_info": null,
+			"lastname": "Russell",
+			"state": null,
+			"street_1": "MIRAKL",
+			"street_2": "27 bis rue Copernic",
+			"zip_code": "75116"
+		  }
+		}
+	]
+  },
+  "offers_input": {
+	"offers": [
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2013",
+		  "offer_price": 7,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 7,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2014",
+		  "offer_price": 150,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 150,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2015",
+		  "offer_price": 60,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 60,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2016",
+		  "offer_price": 60,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 60,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2017",
+		  "offer_price": 24,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 24,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2018",
+		  "offer_price": 60,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 60,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2019",
+		  "offer_price": 10,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 10,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2020",
+		  "offer_price": 30,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 30,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ],
+	  [
+		{
+		  "currency_iso_code": "EUR",
+		  "delivery_date": {
+			"earliest": "2021-09-03T08:07:22.326Z",
+			"latest": "2021-09-05T08:07:22.326Z"
+		  },
+		  "leadtime_to_ship": 5,
+		  "offer_id": "2108",
+		  "offer_price": 15,
+		  "shipping_deadline": "2021-09-01T08:07:22.326Z",
+		  "order_line_additional_fields": [
+		  ],
+		  "price": 15,
+		  "quantity": 1,
+		  "shipping_price": 8,
+		  "shipping_taxes": [
+		  ],
+		  "shipping_type_code": "STD",
+		  "taxes": [
+		  ],
+		  "shipping_from": {
+			"address": {
+			  "city": null,
+			  "country_iso_code": "FRA",
+			  "state": null,
+			  "street_1": null,
+			  "street_2": null,
+			  "zip_code": null
+			}
+		  }
+		}
+	  ]
+	]
+  },
+  "shipping_zone_code_input": [
+	"INT1",
+	"INT2",
+	"DOM1",
+	"DOM2"
+  ],
+  "order_tax_mode_input": [
+	"TAX_INCLUDED",
+	"TAX_EXCLUDED"
+  ],
+  "payment_workflow_input": [
+	"PAY_ON_ACCEPTANCE",
+	"PAY_ON_DELIVERY",
+	"NO_CUSTOMER_PAYMENT_CONFIRMATION"
+  ]
+}

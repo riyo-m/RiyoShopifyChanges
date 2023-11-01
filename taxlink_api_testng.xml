@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_API">
+	<test verbose="2" preserve-order="true"
+		  name="C:/connector-quality-java/ConnectorQuality/src/com/vertex/quality/connectors/taxlink">
+		<groups>
+			<run>
+				<include name="TaxLink_API_regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.api.tests.TaxLinkAPIOnboardingTests">
+				<methods>
+					<include name="getOnboardedInstanceTest"/>
+					<include name="fetchOseriesUrlTest"/>
+					<include name="getErpDataCenterTest"/>
+					<include name="getCustomerNameTest"/>
+					<include name="getServicesNameTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.api.tests.TaxLinkAPIPreCalcRulesMappingTests">
+				<methods>
+					<include name="getAllPreCalcRulesTest"/>
+					<include name="getConditionSetForPreAndPostCalcRulesTest"/>
+					<include name="getFunctionsForPreCalcRulesTest"/>
+					<include name="getRuleAttributesForPreCalcRulesTest"/>
+					<include name="createNewRulePreCalcRulesTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.api.tests.TaxLinkAPIPostCalcRulesMappingTests">
+				<methods>
+					<include name="getAllPostCalcRulesTest"/>
+					<include name="getRuleAttributesForPostCalcRulesTest"/>
+					<include name="createNewRulePostCalcRulesTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.api.tests.TaxLinkAPITaxActionRangesTests">
+				<methods>
+					<include name="getSummaryTaxActionRangesTest"/>
+					<include name="add_TaxActionRangesTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.api.tests.TaxLinkAPISystemProfileOptionsTests">
+				<methods>
+					<include name="getSystemProfileOptionsTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

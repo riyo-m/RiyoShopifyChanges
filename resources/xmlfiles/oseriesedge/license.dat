@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuntimeLicenses xmlns="license.vertexinc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="license.vertexinc.com vertex_license.xsd" ><SignatureStart >L 1</SignatureStart>
+<RuntimeLicense sourceId="-1" ><LicensedParty ></LicensedParty>
+<SerialNumber ></SerialNumber>
+<VersionNumber >9</VersionNumber>
+<FeatureResource name="RETAIL" ></FeatureResource>
+<FeatureResource name="PROCUREMENT" ><Qualifier name="Central/Sth America" ></Qualifier>
+<Qualifier name="Asia Pac" ></Qualifier>
+<Qualifier name="EMEA" ></Qualifier>
+<Qualifier name="Nth America" ></Qualifier>
+</FeatureResource>
+<FeatureResource name="SUPPLIES" ><Qualifier name="Central/Sth America" ></Qualifier>
+<Qualifier name="Asia Pac" ></Qualifier>
+<Qualifier name="EMEA" ></Qualifier>
+<Qualifier name="Nth America" ></Qualifier>
+</FeatureResource>
+<FeatureResource name="TRANSACTIONTAX" ></FeatureResource>
+<FeatureResource name="Latitude/Longitude" ></FeatureResource>
+<FeatureResource name="ECM" ></FeatureResource>
+<FeatureResource name="TELECOM" ></FeatureResource>
+<FeatureResource name="INTL-LODGING" ></FeatureResource>
+<FeatureResource name="Vaping" ></FeatureResource>
+<FeatureResource name="TAXGIS" ></FeatureResource>
+<FeatureResource name="BrazilPremium" ></FeatureResource>
+<FeatureResource name="LODGING" ></FeatureResource>
+<FeatureResource name="LEASE" ></FeatureResource>
+<FeatureResource name="AddressCleansing" ></FeatureResource>
+<FeatureResource name="ECW" ></FeatureResource>
+<FeatureResource name="MedicalSupplies" ></FeatureResource>
+<FeatureResource name="EC" ></FeatureResource>
+<FeatureResource name="STANDARD" ></FeatureResource>
+<DisplayProduct name="Exemption Certificate Manager" ></DisplayProduct>
+<DisplayProduct name="North America - Consumer Use Tax" ></DisplayProduct>
+<DisplayProduct name="Central/South America" ></DisplayProduct>
+<DisplayProduct name="Brazil Premium Content" ></DisplayProduct>
+<DisplayProduct name="EMEA" ></DisplayProduct>
+<DisplayProduct name="Leasing" ></DisplayProduct>
+<DisplayProduct name="Lodging" ></DisplayProduct>
+<DisplayProduct name="Address Cleansing" ></DisplayProduct>
+<DisplayProduct name="Exemption Certificate Portal" ></DisplayProduct>
+<DisplayProduct name="Latitude/Longitude" ></DisplayProduct>
+<DisplayProduct name="Retail" ></DisplayProduct>
+<DisplayProduct name="Telecom" ></DisplayProduct>
+<DisplayProduct name="Vaping" ></DisplayProduct>
+<DisplayProduct name="Asia Pacific" ></DisplayProduct>
+<DisplayProduct name="EMEA - Leasing" ></DisplayProduct>
+<DisplayProduct name="Asia Pacific - Leasing" ></DisplayProduct>
+<DisplayProduct name="Medical Supplies" ></DisplayProduct>
+<DisplayProduct name="International Lodging" ></DisplayProduct>
+<DisplayProduct name="North America - Sales Tax" ></DisplayProduct>
+<DisplayProduct name="Exemption Certificate WIZARD" ></DisplayProduct>
+</RuntimeLicense>
+<SignatureStop ><![CDATA[QM1mb/WET4Z+DHO0MvXC0joTjZw1N2dcnYerc+D66clZfgrIY7Mjm35GW5RmsvWg11SDZwVjcnkLYlKpnP2+fXKe4RC9gc1e9GTw0SYB1SFAvXlSjHSN7UmwVu8FEkhSuZ6AaToxt3YkNwM9peNuL6yxdi1xCYwXN5PkF/O5E1P]]></SignatureStop>
+</RuntimeLicenses>

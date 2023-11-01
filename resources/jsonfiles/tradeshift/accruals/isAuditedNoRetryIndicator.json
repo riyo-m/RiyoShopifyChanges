@@ -1,0 +1,199 @@
+{
+  "TaxConnectorRequestVersion": "1.0",
+  "TenantId": "a0cddd0f-aac0-4abe-ad2d-289c1aa862bb",
+  "DocumentId": "3a8c1941-b1a2-5f86-8fc5-e43c0131ac11",
+  "DocumentNumber": "013",
+  "DocumentType": "invoice",
+  "DocumentProfileId": "ubl.invoice.2.1.us",
+  "DocumentIssueDate": "2021-10-18",
+  "CurrencyCode": "USD",
+  "IsAudited": true,
+  "SellerChargedTax": 20,
+  "BuyerInfo": {
+	"BusinessAddress": {
+	  "Country": {
+		"IdentificationCode": {
+		  "value": "US"
+		}
+	  },
+	  "CountrySubentity": {
+		"value": "CA"
+	  },
+	  "CityName": {
+		"value": "San Francisco"
+	  },
+	  "PostalZone": {
+		"value": "94555"
+	  }
+	},
+	"DeliveryAddress": {
+	  "Country": {
+		"IdentificationCode": {
+		  "value": "US"
+		}
+	  },
+	  "CountrySubentity": {
+		"value": "New York"
+	  },
+	  "CityName": {
+		"value": "New York"
+	  },
+	  "PostalZone": {
+		"value": "23232"
+	  }
+	}
+  },
+  "SupplierInfo": {
+	"SupplierName": "Services Supplier, Inc",
+	"CustomerAssignedId": "<not yet mapped>",
+	"BusinessAddress": {
+	  "Country": {
+		"IdentificationCode": {
+		  "value": "US"
+		}
+	  },
+	  "CountrySubentity": {
+		"value": "CA"
+	  },
+	  "CityName": {
+		"value": "Oakland"
+	  },
+	  "PostalZone": {
+		"value": "94544"
+	  }
+	}
+  },
+  "Lines": [
+	{
+	  "CodingLineId": "line-1-1",
+	  "DocumentLineId": "1",
+	  "BuyerInfo": {
+		"DeliveryAddress": {
+		  "Country": {
+			"IdentificationCode": {
+			  "value": "US"
+			}
+		  },
+		  "CountrySubentity": {
+			"value": "New York"
+		  },
+		  "CityName": {
+			"value": "New York"
+		  },
+		  "PostalZone": {
+			"value": "23232"
+		  }
+		}
+	  },
+	  "SupplierInfo": null,
+	  "Amount": {
+		"value": 5,
+		"currencyID": "USD"
+	  },
+	  "Quantity": {
+		"value": 5,
+		"unitCode": "EA"
+	  },
+	  "Codes": [
+		{
+		  "ID": {
+			"value": "companycode2"
+		  },
+		  "Name": {
+			"value": "Vertex US 1"
+		  },
+		  "Value": {
+			"value": "US1"
+		  }
+		},
+		{
+		  "ID": {
+			"value": "costcentercode2"
+		  },
+		  "Name": {
+			"value": "Services"
+		  },
+		  "Value": {
+			"value": "234"
+		  }
+		},
+		{
+		  "ID": {
+			"value": "commoditycode2"
+		  },
+		  "Name": {
+			"value": "Structures & Building & Construction & Manufacturing Components & Supplies"
+		  },
+		  "Value": {
+			"value": "30000000"
+		  }
+		},
+		{
+		  "ID": {
+			"value": "glcode"
+		  },
+		  "Name": {
+			"value": "GL code 123"
+		  },
+		  "Value": {
+			"value": "123"
+		  }
+		}
+	  ]
+	}
+  ],
+  "Charges": [],
+  "Taxes": {
+	"Lines": [
+	  {
+		"DocumentLineId": "1",
+		"TaxSubtotal": [
+		  {
+			"TaxableAmount": {
+			  "value": 5,
+			  "currencyID": "USD"
+			},
+			"TaxAmount": {
+			  "value": 20,
+			  "currencyID": "USD"
+			},
+			"CalculationSequenceNumeric": {
+			  "value": 1
+			},
+			"TaxCategory": {
+			  "ID": {
+				"value": "S",
+				"schemeID": "UN/ECE 5305",
+				"schemeAgencyID": "6",
+				"schemeVersionID": "D08B"
+			  },
+			  "Percent": {
+				"value": 0
+			  },
+			  "BaseUnitMeasure": {
+				"value": 1,
+				"unitCode": "EA"
+			  },
+			  "PerUnitAmount": {
+				"value": 20,
+				"currencyID": "USD"
+			  },
+			  "TaxScheme": {
+				"ID": {
+				  "value": "OTH",
+				  "schemeID": "UN/ECE 5153 Subset",
+				  "schemeAgencyID": "6",
+				  "schemeVersionID": "D08B"
+				},
+				"Name": {
+				  "value": "Special Tax"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	],
+	"Charges": []
+  }
+}

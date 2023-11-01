@@ -1,0 +1,37 @@
+{
+  "projectKey": "commercetools-sql-upgrade-prod",
+  "clientId": "hpPjsdgG16B-EVs9Ksx9t936",
+  "clientSecret": "pUAhTgIZuV9isCeLMr3OJ7cEspup_CJT",
+  "username": "epamUAT",
+  "password": "commercetoolsUAT",
+  "trustedId": "epam123UAT",
+  "companyCode": "CTT",
+  "addressCleansingEnabled": false,
+  "addressCleansingURL": "https://oseries9-final.vertexconnectors.com/vertex-ws/services/LookupTaxAreas90",
+  "taxCalculationEndpointURL": "https://oseries9-final.vertexconnectors.com/vertex-ws/services/CalculateTax90",
+  "sellerAddress": {
+	"id": 8,
+	"streetAddress1": "3549 Chestnut St",
+	"streetAddress2": null,
+	"city": "Philadelphia",
+	"mainDivision": "PA",
+	"subDivision": null,
+	"postalCode": "19104",
+	"country": "United States"
+  },
+  "dispatcherAddress": {
+	"id": 7,
+	"streetAddress1": "3549 Chestnut St",
+	"streetAddress2": null,
+	"city": "Philadelphia",
+	"mainDivision": "PA",
+	"subDivision": null,
+	"postalCode": "19104",
+	"country": "United States"
+  },
+  "autoInvoicingEnabled": true,
+  "loggingEnabled": true,
+  "host": "https://commercetoolsconnector.vertexsmb.com",
+  "active": true,
+  "addressCleansingUUID": "eyJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.h2hk2ylwskNHL4cIF_bsr3BtyObAcVyr2kzfamVAqG7v0fRzuAgKnH2QRq-nvhR7aodGsdMrJAM1tRq4bbR97cYBpI5JRKaDHrYL48P_huvr4GsyJV_dTa5DJ6BZ9Z7L9Lwg8znQTCyP8mDbAQ07IFaYCxdMQx99nJd2N-_pSyOmmoOZYKPQX_KaI9eUhMQiNV2dky_kefGglgk7x9aM9nOpD12C7IUKDy1w4EwM43TQKnSJaNo_KucSGhv63JuI3n9131mssnjXk54y2QxWOaidodJhy0BpRxKk_8wVQqwKLv_ZQuRLhfakTqp60pzWmO648iDjX5g2c4bZIKors14.E-JGioMIH2nv34lT.16g1RMFYA6ljvDGU_ssm1ORxesinXt_plXyI4xAii2guaQoPhx4Zs7sXEq-vE_U9SJw8KUjyNUZQ2w7BF5puBinIXmTbpi9Md2oLW8nKLpTLcYsUSiKap9MfQJ5O6tlepGc9HFxUQ35qQB-cg9aV2kAzzEhWGxm9cIgdI9-Ex9N36ziBsW7lpi31l8i43bnGnyMDrsxPwSom9N3069c5lXwvh4y1PSSsqOuOliVps6S0wkmzwrxtdA-TgaV7Bxqyi9WVbjX_-DVHDbNaa53rtrdrZRPAtc7NSW1g.8PEudWhe9xTfeC6Qzo6p8Q"
+}

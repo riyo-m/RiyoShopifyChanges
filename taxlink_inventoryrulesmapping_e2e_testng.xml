@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_InvRulesMapping_Regression_e2e" configfailurepolicy="continue"
+	   preserve-order="true">
+	<groups>
+		<run>
+			<include name="taxlink_invrulesmapping_regression"/>
+		</run>
+	</groups>
+	<test verbose="2"
+		  name="databaseSettings">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="configureDBInventorySettingsTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Map">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="addPreCalcInvRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Constant">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleConstantFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Substring">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleSubstringFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Map_Journal">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkJournalInvOutputFileTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionJournalRule_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Map_Project">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkProjectInvOutputFileTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionProjectRule_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateUCMCheckIn">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudInvRulesMappingTests">
+				<methods>
+					<include name="createUCMRequestInvRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Map_Precalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcInvRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Constant_Precalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcInvRuleConstantFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Substring_Precalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcInvRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcInvRuleSubstringFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Map_Journal">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkJournalInvOutputFileTests">
+				<methods>
+					<include name="verifyDBJournalInvRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Map_Project">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkProjectInvOutputFileTests">
+				<methods>
+					<include name="verifyDBProjectInvRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

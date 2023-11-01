@@ -1,0 +1,6 @@
+USE [Ariba1_QA]
+CREATE USER [vertex] FOR LOGIN [vertex]
+USE [Ariba1_QA]
+ALTER USER [vertex] WITH DEFAULT_SCHEMA=[dbo]
+USE [Ariba1_QA]
+ALTER ROLE [db_owner] ADD MEMBER [vertex]

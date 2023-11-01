@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC
+		"-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+		"https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+	<!-- Configure checker to use UTF-8 encoding -->
+	<property name="charset" value="UTF-8"/>
+	<!-- Configure checker to run on files with these extensions -->
+	<property name="fileExtensions" value="java, properties, cfg, xml, json"/>
+
+	<module name="RegexpSingleline">
+		<property name="format" value="^\t* {4,}"/>
+		<property name="message"
+				  value="Indent must use tab character for 4 character spacing"/>
+		<property name="fileExtensions" value="json, xml"/>
+	</module>
+
+	<!-- Check individual Java source files for specific rules -->
+	<module name="TreeWalker">
+		<property name="tabWidth" value="4"/>
+		<!-- File and class name must match -->
+		<module name="OuterTypeFilename"/>
+		<!-- Maximum line length is 120 characters -->
+		<module name="LineLength">
+			<property name="max" value="100"/>
+			<!-- Make exceptions for package names, imports, URLs, JavaDoc {@link} tags,
+				 and very long method names -->
+			<property name="ignorePattern"
+					  value="^package.*|^import.*|http://|https://|@link|[ ]*\.?\S*"/>
+		</module>
+
+		<!-- Do not report errors on any lines annotated with @SuppressWarnings -->
+		<module name="SuppressWarningsHolder"/>
+
+		<!-- ##### Import statement requirements ##### -->
+		<!-- Redundant import statements are NOT ALLOWED -->
+		<module name="RedundantImport"/>
+		<!-- Unused import statements are NOT ALLOWED -->
+		<module name="UnusedImports"/>
+
+		<!-- ##### Requirements for K&R Style braces ##### -->
+		<!-- Code blocks MUST HAVE braces, even single line statements (if, while, etc) -->
+		<module name="NeedBraces"/>
+		<!-- Left braces should start on a new line -->
+		<module name="LeftCurly">
+			<property name="option" value="nl"/>
+		</module>
+		<!-- Right braces should be on start of a new line and always alone -->
+		<module name="RightCurly">
+			<property name="option" value="alone"/>
+		</module>
+
+		<!-- ##### Indentation / Whitespace requirements ##### -->
+		<!-- Require 4-space indentation (tabs) -->
+		<module name="Indentation"/>
+		<!-- Require tabs to be used -->
+		<module name="RegexpSinglelineJava">
+			<property name="format" value="^\t* {4,}"/>
+			<property name="message" value="Indent must use tab character for 4 character spacing"/>
+			<property name="ignoreComments" value="true"/>
+		</module>
+
+		<!-- Whitespace should exist around all major tokens -->
+		<module name="WhitespaceAround">
+			<!-- However, make an exception for empty constructors, methods, types, etc. -->
+			<property name="allowEmptyConstructors" value="true"/>
+			<property name="allowEmptyMethods" value="true"/>
+			<property name="allowEmptyTypes" value="true"/>
+			<property name="allowEmptyLoops" value="true"/>
+		</module>
+		<!-- Validate whitespace around Generics (angle brackets) per typical conventions
+			 http://checkstyle.sourceforge.net/config_whitespace.html#GenericWhitespace -->
+		<module name="GenericWhitespace"/>
+
+		<!-- ##### Blank line requirements ##### -->
+		<module name="EmptyLineSeparator">
+			<!-- Allow no more than one empty line -->
+			<property name="allowMultipleEmptyLines" value="false"/>
+			<property name="allowMultipleEmptyLinesInsideClassMembers" value="false"/>
+			<!-- Ensures empty lines are used to separate primary code sections -->
+			<property name="tokens"
+					  value="IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF,STATIC_INIT, METHOD_DEF, CTOR_DEF"/>
+		</module>
+
+		<!-- Do not allow space between method name and left parenthesis -->
+		<module name="MethodParamPad"/>
+		<!-- Require space in parenthesis for methods -->
+		<module name="ParenPad">
+			<property name="option" value="space"/>
+			<property name="tokens"
+					  value="CTOR_DEF, LITERAL_CATCH, LITERAL_DO, LITERAL_FOR, LITERAL_IF, LITERAL_SWITCH, LITERAL_WHILE, METHOD_DEF"/>
+		</module>
+
+		<!-- ##### Requirements for "switch" statements ##### -->
+		<!-- "case" clauses in switch statements MUST include break, return, throw or continue -->
+		<module name="FallThrough"/>
+
+		<!-- ##### Other / Miscellaneous requirements ##### -->
+		<!-- Require utility classes do not have a public constructor -->
+		<module name="HideUtilityClassConstructor"/>
+		<!-- Require each variable declaration is its own statement on its own line -->
+		<module name="MultipleVariableDeclarations"/>
+		<!-- Each line of code can only include one statement -->
+		<module name="OneStatementPerLine"/>
+	</module>
+</module>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_E2E_Smoke">
+	<test verbose="2" preserve-order="true"
+		  name="C:/connector-quality-java/ConnectorQuality/src/com/vertex/quality/connectors/taxlink">
+		<groups>
+			<run>
+				<include name="taxlink_e2e_smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudLegalEntityTests">
+				<methods>
+					<include name="manageLegalEntity"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkLegalEntityTests">
+				<methods>
+					<include name="importLE_e2e_Test"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudTransactionTypeTests">
+				<methods>
+					<include name="manageTransactionTypeTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkArTransactionTypeTests">
+				<methods>
+					<include name="importArTransactionTypeFromERPTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="disableCalcRulesTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkAPTaxActionRangesTests">
+				<methods>
+					<include name="addTaxAction_e2e_OverchargedTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="overchargedRuleTest">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudApInvoice_OverchargedTests">
+				<methods>
+					<include name="overchargedRuleTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="disableApplyHoldRecordsTest">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkAPTaxActionRangesTests">
+				<methods>
+					<include name="disableApplyHoldRecordsTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="addAPTaxCalcExcl_e2e_Test">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkApTaxCalcExclTests">
+				<methods>
+					<include name="addAPTaxCalcExcl_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="verifyApTaxCalcExclERPTest">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudApTaxCalcExclusionTests">
+				<methods>
+					<include name="verifyApTaxCalcExclERPTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

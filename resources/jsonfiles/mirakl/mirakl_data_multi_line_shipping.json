@@ -1,0 +1,211 @@
+{
+  "channel_code": "US",
+  "commercial_id": "MIR-JOEY6-2106170840G5",
+  "customer": {
+    "billing_address": {
+      "city": "Paris",
+      "civility": "Mr.",
+      "company": null,
+      "country": "FRANCE",
+      "country_iso_code": "FRA",
+      "firstname": "Juan",
+      "lastname": "Cao",
+      "state": null,
+      "street_1": "MIRAKL",
+      "street_2": "27 bis rue Copernic",
+      "zip_code": "75116"
+    },
+    "civility": "Mr.",
+    "customer_id": "356-30-5081",
+    "email": "JuanJCao@gustr.com",
+    "firstname": "Juan",
+    "lastname": "Cao",
+    "locale": "es_ES",
+    "shipping_address": {
+      "additional_info": null,
+      "city": "Paris",
+      "civility": "Mr.",
+      "company": null,
+      "country": "FRANCE",
+      "country_iso_code": "FRA",
+      "firstname": "Juan",
+      "internal_additional_info": null,
+      "lastname": "Cao",
+      "state": null,
+      "street_1": "MIRAKL",
+      "street_2": "27 bis rue Copernic",
+      "zip_code": "75116"
+    }
+  },
+  "offers": [
+    {
+      "currency_iso_code": "EUR",
+      "delivery_date": {
+        "earliest": "2021-09-03T08:07:22.326Z",
+        "latest": "2021-09-05T08:07:22.326Z"
+      },
+      "leadtime_to_ship": 5,
+      "offer_id": "2023",
+      "offer_price": 15,
+      "shipping_deadline": "2021-09-01T08:07:22.326Z",
+      "order_line_additional_fields": [
+      ],
+      "price": 60,
+      "quantity": 4,
+      "shipping_price": 10,
+      "shipping_taxes": [
+      ],
+      "shipping_type_code": "STD",
+      "taxes": [
+      ],
+      "shipping_from": {
+        "address": {
+          "city": "Paris",
+          "country_iso_code": "FRA",
+          "state": null,
+          "street_1": "MIRAKL",
+          "street_2": "27 bis rue Copernic",
+          "zip_code": "75116"
+        }
+      }
+    },
+    {
+      "currency_iso_code": "EUR",
+      "delivery_date": {
+        "earliest": "2021-09-03T08:07:22.326Z",
+        "latest": "2021-09-05T08:07:22.326Z"
+      },
+      "leadtime_to_ship": 5,
+      "offer_id": "2009",
+      "offer_price": 15,
+      "shipping_deadline": "2021-09-01T08:07:22.326Z",
+      "order_line_additional_fields": [
+      ],
+      "price": 30,
+      "quantity": 2,
+      "shipping_price": 10,
+      "shipping_taxes": [
+      ],
+      "shipping_type_code": "STD",
+      "taxes": [
+      ],
+      "shipping_from": {
+        "address": {
+          "city": "Paris",
+          "country_iso_code": "FRA",
+          "state": null,
+          "street_1": "MIRAKL",
+          "street_2": "27 bis rue Copernic",
+          "zip_code": "75116"
+        }
+      }
+    },
+    {
+      "currency_iso_code": "EUR",
+      "delivery_date": {
+        "earliest": "2021-09-03T08:07:22.326Z",
+        "latest": "2021-09-05T08:07:22.326Z"
+      },
+      "leadtime_to_ship": 5,
+      "offer_id": "2025",
+      "offer_price": 15,
+      "shipping_deadline": "2021-09-01T08:07:22.326Z",
+      "order_line_additional_fields": [
+      ],
+      "price": 45,
+      "quantity": 3,
+      "shipping_price": 10,
+      "shipping_taxes": [
+      ],
+      "shipping_type_code": "STD",
+      "taxes": [
+      ],
+      "shipping_from": {
+        "address": {
+          "city": "Paris",
+          "country_iso_code": "FRA",
+          "state": null,
+          "street_1": "MIRAKL",
+          "street_2": "27 bis rue Copernic",
+          "zip_code": "75116"
+        }
+      }
+    },
+    {
+      "currency_iso_code": "EUR",
+      "delivery_date": {
+        "earliest": "2021-09-03T08:07:22.326Z",
+        "latest": "2021-09-05T08:07:22.326Z"
+      },
+      "leadtime_to_ship": 5,
+      "offer_id": "2024",
+      "offer_price": 15,
+      "shipping_deadline": "2021-09-01T08:07:22.326Z",
+      "order_line_additional_fields": [
+      ],
+      "price": 75,
+      "quantity": 5,
+      "shipping_price": 13,
+      "shipping_taxes": [
+      ],
+      "shipping_type_code": "STD",
+      "taxes": [
+      ],
+      "shipping_from": {
+        "address": {
+          "city": "Paris",
+          "country_iso_code": "FRA",
+          "state": null,
+          "street_1": "MIRAKL",
+          "street_2": "140 avenue des Champs Elysees",
+          "zip_code": "75008"
+        }
+      }
+    },
+    {
+      "currency_iso_code": "EUR",
+      "delivery_date": {
+        "earliest": "2021-09-03T08:07:22.326Z",
+        "latest": "2021-09-05T08:07:22.326Z"
+      },
+      "leadtime_to_ship": 5,
+      "offer_id": "2010",
+      "offer_price": 15,
+      "shipping_deadline": "2021-09-01T08:07:22.326Z",
+      "order_line_additional_fields": [
+      ],
+      "price": 75,
+      "quantity": 5,
+      "shipping_price": 13,
+      "shipping_taxes": [
+      ],
+      "shipping_type_code": "STD",
+      "taxes": [
+      ],
+      "shipping_from": {
+        "address": {
+          "city": "Paris",
+          "country_iso_code": "FRA",
+          "state": null,
+          "street_1": "MIRAKL",
+          "street_2": "140 avenue des Champs Elysees",
+          "zip_code": "75008"
+        }
+      }
+    }
+  ],
+  "order_additional_fields": [
+    {"code": "customer-vat-reg", "value": "FR123131000", "type": "STRING"}
+  ],
+  "order_tax_mode": "TAX_EXCLUDED",
+  "payment_info": {
+    "imprint_number": "My_Imprint_Number",
+    "payment_type": "Visa"
+  },
+  "payment_workflow": "PAY_ON_DELIVERY",
+  "references": {
+    "order_reference_for_customer": "ref_customer"
+  },
+  "scored": true,
+  "shipping_zone_code": "INT1"
+}

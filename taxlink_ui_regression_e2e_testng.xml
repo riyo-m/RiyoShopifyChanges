@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_Regression_e2e" configfailurepolicy="continue">
+	<groups>
+		<run>
+			<include name="taxlink_ui_e2e_regression"/>
+		</run>
+	</groups>
+	<test verbose="2" preserve-order="true"
+		  name="taxlink_end_to_end_automation">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudBusinessUnitTests">
+				<methods>
+					<include name="manageBusinessUnitTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkBusinessUnitTests">
+				<methods>
+					<include name="importBusinessUnitTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudLegalEntityTests">
+				<methods>
+					<include name="manageLegalEntity"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkLegalEntityTests">
+				<methods>
+					<include name="importLE_e2e_Test"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudTransactionTypeTests">
+				<methods>
+					<include name="manageTransactionTypeTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkArTransactionTypeTests">
+				<methods>
+					<include name="importArTransactionTypeFromERPTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudTransactionSourceTests">
+				<methods>
+					<include name="manageTransactionSourceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkArTransactionSourceTests">
+				<methods>
+					<include name="importArTransactionSourceFromERPTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudManagePayablesLookupsTests">
+				<methods>
+					<include name="managePayablesLookupsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkAPInvSrcTests">
+				<methods>
+					<include name="importAPInvSrc_e2e_Test"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkApTaxCalcExclTests">
+				<methods>
+					<include name="addAPTaxCalcExcl_e2e_Test"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudApTaxCalcExclusionTests">
+				<methods>
+					<include name="verifyApTaxCalcExclERPTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkArTaxCalcExclTests">
+				<methods>
+					<include name="addARTaxCalcExcl_e2e_Test"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudArTaxCalcExclTests">
+				<methods>
+					<include name="arInvoiceValidateTaxCalcExclusionTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkAPTaxActionRangesTests">
+				<methods>
+					<include name="addTaxAction_e2e_OverchargedTest"/>
+					<include name="addTaxAction_e2e_UnderchargedTest"/>
+					<include name="addTaxAction_e2e_ZerochargedTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudApInvoice_OverchargedTests">
+				<methods>
+					<include name="overchargedRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudApInvoice_UnderchargedTests">
+				<methods>
+					<include name="underchargedRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudApInvoice_ZerochargedTests">
+				<methods>
+					<include name="zerochargedRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudPTDEJobStatusTests">
+				<methods>
+					<include name="job_PTDEstatusTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPTDEJobTests">
+				<methods>
+					<include name="ptdeJobStatusTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

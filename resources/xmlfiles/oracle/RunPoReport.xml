@@ -1,0 +1,88 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ns2="http://xmlns.oracle.com/oxp/service/PublicReportService">
+	<soap:Header>
+	</soap:Header>
+	<soap:Body>
+		<ns2:runReport>
+			<ns2:reportRequest>
+				<ns2:XDOPropertyList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:attributeCalendar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:attributeFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:attributeLocale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:attributeTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:attributeTimezone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:attributeUILocale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:byPassCache>false</ns2:byPassCache>
+				<ns2:dynamicDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:flattenXML>true</ns2:flattenXML>
+				<ns2:parameterNameValues>
+					<!--Zero or more repetitions:-->
+					<ns2:item>
+						<ns2:UIType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateFormatString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateTo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:defaultValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:fieldSize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:label xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:lovLabels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:multiValuesAllowed>false</ns2:multiValuesAllowed>
+						<ns2:name>p_start_date</ns2:name>
+						<ns2:refreshParamOnChange>false</ns2:refreshParamOnChange>
+						<ns2:selectAll>false</ns2:selectAll>
+						<ns2:templateParam>false</ns2:templateParam>
+						<ns2:useNullForAll>false</ns2:useNullForAll>
+						<ns2:values>
+							<ns2:item>11-11-2020</ns2:item>
+						</ns2:values>
+					</ns2:item>
+					<ns2:item>
+						<ns2:UIType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateFormatString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateTo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:defaultValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:fieldSize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:label xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:lovLabels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:multiValuesAllowed>false</ns2:multiValuesAllowed>
+						<ns2:name>p_end_date</ns2:name>
+						<ns2:refreshParamOnChange>false</ns2:refreshParamOnChange>
+						<ns2:selectAll>false</ns2:selectAll>
+						<ns2:templateParam>false</ns2:templateParam>
+						<ns2:useNullForAll>false</ns2:useNullForAll>
+						<ns2:values>
+							<ns2:item>11-11-2020</ns2:item>
+						</ns2:values>
+					</ns2:item>
+					<ns2:item>
+						<ns2:UIType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateFormatString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:dateTo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:defaultValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:fieldSize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:label xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:lovLabels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+						<ns2:multiValuesAllowed>false</ns2:multiValuesAllowed>
+						<ns2:name>p_attr1</ns2:name>
+						<ns2:refreshParamOnChange>false</ns2:refreshParamOnChange>
+						<ns2:selectAll>false</ns2:selectAll>
+						<ns2:templateParam>false</ns2:templateParam>
+						<ns2:useNullForAll>false</ns2:useNullForAll>
+						<ns2:values>
+							<ns2:item>DL111120%</ns2:item>
+						</ns2:values>
+					</ns2:item>
+				</ns2:parameterNameValues>
+				<ns2:reportAbsolutePath>/Custom/Vertex Regression Test Reports/VtxPoReg.xdo</ns2:reportAbsolutePath>
+				<ns2:reportData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:reportOutputPath xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:reportRawData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+				<ns2:sizeOfDataChunkDownload>-1</ns2:sizeOfDataChunkDownload>
+			</ns2:reportRequest>
+		</ns2:runReport>
+	</soap:Body>
+</soap:Envelope>

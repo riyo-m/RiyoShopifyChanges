@@ -1,0 +1,19 @@
+{
+  "id": "1234565456",
+  "date": "2018-10-11T15:18:27.000Z",
+  "saleOrPurchase": "s",
+  "grossOrNet": "n",
+  "currency": "CAD",
+  "Items": [
+	{
+	  "id": "999999",
+	  "taxCategory": "PRODUCT_TAXES",
+	  "taxCodeCountry": "CA",
+	  "taxCodeRegion": "AB",
+	  "taxCode": "501",
+	  "itemType": "M",
+	  "quantity": "1",
+	  "unitPrice": "500"
+	}
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "shops": [
+	  {
+		"address": {
+		  "city": "Paris",
+		  "civility": "Mr",
+		  "country": "FRA",
+		  "firstname": "Moore",
+		  "lastname": "MikeAPI",
+		  "phone": null,
+		  "phone_secondary": null,
+		  "state": null,
+		  "street1": "34791BoulevardSaint-Germain",
+		  "street2": null,
+		  "web_site": null,
+		  "zip_code": "75006"
+		},
+		"channel_codes": [
+		  "FR"
+		],
+		"currency_iso_code": "EUR",
+		"description": "ShoptoprovewecancreateviaAPIS06",
+		"domains": [
+		  "PRODUCT"
+		],
+		"email": "sgirism+mirakl2@gmail.com",
+		"is_professional": true,
+		"password": "VertexMirakl1$",
+		"payment_blocked": false,
+		"premium": false,
+		"premium_state": "DEFAULT",
+		"pro_details": {
+		  "VAT_number": "987654321",
+		  "corporate_name": "FakeVertex",
+		  "identification_number": "123456789",
+		  "tax_identification_number": "987654321"
+		},
+		"shipping_country": "FRA",
+		"shop_additional_fields": [
+		  {
+			"code": "fr-registration",
+			"type": "REGEX",
+			"value": "FR435678909"
+		  },
+		  {
+			"code": "union-oss-member",
+			"type": "LIST",
+			"value": "FR"
+		  },
+		  {
+			"code": "union-oss-reg",
+			"type": "REGEX",
+			"value": "FR435678909"
+		  }
+		],
+		"shop_name": "Mirakl's Bulk Store",
+		"suspend": false
+	  }
+	],
+  "address_input": {
+	"address": [
+	  {
+		"city": "Paris",
+		"civility": "Mr",
+		"country": "FRA",
+		"firstname": "Moore",
+		"lastname": "MikeAPI",
+		"phone": null,
+		"phone_secondary": null,
+		"state": null,
+		"street1": "34791BoulevardSaint-Germain",
+		"street2": null,
+		"zip_code": "75006"
+	  },
+	  {
+		"city": "Paris",
+		"civility": "Mr",
+		"company": null,
+		"country": "FRANCE",
+		"country_iso_code": "FRA",
+		"firstname": "Eddie",
+		"lastname": "Longo",
+		"state": null,
+		"street_1": "MIRAKL",
+		"street_2": "27 bis rue Copernic",
+		"zip_code": "75116"
+	  },
+	  {
+		"city": "Paris",
+		"civility": "Mr",
+		"company": null,
+		"country": "FRANCE",
+		"country_iso_code": "FRA",
+		"firstname": "Richard",
+		"internal_additional_info": null,
+		"lastname": "Charlton",
+		"state": null,
+		"street_1": "MIRAKL",
+		"street_2": "27 bis rue Copernic",
+		"zip_code": "75116"
+	  },
+	  {
+		"city": "Paris",
+		"civility": "Ms",
+		"company": null,
+		"country": "FRANCE",
+		"country_iso_code": "FRA",
+		"firstname": "Debi",
+		"internal_additional_info": null,
+		"lastname": "Russell",
+		"state": null,
+		"street_1": "MIRAKL",
+		"street_2": "27 bis rue Copernic",
+		"zip_code": "75116"
+	  }
+	]
+  },
+  "email_input": "sgirism+mirakl",
+  "password_input": "VertexMirakl1$",
+  "shipping_country_input": [
+	"EST","AUT","BEL","BGR","HRV","CYP","CZE","DNK","FIN","DEU"
+  ]
+}

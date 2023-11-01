@@ -1,0 +1,114 @@
+{
+  "TaxConnectorRequestVersion": "1.0",
+  "TenantId": "a0cddd0f-aac0-4abe-ad2d-289c1aa862bb",
+  "DocumentId": "21ad022c-e54d-44bd-afd6-0002edc323e9",
+  "DocumentNumber": "5",
+  "DocumentType": "requisition",
+  "DocumentProfileId": "tradeshift.requisition.ubl.1.0",
+  "DocumentIssueDate": "2021-06-10T19:15:46.869Z",
+  "CurrencyCode": "USD",
+  "IsAudited": false,
+  "BuyerInfo": {
+    "BuyerUUID": "a0cddd0f-aac0-4abe-ad2d-289c1aa862bb",
+    "BusinessAddress": {
+      "Country": {
+        "IdentificationCode": {
+          "value": "US"
+        }
+      }
+    },
+    "DeliveryAddress": {
+      "StreetName": {
+        "value": "101 Alamo Plaza"
+      },
+      "CityName": {
+        "value": "San Antonio"
+      },
+      "PostalZone": {
+        "value": "78205"
+      },
+      "CountrySubentity": {
+        "value": "TX"
+      },
+      "Country": {
+        "IdentificationCode": {
+          "value": "USA"
+        }
+      }
+    }
+  },
+  "SupplierInfo": {},
+  "Lines": [
+    {
+      "CodingLineId": "49bcebeb-0d46-4a96-973d-12160b2e19b5",
+      "DocumentLineId": "1",
+      "BuyerInfo": {},
+      "SupplierInfo": {
+        "SupplierUUID": "8eeec025-1ca2-4fa5-8e0d-532b18ac84db",
+        "BusinessAddress": {
+          "StreetName": {
+            "value": "555 Main St."
+          },
+          "CityName": {
+            "value": "Lansdale"
+          },
+          "PostalZone": {
+            "value": "19446"
+          },
+          "CountrySubentity": {
+            "value": "PA"
+          },
+          "Country": {
+            "IdentificationCode": {
+              "value": "US"
+            }
+          }
+        },
+        "SupplierName": "Services Supplier, Inc"
+      },
+      "Amount": {
+        "value": 100,
+        "currencyID": "USD"
+      },
+      "Quantity": {
+        "value": 5,
+        "unitCode": "DOZ"
+      },
+      "Codes": [
+        {
+          "ID": {
+            "value": "flexCode1"
+          },
+          "Name": {
+            "value": "LAW"
+          },
+          "Value": {
+            "value": "LAW"
+          }
+        },
+        {
+          "ID": {
+            "value": "flexCode2"
+          },
+          "Name": {
+            "value": "YER"
+          },
+          "Value": {
+            "value": "YER"
+          }
+        },
+        {
+          "ID": {
+            "value": "commoditycode"
+          },
+          "Name": {
+            "value": "Paper"
+          },
+          "Value": {
+            "value": "123"
+          }
+        }
+      ]
+    }
+  ]
+}

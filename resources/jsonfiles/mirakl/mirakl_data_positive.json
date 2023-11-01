@@ -1,0 +1,427 @@
+{
+  "operators_input": {
+	"id": "1",
+	"name": "QA-Operator",
+	"taxEngineBaseUrl": "https://oseries9-final.vertexconnectors.com",
+	"taxEngineUsername": "mirakl-qa-user",
+	"taxEnginePassword": "mirakl-qa-pw",
+	"apiKey": "3ab3af00-d6c0-4d04-8cc8-78d81a7acdfe",
+	"apiUrl": "https://vertexfr-dev.mirakl.net/api",
+	"orderPollingIntervalSeconds": 3600,
+	"shopPollingIntervalSeconds": 86400,
+	"status": "STAGED",
+	"orderLogRetentionDays": "30"
+  },
+  "orders_input": {
+	"channel_code": "US",
+	"commercial_id": "MIR-ROHIT-210605",
+	"customer": {
+	  "billing_address": {
+		"city": "Mississauga",
+		"civility": "Mr.",
+		"company": null,
+		"country": "Canada",
+		"country_iso_code": "CAN",
+		"firstname": "Juan",
+		"lastname": "Cao",
+		"state": "Ontario",
+		"street_1": "6090 White Hart Lane",
+		"street_2": null,
+		"zip_code": "L5R 3Y4"
+	  },
+	  "civility": "Mr.",
+	  "customer_id": "356-30-5081",
+	  "email": "JuanJCao@gustr.com",
+	  "firstname": "Juan",
+	  "lastname": "Cao",
+	  "locale": "es_ES",
+	  "shipping_address": {
+		"additional_info": null,
+		"city": "Mississauga",
+		"civility": "Mr.",
+		"company": null,
+		"country": "Canada",
+		"country_iso_code": "CAN",
+		"firstname": "Juan",
+		"internal_additional_info": null,
+		"lastname": "Cao",
+		"state": "Ontario",
+		"street_1": "6090 White Hart Lane",
+		"street_2": null,
+		"zip_code": "L5R 3Y4"
+	  }
+	},
+	"offers": [
+	  {
+		"currency_iso_code": "EUR",
+		"delivery_date": {
+		  "earliest": "2021-09-03T08:07:22.326Z",
+		  "latest": "2021-09-05T08:07:22.326Z"
+		},
+		"leadtime_to_ship": 5,
+		"offer_id": "2029",
+		"offer_price": 15,
+		"shipping_deadline": "2021-09-01T08:07:22.326Z",
+		"order_line_additional_fields": [
+		],
+		"price": 45,
+		"quantity": 3,
+		"shipping_price": 8,
+		"shipping_taxes": [
+		],
+		"shipping_type_code": "STD",
+		"taxes": [
+		  {
+			"code": "TAXDEFAULT",
+			"amount": 12.0,
+			"rate": 20.0
+		  }
+		],
+		"shipping_from": {
+		  "address": {
+			"city": null,
+			"country_iso_code": "FRA",
+			"state": null,
+			"street_1": null,
+			"street_2": null,
+			"zip_code": null
+		  }
+		}
+	  }
+	],
+	"order_additional_fields": [
+	],
+	"order_tax_mode": "TAX_EXCLUDED",
+	"payment_info": {
+	  "imprint_number": "My_Imprint_Number",
+	  "payment_type": "Visa"
+	},
+	"payment_workflow": "PAY_ON_DELIVERY",
+	"references": {
+	  "order_reference_for_customer": "ref_customer"
+	},
+	"scored": true,
+	"shipping_zone_code": "INT1"
+  },
+  "shops_input": {
+	"shops": [
+	  {
+		"address": {
+		  "city": "Paris",
+		  "civility": "Mr",
+		  "country": "FRA",
+		  "firstname": "Moore",
+		  "lastname": "MikeAPI",
+		  "phone": null,
+		  "phone_secondary": null,
+		  "state": null,
+		  "street1": "34791BoulevardSaint-Germain",
+		  "street2": null,
+		  "web_site": null,
+		  "zip_code": "75006"
+		},
+		"channel_codes": [
+		  "FR"
+		],
+		"currency_iso_code": "EUR",
+		"description": "ShoptoprovewecancreateviaAPIS06",
+		"domains": [
+		  "PRODUCT"
+		],
+		"email": "sgirism+mirakl123@gmail.com",
+		"is_professional": true,
+		"password": "VertexMirakl1$",
+		"payment_blocked": false,
+		"premium": false,
+		"premium_state": "DEFAULT",
+		"pro_details": {
+		  "VAT_number": "987654321",
+		  "corporate_name": "FakeVertex",
+		  "identification_number": "123456789",
+		  "tax_identification_number": "987654321"
+		},
+		"shipping_country": "FRA",
+		"shop_additional_fields": [
+		  {
+			"code": "fr-registration",
+			"type": "REGEX",
+			"value": "FR435678909"
+		  },
+		  {
+			"code": "union-oss-member",
+			"type": "LIST",
+			"value": "FR"
+		  },
+		  {
+			"code": "union-oss-reg",
+			"type": "REGEX",
+			"value": "FR435678909"
+		  }
+		],
+		"shop_name": "Mirakl's Bulk Store",
+		"suspend": false
+	  }
+	]
+  },
+  "countries_input": {
+	"countries": [
+	  {
+		"iso2Code": "AT",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78278,
+		"name": "Austria",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "AU",
+		"iso3CurrencyCode": "AUD",
+		"jurisdictionId": 78303,
+		"name": "Australia",
+		"currencyName": "Australian Dollar"
+	  },
+	  {
+		"iso2Code": "BE",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78279,
+		"name": "Belgium",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "BG",
+		"iso3CurrencyCode": "BGN",
+		"jurisdictionId": 78305,
+		"name": "Bulgaria",
+		"currencyName": "Bulgarian Lev"
+	  },
+	  {
+		"iso2Code": "BH",
+		"iso3CurrencyCode": "BHD",
+		"jurisdictionId": 81855,
+		"name": "Bahrain",
+		"currencyName": "Bahraini Dinar"
+	  },
+	  {
+		"iso2Code": "CH",
+		"iso3CurrencyCode": "CHF",
+		"jurisdictionId": 78294,
+		"name": "Switzerland",
+		"currencyName": "Swiss Franc"
+	  },
+	  {
+		"iso2Code": "CY",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78309,
+		"name": "Cyprus",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "CZ",
+		"iso3CurrencyCode": "CZK",
+		"jurisdictionId": 78310,
+		"name": "Czech Republic",
+		"currencyName": "Czech Koruna"
+	  },
+	  {
+		"iso2Code": "DE",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78283,
+		"name": "Germany",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "DK",
+		"iso3CurrencyCode": "DKK",
+		"jurisdictionId": 78280,
+		"name": "Denmark",
+		"currencyName": "Danish Krone"
+	  },
+	  {
+		"iso2Code": "EE",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78312,
+		"name": "Estonia",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "FI",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78281,
+		"name": "Finland",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "FR",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78282,
+		"name": "France",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "GB",
+		"iso3CurrencyCode": "GBP",
+		"jurisdictionId": 78295,
+		"name": "United Kingdom",
+		"currencyName": "Pound Sterling"
+	  },
+	  {
+		"iso2Code": "GF",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 81936,
+		"name": "French Guiana",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "GP",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 80346,
+		"name": "Guadeloupe",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "HR",
+		"iso3CurrencyCode": "HRK",
+		"jurisdictionId": 78775,
+		"name": "Croatia",
+		"currencyName": "Croatian Kuna"
+	  },
+	  {
+		"iso2Code": "IE",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78285,
+		"name": "Ireland",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "IM",
+		"iso3CurrencyCode": "GBP",
+		"jurisdictionId": 81948,
+		"name": "Isle of Man",
+		"currencyName": "Pound Sterling"
+	  },
+	  {
+		"iso2Code": "LI",
+		"iso3CurrencyCode": "CHF",
+		"jurisdictionId": 80354,
+		"name": "Liechtenstein",
+		"currencyName": "Swiss Franc"
+	  },
+	  {
+		"iso2Code": "LT",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78320,
+		"name": "Lithuania",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "LU",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78287,
+		"name": "Luxembourg",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "MC",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 80356,
+		"name": "Monaco",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "MQ",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78986,
+		"name": "Martinique",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "MT",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78322,
+		"name": "Malta",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "NL",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78290,
+		"name": "Netherlands",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "NO",
+		"iso3CurrencyCode": "NOK",
+		"jurisdictionId": 78291,
+		"name": "Norway",
+		"currencyName": "Norwegian Krone"
+	  },
+	  {
+		"iso2Code": "NZ",
+		"iso3CurrencyCode": "NZD",
+		"jurisdictionId": 78324,
+		"name": "New Zealand",
+		"currencyName": "New Zealand Dollar"
+	  },
+	  {
+		"iso2Code": "RE",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 81970,
+		"name": "Reunion",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "SE",
+		"iso3CurrencyCode": "SEK",
+		"jurisdictionId": 78293,
+		"name": "Sweden",
+		"currencyName": "Swedish Krona"
+	  },
+	  {
+		"iso2Code": "SG",
+		"iso3CurrencyCode": "SGD",
+		"jurisdictionId": 78330,
+		"name": "Singapore",
+		"currencyName": "Singapore Dollar"
+	  },
+	  {
+		"iso2Code": "SI",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78332,
+		"name": "Slovenia",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "SK",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78331,
+		"name": "Slovakia",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "YT",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 81958,
+		"name": "Mayotte",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "IT",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78286,
+		"name": "Italy",
+		"currencyName": "Euro"
+	  },
+	  {
+		"iso2Code": "GR",
+		"iso3CurrencyCode": "EUR",
+		"jurisdictionId": 78284,
+		"name": "Greece",
+		"currencyName": "Euro"
+	  }
+	]
+  },
+  "mappings_input": {
+	"operatorId": "800",
+	"fieldId": "customer-vat-reg",
+	"miraklFieldId": "sg-vat-reg"
+  }
+}

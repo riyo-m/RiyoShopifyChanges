@@ -1,0 +1,937 @@
+<invoice-header>
+    <account-type>
+        <active>true</active>
+        <created-at>2012-12-13T11:59:34-08:00</created-at>
+        <created-by>
+            <email>upgrade@coupa.com</email>
+            <firstname>Coupa</firstname>
+            <fullname>Coupa Support</fullname>
+            <id>1</id>
+            <lastname>Support</lastname>
+            <login>coupasupport</login>
+        </created-by>
+        <currency>
+            <code>USD</code>
+            <decimals>2</decimals>
+            <id>1</id>
+            <updated-by>
+                <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                <email>upgrade+cnye@coupa.com</email>
+                <firstname>Carroll</firstname>
+                <fullname>Carroll Nye</fullname>
+                <id>350</id>
+                <lastname>Nye</lastname>
+                <login>cnye</login>
+            </updated-by>
+        </currency>
+        <dynamic-flag>true</dynamic-flag>
+        <id>2</id>
+        <name>CHART100</name>
+        <primary-address>
+            <active>true</active>
+            <city>Palo Alto</city>
+            <country>
+                <code>US</code>
+                <id>223</id>
+                <name>United States</name>
+            </country>
+            <created-at>2016-09-28T01:18:08-07:00</created-at>
+            <id>1183</id>
+            <postal-code>94304</postal-code>
+            <state>CA</state>
+            <street1>300 Hanover Street</street1>
+            <updated-at>2018-02-27T10:00:51-08:00</updated-at>
+            <vat-country>
+                <code>US</code>
+                <id>223</id>
+                <name>United States</name>
+            </vat-country>
+        </primary-address>
+        <updated-at>2018-02-28T12:07:22-08:00</updated-at>
+        <updated-by>
+            <email>ron.kandah@coupa.com</email>
+            <firstname>Ronney</firstname>
+            <fullname>Ronney Kandah</fullname>
+            <id>431</id>
+            <lastname>Kandah</lastname>
+            <login>ron.kandah@coupa.com</login>
+        </updated-by>
+    </account-type>
+    <amount-due>424.00</amount-due>
+    <amount-due-less-discount>0.00</amount-due-less-discount>
+    <approvals>
+        <approval>
+            <approvable-id>2591</approvable-id>
+            <approvable-type>InvoiceHeader</approvable-type>
+            <approval-chain-id>67</approval-chain-id>
+            <approval-date>2020-11-17T18:01:01-08:00</approval-date>
+            <approved-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </approved-by>
+            <approver>
+                <id>18</id>
+                <created-at>2019-07-09T10:46:53-07:00</created-at>
+                <updated-at>2019-07-09T10:46:53-07:00</updated-at>
+                <type/>
+                <name>Tax Specialist</name>
+                <active>true</active>
+                <open>false</open>
+                <can-approve>true</can-approve>
+                <description/>
+                <mention-name>taxspecialist</mention-name>
+                <users>
+                    <user>
+                        <id>4</id>
+                        <login>sjones</login>
+                        <email>upgrade+sjones@coupa.com</email>
+                        <employee-number/>
+                        <firstname>Sally (Director)</firstname>
+                        <lastname>Jones</lastname>
+                        <fullname>Sally (Director) Jones</fullname>
+                        <salesforce-id/>
+                        <avatar-thumb-url>/users/4/avatar?style=thumb</avatar-thumb-url>
+                        <assignee>superuser US</assignee>
+                    </user>
+                </users>
+                <created-by>
+                    <id>452</id>
+                    <login>kjones</login>
+                    <email>riyaz.samnani+vertex@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Kristin</firstname>
+                    <lastname>Jones</lastname>
+                    <fullname>Kristin Jones</fullname>
+                    <salesforce-id/>
+                    <avatar-thumb-url/>
+                    <assignee/>
+                </created-by>
+                <updated-by>
+                    <id>452</id>
+                    <login>kjones</login>
+                    <email>riyaz.samnani+vertex@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Kristin</firstname>
+                    <lastname>Jones</lastname>
+                    <fullname>Kristin Jones</fullname>
+                    <salesforce-id/>
+                    <avatar-thumb-url/>
+                    <assignee/>
+                </updated-by>
+                <content-groups>
+                    <content-group>
+                        <id>1</id>
+                        <created-at>2006-08-27T19:40:04-07:00</created-at>
+                        <updated-at>2013-11-20T13:26:41-08:00</updated-at>
+                        <name>Everyone</name>
+                        <description>All users can see documents assigned to this group</description>
+                        <updated-by>
+                            <id>16</id>
+                            <login>dleck</login>
+                            <email>upgrade+dleck@coupa.com</email>
+                            <employee-number/>
+                            <firstname>Derrick</firstname>
+                            <lastname>Leck</lastname>
+                            <fullname>Derrick Leck</fullname>
+                            <salesforce-id/>
+                            <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                            <assignee/>
+                        </updated-by>
+                    </content-group>
+                </content-groups>
+            </approver>
+            <created-at>2020-11-17T18:01:01-08:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <id>52656</id>
+            <position>1</position>
+            <reasons>
+                <reason>Added by the approval chain Tax Specialist Review</reason>
+            </reasons>
+            <status>approved</status>
+            <type>ApprovalChainApproval</type>
+            <updated-at>2020-11-17T18:01:01-08:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+        </approval>
+        <approval>
+            <approvable-id>2591</approvable-id>
+            <approvable-type>InvoiceHeader</approvable-type>
+            <approval-chain-id>64</approval-chain-id>
+            <approval-date>2020-11-17T18:01:02-08:00</approval-date>
+            <approved-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </approved-by>
+            <approver>
+                <id>10</id>
+                <login>amanning</login>
+                <email>upgrade+amanning@coupa.com</email>
+                <employee-number/>
+                <firstname>Anna (AP Director)</firstname>
+                <lastname>Manning</lastname>
+                <fullname>Anna (AP Director) Manning</fullname>
+                <salesforce-id/>
+                <avatar-thumb-url>/users/10/avatar?style=thumb</avatar-thumb-url>
+                <assignee>AP Director, Invoice Approver</assignee>
+            </approver>
+            <created-at>2020-11-17T18:01:01-08:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <id>52657</id>
+            <position>2</position>
+            <reasons>
+                <reason>Added by the approval chain Non-PO Invoices go to AP Processor</reason>
+            </reasons>
+            <status>approved</status>
+            <type>ApprovalChainApproval</type>
+            <updated-at>2020-11-17T18:01:02-08:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+        </approval>
+    </approvals>
+    <attachments/>
+    <bill-to-address>
+        <active>true</active>
+        <city>Palo Alto</city>
+        <country>
+            <code>US</code>
+            <id>223</id>
+            <name>United States</name>
+        </country>
+        <created-at>2016-09-28T01:18:08-07:00</created-at>
+        <id>1183</id>
+        <postal-code>94304</postal-code>
+        <state>CA</state>
+        <street1>300 Hanover Street</street1>
+        <updated-at>2018-02-27T10:00:51-08:00</updated-at>
+        <vat-country>
+            <code>US</code>
+            <id>223</id>
+            <name>United States</name>
+        </vat-country>
+    </bill-to-address>
+    <buyer-tax-registration>
+        <active>true</active>
+        <country>
+            <code>US</code>
+            <id>223</id>
+            <name>United States</name>
+        </country>
+        <created-at>2018-02-27T10:06:34-08:00</created-at>
+        <id>264</id>
+        <local>true</local>
+        <owner-id>1183</owner-id>
+        <owner-type>Address</owner-type>
+        <updated-at>2018-02-28T12:07:22-08:00</updated-at>
+    </buyer-tax-registration>
+    <canceled>false</canceled>
+    <compliant>false</compliant>
+    <content-validation>false</content-validation>
+    <created-at>2020-11-17T17:45:19-08:00</created-at>
+    <created-by>
+        <email>riyaz.samnani+vertex@coupa.com</email>
+        <firstname>Kristin</firstname>
+        <fullname>Kristin Jones</fullname>
+        <id>452</id>
+        <lastname>Jones</lastname>
+        <login>kjones</login>
+    </created-by>
+    <currency>
+        <code>USD</code>
+        <decimals>2</decimals>
+        <id>1</id>
+        <updated-by>
+            <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+            <email>upgrade+cnye@coupa.com</email>
+            <firstname>Carroll</firstname>
+            <fullname>Carroll Nye</fullname>
+            <id>350</id>
+            <lastname>Nye</lastname>
+            <login>cnye</login>
+        </updated-by>
+    </currency>
+    <current-integration-history-records/>
+    <customer-accounting-tax>0.00</customer-accounting-tax>
+    <customer-accounting-tax-less-discount>0.00</customer-accounting-tax-less-discount>
+    <delivery-date>2020-11-17T00:00:00-08:00</delivery-date>
+    <dispute-reasons/>
+    <document-type>Invoice</document-type>
+    <exported>false</exported>
+    <failed-tolerances/>
+    <gross-total>424.00</gross-total>
+    <gross-total-less-discount>0.00</gross-total-less-discount>
+    <handling-amount>0.0</handling-amount>
+    <id>2591</id>
+    <invoice-charges>
+        <invoice-charge>
+            <accounting-total>0.00</accounting-total>
+            <accounting-total-currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </accounting-total-currency>
+            <created-at>2020-11-17T17:45:20-08:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </currency>
+            <id>1894</id>
+            <line-num>1</line-num>
+            <tax-lines/>
+            <total>0.00</total>
+            <type>InvoiceShippingCharge</type>
+            <updated-at>2020-11-17T17:45:20-08:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+        </invoice-charge>
+        <invoice-charge>
+            <accounting-total>0.00</accounting-total>
+            <accounting-total-currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </accounting-total-currency>
+            <created-at>2020-11-17T17:45:20-08:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </currency>
+            <id>1895</id>
+            <line-num>2</line-num>
+            <tax-lines/>
+            <total>0.00</total>
+            <type>InvoiceHandlingCharge</type>
+            <updated-at>2020-11-17T17:45:20-08:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+        </invoice-charge>
+        <invoice-charge>
+            <accounting-total>0.00</accounting-total>
+            <accounting-total-currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </accounting-total-currency>
+            <created-at>2020-11-17T17:45:20-08:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </currency>
+            <id>1896</id>
+            <line-num>3</line-num>
+            <tax-lines/>
+            <total>0.00</total>
+            <type>InvoiceMiscCharge</type>
+            <updated-at>2020-11-17T17:45:20-08:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+        </invoice-charge>
+    </invoice-charges>
+    <invoice-date>2020-11-17T00:00:00-08:00</invoice-date>
+    <invoice-lines>
+        <invoice-line>
+            <account>
+                <account-type>
+                    <active>true</active>
+                    <created-at>2012-12-13T11:59:34-08:00</created-at>
+                    <created-by>
+                        <email>upgrade@coupa.com</email>
+                        <firstname>Coupa</firstname>
+                        <fullname>Coupa Support</fullname>
+                        <id>1</id>
+                        <lastname>Support</lastname>
+                        <login>coupasupport</login>
+                    </created-by>
+                    <currency>
+                        <code>USD</code>
+                        <decimals>2</decimals>
+                        <id>1</id>
+                        <updated-by>
+                            <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                            <email>upgrade+cnye@coupa.com</email>
+                            <firstname>Carroll</firstname>
+                            <fullname>Carroll Nye</fullname>
+                            <id>350</id>
+                            <lastname>Nye</lastname>
+                            <login>cnye</login>
+                        </updated-by>
+                    </currency>
+                    <dynamic-flag>true</dynamic-flag>
+                    <id>2</id>
+                    <name>CHART100</name>
+                    <primary-address>
+                        <active>true</active>
+                        <city>Palo Alto</city>
+                        <country>
+                            <code>US</code>
+                            <id>223</id>
+                            <name>United States</name>
+                        </country>
+                        <created-at>2016-09-28T01:18:08-07:00</created-at>
+                        <id>1183</id>
+                        <postal-code>94304</postal-code>
+                        <state>CA</state>
+                        <street1>300 Hanover Street</street1>
+                        <updated-at>2018-02-27T10:00:51-08:00</updated-at>
+                        <vat-country>
+                            <code>US</code>
+                            <id>223</id>
+                            <name>United States</name>
+                        </vat-country>
+                    </primary-address>
+                    <updated-at>2018-02-28T12:07:22-08:00</updated-at>
+                    <updated-by>
+                        <email>ron.kandah@coupa.com</email>
+                        <firstname>Ronney</firstname>
+                        <fullname>Ronney Kandah</fullname>
+                        <id>431</id>
+                        <lastname>Kandah</lastname>
+                        <login>ron.kandah@coupa.com</login>
+                    </updated-by>
+                </account-type>
+                <active>true</active>
+                <code>01-300-3400-140000</code>
+                <created-at>2016-09-28T09:20:59-07:00</created-at>
+                <created-by>
+                    <avatar-thumb-url>/users/20/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+msnow@coupa.com</email>
+                    <firstname>Mary (Manager)</firstname>
+                    <fullname>Mary (Manager) Snow</fullname>
+                    <id>20</id>
+                    <lastname>Snow</lastname>
+                    <login>msnow</login>
+                </created-by>
+                <id>1424</id>
+                <name>Company 01-Central-Finance-Assets</name>
+                <segment-1>01</segment-1>
+                <segment-2>300</segment-2>
+                <segment-3>3400</segment-3>
+                <segment-4>140000</segment-4>
+                <updated-at>2020-11-17T17:47:06-08:00</updated-at>
+                <updated-by>
+                    <email>riyaz.samnani+vertex@coupa.com</email>
+                    <firstname>Kristin</firstname>
+                    <fullname>Kristin Jones</fullname>
+                    <id>452</id>
+                    <lastname>Jones</lastname>
+                    <login>kjones</login>
+                </updated-by>
+            </account>
+            <account-allocations/>
+            <accounting-total>400.00</accounting-total>
+            <accounting-total-currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </accounting-total-currency>
+            <created-at>2020-11-17T17:45:19-08:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <currency>
+                <code>USD</code>
+                <decimals>2</decimals>
+                <id>1</id>
+                <updated-by>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <firstname>Carroll</firstname>
+                    <fullname>Carroll Nye</fullname>
+                    <id>350</id>
+                    <lastname>Nye</lastname>
+                    <login>cnye</login>
+                </updated-by>
+            </currency>
+            <description>Monitof0</description>
+            <failed-tolerances>
+                <failed-tolerance>
+                    <account-type-id>2</account-type-id>
+                    <breach-limit>0.0%</breach-limit>
+                    <code>line_tae_pct_tolerance</code>
+                    <created-at>2020-11-17T17:47:40-08:00</created-at>
+                    <failable-id>3051</failable-id>
+                    <failable-type>InvoiceLine</failable-type>
+                    <id>413</id>
+                    <resolution-strategy>approved</resolution-strategy>
+                    <resolved>true</resolved>
+                    <updated-at>2020-11-17T17:47:40-08:00</updated-at>
+                </failed-tolerance>
+                <failed-tolerance>
+                    <account-type-id>2</account-type-id>
+                    <breach-limit>0.00 USD</breach-limit>
+                    <code>line_tae_amt_tolerance</code>
+                    <created-at>2020-11-17T17:47:40-08:00</created-at>
+                    <failable-id>3051</failable-id>
+                    <failable-type>InvoiceLine</failable-type>
+                    <id>414</id>
+                    <resolution-strategy>approved</resolution-strategy>
+                    <resolved>true</resolved>
+                    <updated-at>2020-11-17T17:47:40-08:00</updated-at>
+                </failed-tolerance>
+                <failed-tolerance>
+                    <account-type-id>2</account-type-id>
+                    <code>po_missing</code>
+                    <created-at>2020-11-17T17:47:40-08:00</created-at>
+                    <failable-id>3051</failable-id>
+                    <failable-type>InvoiceLine</failable-type>
+                    <id>415</id>
+                    <resolution-strategy>approved</resolution-strategy>
+                    <resolved>true</resolved>
+                    <updated-at>2020-11-17T17:47:40-08:00</updated-at>
+                </failed-tolerance>
+            </failed-tolerances>
+            <id>3051</id>
+            <line-num>1</line-num>
+            <period>
+                <account-type>
+                    <active>true</active>
+                    <created-at>2012-12-13T11:59:34-08:00</created-at>
+                    <created-by>
+                        <email>upgrade@coupa.com</email>
+                        <firstname>Coupa</firstname>
+                        <fullname>Coupa Support</fullname>
+                        <id>1</id>
+                        <lastname>Support</lastname>
+                        <login>coupasupport</login>
+                    </created-by>
+                    <currency>
+                        <code>USD</code>
+                        <decimals>2</decimals>
+                        <id>1</id>
+                        <updated-by>
+                            <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                            <email>upgrade+cnye@coupa.com</email>
+                            <firstname>Carroll</firstname>
+                            <fullname>Carroll Nye</fullname>
+                            <id>350</id>
+                            <lastname>Nye</lastname>
+                            <login>cnye</login>
+                        </updated-by>
+                    </currency>
+                    <dynamic-flag>true</dynamic-flag>
+                    <id>2</id>
+                    <name>CHART100</name>
+                    <primary-address>
+                        <active>true</active>
+                        <city>Palo Alto</city>
+                        <country>
+                            <code>US</code>
+                            <id>223</id>
+                            <name>United States</name>
+                        </country>
+                        <created-at>2016-09-28T01:18:08-07:00</created-at>
+                        <id>1183</id>
+                        <postal-code>94304</postal-code>
+                        <state>CA</state>
+                        <street1>300 Hanover Street</street1>
+                        <updated-at>2018-02-27T10:00:51-08:00</updated-at>
+                        <vat-country>
+                            <code>US</code>
+                            <id>223</id>
+                            <name>United States</name>
+                        </vat-country>
+                    </primary-address>
+                    <updated-at>2018-02-28T12:07:22-08:00</updated-at>
+                    <updated-by>
+                        <email>ron.kandah@coupa.com</email>
+                        <firstname>Ronney</firstname>
+                        <fullname>Ronney Kandah</fullname>
+                        <id>431</id>
+                        <lastname>Kandah</lastname>
+                        <login>ron.kandah@coupa.com</login>
+                    </updated-by>
+                </account-type>
+                <created-at>2016-10-02T21:22:19-07:00</created-at>
+                <created-by>
+                    <email>peter.difalco@coupa.com</email>
+                    <firstname>Peter</firstname>
+                    <fullname>Peter DiFalco</fullname>
+                    <id>326</id>
+                    <lastname>DiFalco</lastname>
+                    <login>peter.difalco@coupa.com</login>
+                </created-by>
+                <end-date>2016-12-31T00:00:00-08:00</end-date>
+                <id>132</id>
+                <is-open>true</is-open>
+                <name>2016 Q4 - C100</name>
+                <segment-1>true</segment-1>
+                <segment-10>false</segment-10>
+                <segment-11>false</segment-11>
+                <segment-12>false</segment-12>
+                <segment-13>false</segment-13>
+                <segment-14>false</segment-14>
+                <segment-15>false</segment-15>
+                <segment-16>false</segment-16>
+                <segment-17>false</segment-17>
+                <segment-18>false</segment-18>
+                <segment-19>false</segment-19>
+                <segment-2>true</segment-2>
+                <segment-20>false</segment-20>
+                <segment-3>true</segment-3>
+                <segment-4>true</segment-4>
+                <segment-5>false</segment-5>
+                <segment-6>false</segment-6>
+                <segment-7>false</segment-7>
+                <segment-8>false</segment-8>
+                <segment-9>false</segment-9>
+                <start-date>2016-10-01T00:00:00-07:00</start-date>
+                <updated-at>2016-10-02T21:30:49-07:00</updated-at>
+                <updated-by>
+                    <email>peter.difalco@coupa.com</email>
+                    <firstname>Peter</firstname>
+                    <fullname>Peter DiFalco</fullname>
+                    <id>326</id>
+                    <lastname>DiFalco</lastname>
+                    <login>peter.difalco@coupa.com</login>
+                </updated-by>
+            </period>
+            <price>400.00</price>
+            <price-per-uom>0.00</price-per-uom>
+            <quantity>1.0</quantity>
+            <source-part-num>monitor0</source-part-num>
+            <status>missing_po</status>
+            <taggings/>
+            <tags/>
+            <tax-amount>24.00</tax-amount>
+            <tax-amount-engine>36.0</tax-amount-engine>
+            <tax-lines>
+                <tax-line>
+                    <amount>24.00</amount>
+                    <amount-engine>36.0</amount-engine>
+                    <base>0.0</base>
+                    <created-at>2020-11-17T17:47:40-08:00</created-at>
+                    <created-by>
+                        <email>riyaz.samnani+vertex@coupa.com</email>
+                        <firstname>Kristin</firstname>
+                        <fullname>Kristin Jones</fullname>
+                        <id>452</id>
+                        <lastname>Jones</lastname>
+                        <login>kjones</login>
+                    </created-by>
+                    <id>1404</id>
+                    <rate>6.0</rate>
+                    <rate-engine>9.0</rate-engine>
+                    <type>TaxLine</type>
+                    <updated-at>2020-11-17T17:47:40-08:00</updated-at>
+                    <updated-by>
+                        <email>riyaz.samnani+vertex@coupa.com</email>
+                        <firstname>Kristin</firstname>
+                        <fullname>Kristin Jones</fullname>
+                        <id>452</id>
+                        <lastname>Jones</lastname>
+                        <login>kjones</login>
+                    </updated-by>
+                    <withholding-amount>0.0</withholding-amount>
+                </tax-line>
+            </tax-lines>
+            <tax-rate>6.0</tax-rate>
+            <total>400.00</total>
+            <type>InvoiceQuantityLine</type>
+            <uom>
+                <active>true</active>
+                <allowable-precision>0</allowable-precision>
+                <code>EA</code>
+                <id>1</id>
+                <name>Each</name>
+                <updated-at>2016-08-18T14:38:34-07:00</updated-at>
+                <updated-by>
+                    <email>david.nuno@coupa.com</email>
+                    <firstname>David</firstname>
+                    <fullname>David Nuno Heredia</fullname>
+                    <id>398</id>
+                    <lastname>Nuno Heredia</lastname>
+                    <login>david.nuno@coupa.com</login>
+                </updated-by>
+            </uom>
+            <updated-at>2020-11-17T17:47:40-08:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+            <withholding-tax-lines/>
+        </invoice-line>
+    </invoice-lines>
+    <invoice-number>4431996</invoice-number>
+    <invoice-payment-receipts/>
+    <line-level-taxation>true</line-level-taxation>
+    <lock-version-key>1</lock-version-key>
+    <misc-amount>0.0</misc-amount>
+    <net-due-date>2020-12-17T23:59:59-08:00</net-due-date>
+    <net-total-less-discount>0.00</net-total-less-discount>
+    <origin-currency-gross>0.00</origin-currency-gross>
+    <origin-currency-net>0.00</origin-currency-net>
+    <paid>false</paid>
+    <payment-channel>erp</payment-channel>
+    <payment-term>
+        <active>true</active>
+        <code>Net 30</code>
+        <content-groups>
+            <content-group>
+                <created-at>2006-08-27T19:40:04-07:00</created-at>
+                <description>All users can see documents assigned to this group</description>
+                <id>1</id>
+                <name>Everyone</name>
+                <updated-at>2013-11-20T13:26:41-08:00</updated-at>
+                <updated-by>
+                    <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                    <email>upgrade+dleck@coupa.com</email>
+                    <firstname>Derrick</firstname>
+                    <fullname>Derrick Leck</fullname>
+                    <id>16</id>
+                    <lastname>Leck</lastname>
+                    <login>dleck</login>
+                </updated-by>
+            </content-group>
+        </content-groups>
+        <days-for-net-payment>30</days-for-net-payment>
+        <id>1</id>
+        <updated-at>2014-04-30T15:28:26-07:00</updated-at>
+        <updated-by>
+            <avatar-thumb-url>/users/4/avatar?style=thumb</avatar-thumb-url>
+            <email>upgrade+sjones@coupa.com</email>
+            <firstname>Sally (Director)</firstname>
+            <fullname>Sally (Director) Jones</fullname>
+            <id>4</id>
+            <lastname>Jones</lastname>
+            <login>sjones</login>
+        </updated-by>
+    </payment-term>
+    <payments/>
+    <remit-to-address>
+        <active>true</active>
+        <city>King of Prussia</city>
+        <country>
+            <code>US</code>
+            <id>223</id>
+            <name>United States</name>
+        </country>
+        <created-at>2020-10-19T13:40:29-07:00</created-at>
+        <id>1200</id>
+        <postal-code>19406</postal-code>
+        <remit-to-code>1</remit-to-code>
+        <state>PA</state>
+        <street1>201 Allendale Rd</street1>
+        <updated-at>2020-10-19T13:40:29-07:00</updated-at>
+    </remit-to-address>
+    <shipping-amount>0.0</shipping-amount>
+    <show-tax-information>true</show-tax-information>
+    <split-payment-mechanism>false</split-payment-mechanism>
+    <status>approved</status>
+    <supplier>
+        <display-name>Coupa Test US Supplier </display-name>
+        <id>423</id>
+        <name>coupatestsupplier000</name>
+        <primary-address>
+            <active>true</active>
+            <city>King of Prussia</city>
+            <country>
+                <code>US</code>
+                <id>223</id>
+                <name>United States</name>
+            </country>
+            <created-at>2020-10-19T13:35:31-07:00</created-at>
+            <id>1199</id>
+            <name>Remit To</name>
+            <postal-code>19406</postal-code>
+            <state>PA</state>
+            <street1>201 Allendale Rd</street1>
+            <updated-at>2020-10-19T13:35:31-07:00</updated-at>
+        </primary-address>
+        <primary-contact>
+            <created-at>2020-06-25T11:49:05-07:00</created-at>
+            <created-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </created-by>
+            <email>vertexconnectors+coupatestsupplier000@gmail.com</email>
+            <id>489</id>
+            <name-family>Wentz</name-family>
+            <name-given>Carson</name-given>
+            <purposes/>
+            <updated-at>2020-06-25T11:49:05-07:00</updated-at>
+            <updated-by>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <firstname>Kristin</firstname>
+                <fullname>Kristin Jones</fullname>
+                <id>452</id>
+                <lastname>Jones</lastname>
+                <login>kjones</login>
+            </updated-by>
+        </primary-contact>
+    </supplier>
+    <supplier-created>false</supplier-created>
+    <supplier-total>0.00</supplier-total>
+    <taggings/>
+    <tags/>
+    <tax-amount>24.00</tax-amount>
+    <tax-amount-engine>36.0</tax-amount-engine>
+    <tax-due-to-supplier>24.00</tax-due-to-supplier>
+    <tax-lines/>
+    <taxes-in-origin-country-currency>0.00</taxes-in-origin-country-currency>
+    <total-taxes-less-discount>0.00</total-taxes-less-discount>
+    <total-with-taxes>424.00</total-with-taxes>
+    <updated-at>2020-11-17T18:01:02-08:00</updated-at>
+    <updated-by>
+        <email>riyaz.samnani+vertex@coupa.com</email>
+        <firstname>Kristin</firstname>
+        <fullname>Kristin Jones</fullname>
+        <id>452</id>
+        <lastname>Jones</lastname>
+        <login>kjones</login>
+    </updated-by>
+    <withholding-tax-lines/>
+</invoice-header>

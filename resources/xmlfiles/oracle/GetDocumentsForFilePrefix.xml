@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/types/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <typ:getDocumentsForFilePrefix>
+            <typ:prefix>Vertex_TransactionExtract_222_20210622175203</typ:prefix>
+            <typ:account>fin$/tax$/export$</typ:account>
+        </typ:getDocumentsForFilePrefix>
+    </soapenv:Body>
+</soapenv:Envelope>

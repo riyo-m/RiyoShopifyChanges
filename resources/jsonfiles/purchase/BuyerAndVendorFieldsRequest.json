@@ -1,0 +1,39 @@
+{
+  "purchaseMessageType": "PURCHASE_ORDER",
+  "documentDate": "2018-07-25",
+  "currency": {
+	"isoCurrencyName": "United States dollar",
+	"isoCurrencyCodeAlpha": "USD",
+	"isoCurrencyCodeNum": 840
+  },
+  "buyer": {
+	"administrativeDestination": {
+	  "city": "King of Prussia",
+	  "country": "UNITED STATES",
+	  "locationCustomsStatus": "FREE_CIRCULATION",
+	  "mainDivision": "PA",
+	  "postalCode": "19406",
+	  "streetAddress1": "2301 Renaissance Blvd",
+	  "streetAddress2": "",
+	  "subDivision": "King of Prussia",
+	  "taxAreaId": 391013000
+	},
+	"taxRegistrations": [
+	  {
+		"taxRegistrationNumber": "string",
+		"isoCountryCode": "US",
+		"mainDivision": "PA",
+		"hasPhysicalPresenceIndicator": false,
+		"impositionType": "string"
+	  }
+	],
+	"nexusIndicator": true,
+	"nexusReasonCode": "string",
+	"company": "Vertex Inc.",
+	"division": "Software Testing",
+	"department": "Software Testing"
+  },
+  "vendor": {
+	"isTaxExempt": true
+  }
+}

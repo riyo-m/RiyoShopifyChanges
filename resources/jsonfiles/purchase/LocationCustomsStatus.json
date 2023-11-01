@@ -1,0 +1,47 @@
+{
+  "purchaseMessageType": "PURCHASE_ORDER",
+  "documentDate": "2018-07-25",
+  "currency": {
+	"isoCurrencyName": "United States dollar",
+	"isoCurrencyCodeAlpha": "USD",
+	"isoCurrencyCodeNum": 840
+  },
+  "buyer": {
+	"destination": {
+	  "taxAreaId": 391013000,
+	  "locationCustomsStatus": "FREE_CIRCULATION",
+	  "streetAddress1": "aba",
+	  "streetAddress2": "123",
+	  "city": "12345678901234567\n",
+	  "mainDivision": "\b\b\"a\"\b\b",
+	  "subDivision": "Ks\t\ting of Prussia",
+	  "postalCode": "aba",
+	  "country": "\"\"\"\""
+	},
+	"administrativeDestination": {
+	  "city": "King of Prussia",
+	  "country": "UNITED STATES",
+	  "locationCustomsStatus": "FREE_CIRCULATION",
+	  "mainDivision": "PA",
+	  "postalCode": "19406",
+	  "streetAddress1": "2301 Renaissance Blvd",
+	  "streetAddress2": "",
+	  "subDivision": "King of Prussia",
+	  "taxAreaId": 391013000
+	},
+	"taxRegistrations": [
+	  {
+		"taxRegistrationNumber": "string",
+		"isoCountryCode": "US",
+		"mainDivision": "PA",
+		"hasPhysicalPresenceIndicator": false,
+		"impositionType": "string"
+	  }
+	],
+	"nexusIndicator": true,
+	"nexusReasonCode": "string",
+	"company": "Vertex Inc.",
+	"division": "Software Testing",
+	"department": "Software Testing"
+  }
+}

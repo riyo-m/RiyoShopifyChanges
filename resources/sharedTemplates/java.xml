@@ -1,0 +1,121 @@
+<templateSet group="java">
+	<template name="nst1frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = waitForPresentAndGetElements();&#10;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;{&#10;&#9;;&#10;&#9;boolean isTargetElement = ;&#10;&#9;if(isTargetElement)&#10;&#9;{&#10;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;break;&#10;&#9;}&#10;}&#10;"
+			  description="Iterates over WebElements of a certain type to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="nst2frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $CONTAINER_DESCRIPTION$s = waitForPresentAndGetElements();&#10;waitForElementPresentState($ELEMENT_LOCATOR$, defaultWaitState);&#10;&#10;search2LABEL:&#10;for(WebElement $CONTAINER_DESCRIPTION$ : $CONTAINER_DESCRIPTION$s)&#10;{&#10;&#9;&#10;&#9;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = $CONTAINER_DESCRIPTION$.&#10;&#9;&#9;&#9;findElements($ELEMENT_LOCATOR$);&#10;&#9;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;&#9;{&#10;&#9;&#9;;&#10;&#9;&#9;boolean isTargetElement = ;&#10;&#9;&#9;if(isTargetElement)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;&#9;break search2LABEL;&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;"
+			  description="finds an element inside a container element: Iterates over WebElements of one type to find a container, then iterates over WebElements of a second type inside of that container to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="nst3frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $CONTAINER1_DESCRIPTION$s = waitForPresentAndGetElements();&#10;waitForElementPresentState($CONTAINER2_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($ELEMENT_LOCATOR$, defaultWaitState);&#10;&#10;search3LABEL:&#10;for(WebElement $CONTAINER1_DESCRIPTION$ : $CONTAINER1_DESCRIPTION$s)&#10;{&#10;&#9;List&lt;WebElement&gt; $CONTAINER2_DESCRIPTION$s = $CONTAINER1_DESCRIPTION$.&#10;&#9;&#9;&#9;findElements($CONTAINER2_LOCATOR$);&#10;&#9;for(WebElement $CONTAINER2_DESCRIPTION$ : $CONTAINER2_DESCRIPTION$s)&#10;&#9;{&#10;&#9;&#9;&#10;&#9;&#9;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = $CONTAINER2_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;findElements($ELEMENT_LOCATOR$);&#10;&#9;&#9;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;;&#10;&#9;&#9;&#9;boolean isTargetElement = ;&#10;&#9;&#9;&#9;if(isTargetElement)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;&#9;&#9;break search3LABEL;&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;"
+			  description="finds an element inside 2 nested container elements: Iterates over WebElements of one type to find a container, then iterates over WebElements of a second type inside of that container to find a second container, and then finally iterates over WebElements of a third type inside that second container to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER1_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="nst4frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $CONTAINER1_DESCRIPTION$s = waitForPresentAndGetElements();&#10;waitForElementPresentState($CONTAINER2_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER3_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($ELEMENT_LOCATOR$, defaultWaitState);&#10;&#10;search4LABEL:&#10;for(WebElement $CONTAINER1_DESCRIPTION$ : $CONTAINER1_DESCRIPTION$s)&#10;{&#10;&#9;List&lt;WebElement&gt; $CONTAINER2_DESCRIPTION$s = $CONTAINER1_DESCRIPTION$.&#10;&#9;&#9;&#9;findElements($CONTAINER2_LOCATOR$);&#10;&#9;for(WebElement $CONTAINER2_DESCRIPTION$ : $CONTAINER2_DESCRIPTION$s)&#10;&#9;{&#10;&#9;&#9;List&lt;WebElement&gt; $CONTAINER3_DESCRIPTION$s = $CONTAINER2_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;findElements($CONTAINER3_LOCATOR$);&#10;&#9;&#9;for(WebElement $CONTAINER3_DESCRIPTION$ : $CONTAINER3_DESCRIPTION$s)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = $CONTAINER3_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;findElements($ELEMENT_LOCATOR$);&#10;&#9;&#9;&#9;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;;&#10;&#9;&#9;&#9;&#9;boolean isTargetElement = ;&#10;&#9;&#9;&#9;&#9;if(isTargetElement)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;&#9;&#9;&#9;break search4LABEL;&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;"
+			  description="finds an element inside 3 nested container elements: Iterates over WebElements of one type to find a container, then iterates over WebElements of a second type inside of that container to find a second container, then iterates over WebElements of a third type inside of that container to find a third container, and then finally iterates over WebElements of a fourth type inside that second container to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER1_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="nst5frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $CONTAINER1_DESCRIPTION$s = waitForPresentAndGetElements();&#10;waitForElementPresentState($CONTAINER2_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER3_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER4_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($ELEMENT_LOCATOR$, defaultWaitState);&#10;&#10;search5LABEL:&#10;for(WebElement $CONTAINER1_DESCRIPTION$ : $CONTAINER1_DESCRIPTION$s)&#10;{&#10;&#9;List&lt;WebElement&gt; $CONTAINER2_DESCRIPTION$s = $CONTAINER1_DESCRIPTION$.&#10;&#9;&#9;&#9;findElements($CONTAINER2_LOCATOR$);&#10;&#9;for(WebElement $CONTAINER2_DESCRIPTION$ : $CONTAINER2_DESCRIPTION$s)&#10;&#9;{&#10;&#9;&#9;List&lt;WebElement&gt; $CONTAINER3_DESCRIPTION$s = $CONTAINER2_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;findElements($CONTAINER3_LOCATOR$);&#10;&#9;&#9;for(WebElement $CONTAINER3_DESCRIPTION$ : $CONTAINER3_DESCRIPTION$s)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;List&lt;WebElement&gt; $CONTAINER4_DESCRIPTION$s = $CONTAINER3_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;findElements($CONTAINER4_LOCATOR$);&#10;&#9;&#9;&#9;for(WebElement $CONTAINER4_DESCRIPTION$ : $CONTAINER4_DESCRIPTION$s)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = $CONTAINER4_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;&#9;findElements($ELEMENT_LOCATOR$);&#10;&#9;&#9;&#9;&#9;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;;&#10;&#9;&#9;&#9;&#9;&#9;boolean isTargetElement = ;&#10;&#9;&#9;&#9;&#9;&#9;if(isTargetElement)&#10;&#9;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;&#9;&#9;&#9;&#9;break search5LABEL;&#10;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;"
+			  description="finds an element inside 4 nested container elements: Iterates over WebElements of one type to find a container, then iterates over WebElements of a second type inside of that container to find a second container, then iterates over WebElements of a third type inside of that container to find a third container, then iterates over WebElements of a fourth type inside of that container to find a fourth container, and then finally iterates over WebElements of a fifth type inside that second container to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER1_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER4_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER4_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="nst6frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $CONTAINER1_DESCRIPTION$s = waitForPresentAndGetElements();&#10;waitForElementPresentState($CONTAINER2_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER3_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER4_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER5_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($ELEMENT_LOCATOR$, defaultWaitState);&#10;&#10;search6LABEL:&#10;for(WebElement $CONTAINER1_DESCRIPTION$ : $CONTAINER1_DESCRIPTION$s)&#10;{&#10;&#9;List&lt;WebElement&gt; $CONTAINER2_DESCRIPTION$s = $CONTAINER1_DESCRIPTION$.&#10;&#9;&#9;&#9;findElements($CONTAINER2_LOCATOR$);&#10;&#9;for(WebElement $CONTAINER2_DESCRIPTION$ : $CONTAINER2_DESCRIPTION$s)&#10;&#9;{&#10;&#9;&#9;List&lt;WebElement&gt; $CONTAINER3_DESCRIPTION$s = $CONTAINER2_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;findElements($CONTAINER3_LOCATOR$);&#10;&#9;&#9;for(WebElement $CONTAINER3_DESCRIPTION$ : $CONTAINER3_DESCRIPTION$s)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;List&lt;WebElement&gt; $CONTAINER4_DESCRIPTION$s = $CONTAINER3_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;findElements($CONTAINER4_LOCATOR$);&#10;&#9;&#9;&#9;for(WebElement $CONTAINER4_DESCRIPTION$ : $CONTAINER4_DESCRIPTION$s)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;List&lt;WebElement&gt; $CONTAINER5_DESCRIPTION$s = $CONTAINER4_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;&#9;findElements($CONTAINER5_LOCATOR$);&#10;&#9;&#9;&#9;&#9;for(WebElement $CONTAINER5_DESCRIPTION$ : $CONTAINER5_DESCRIPTION$s)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = $CONTAINER5_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;findElements($ELEMENT_LOCATOR$);&#10;&#9;&#9;&#9;&#9;&#9;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;&#9;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;;&#10;&#9;&#9;&#9;&#9;&#9;&#9;boolean isTargetElement = ;&#10;&#9;&#9;&#9;&#9;&#9;&#9;if(isTargetElement)&#10;&#9;&#9;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;break search6LABEL;&#10;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;"
+			  description="finds an element inside 5 nested container elements: Iterates over WebElements of one type to find a container, then iterates over WebElements of a second type inside of that container to find a second container, then iterates over WebElements of a third type inside of that container to find a third container, then iterates over WebElements of a fourth type inside of that container to find a fourth container, then iterates over WebElements of a fifth type inside of that container to find a fifth container, and then finally iterates over WebElements of a sixth type inside that second container to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER1_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER4_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER5_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER4_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER5_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="nst7frsrch"
+			  value="WebElement $TARGET_ELEMENT_NAME$ = null;&#10;&#10;List&lt;WebElement&gt; $CONTAINER1_DESCRIPTION$s = waitForPresentAndGetElements();&#10;waitForElementPresentState($CONTAINER2_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER3_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER4_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER5_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($CONTAINER6_LOCATOR$, defaultWaitState);&#10;waitForElementPresentState($ELEMENT_LOCATOR$, defaultWaitState);&#10;&#10;search7LABEL:&#10;for(WebElement $CONTAINER1_DESCRIPTION$ : $CONTAINER1_DESCRIPTION$s)&#10;{&#10;&#9;List&lt;WebElement&gt; $CONTAINER2_DESCRIPTION$s = $CONTAINER1_DESCRIPTION$.&#10;&#9;&#9;&#9;findElements($CONTAINER2_LOCATOR$);&#10;&#9;for(WebElement $CONTAINER2_DESCRIPTION$ : $CONTAINER2_DESCRIPTION$s)&#10;&#9;{&#10;&#9;&#9;List&lt;WebElement&gt; $CONTAINER3_DESCRIPTION$s = $CONTAINER2_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;findElements($CONTAINER3_LOCATOR$);&#10;&#9;&#9;for(WebElement $CONTAINER3_DESCRIPTION$ : $CONTAINER3_DESCRIPTION$s)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;List&lt;WebElement&gt; $CONTAINER4_DESCRIPTION$s = $CONTAINER3_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;findElements($CONTAINER4_LOCATOR$);&#10;&#9;&#9;&#9;for(WebElement $CONTAINER4_DESCRIPTION$ : $CONTAINER4_DESCRIPTION$s)&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;List&lt;WebElement&gt; $CONTAINER5_DESCRIPTION$s = $CONTAINER4_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;&#9;findElements($CONTAINER5_LOCATOR$);&#10;&#9;&#9;&#9;&#9;for(WebElement $CONTAINER5_DESCRIPTION$ : $CONTAINER5_DESCRIPTION$s)&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;List&lt;WebElement&gt; $CONTAINER6_DESCRIPTION$s = $CONTAINER5_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;findElements($CONTAINER6_LOCATOR$);&#10;&#9;&#9;&#9;&#9;&#9;for(WebElement $CONTAINER6_DESCRIPTION$ : $CONTAINER6_DESCRIPTION$s)&#10;&#9;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;List&lt;WebElement&gt; $ELEMENT_DESCRIPTION$s = $CONTAINER6_DESCRIPTION$.&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;findElements($ELEMENT_LOCATOR$);&#10;&#9;&#9;&#9;&#9;&#9;&#9;for(WebElement $ELEMENT_DESCRIPTION$ : $ELEMENT_DESCRIPTION$s)&#10;&#9;&#9;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;boolean isTargetElement = ;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if(isTargetElement)&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;$TARGET_ELEMENT_NAME$ = $ELEMENT_DESCRIPTION$;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;break search7LABEL;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;"
+			  description="finds an element inside 6 nested container elements: Iterates over WebElements of one type to find a container, then iterates over WebElements of a second type inside of that container to find a second container, then iterates over WebElements of a third type inside of that container to find a third container, then iterates over WebElements of a fourth type inside of that container to find a fourth container, then iterates over WebElements of a fifth type inside of that container to find a fifth container, then iterates over WebElements of a sixth type inside of that container to find a sixth container, and then finally iterates over WebElements of a seventh type inside that second container to find a particular element that fulfills some condition"
+			  toReformat="false" toShortenFQNames="true">
+		<variable name="TARGET_ELEMENT_NAME" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER1_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER4_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER5_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER6_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_LOCATOR" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER2_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER3_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER4_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER5_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="CONTAINER6_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<variable name="ELEMENT_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+	<template name="vlog" value="VertexLogger.log($MESSAGE$, getClass());"
+			  description="Calls VertexLogger" toReformat="false" toShortenFQNames="true">
+		<variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true"/>
+		<context>
+			<option name="JAVA_STATEMENT" value="true"/>
+		</context>
+	</template>
+</templateSet>

@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.vertexinc.com/vertextl/taxIntegration/types/">
+	<soapenv:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:MessageID>uuid:8c2657fe-2ecf-4ee0-b2b5-f3f1a4994ec3</wsa:MessageID>
+		<wsa:Action>notification</wsa:Action>
+	</soapenv:Header>
+	<soapenv:Body>
+		<typ:notification>
+			<typ:notificationReq>
+				<typ:documentId>1748792</typ:documentId>
+				<typ:extractType>TRX</typ:extractType>
+			</typ:notificationReq>
+		</typ:notification>
+	</soapenv:Body>
+</soapenv:Envelope>

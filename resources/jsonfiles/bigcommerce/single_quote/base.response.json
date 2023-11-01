@@ -1,0 +1,107 @@
+{
+  "id": "quote-1",
+  "currency_code": "AUD",
+  "customer": {
+	"customer_id": "1",
+	"customer_group_id": "1",
+	"taxability_code": ""
+  },
+  "transaction_date": "2018-09-15T15:53:00+00:00",
+  "documents": [
+	{
+	  "id": "document-1",
+	  "billing_address": {
+		"line1": "512 New Street",
+		"line2": "",
+		"city": "PORTSMOUTH",
+		"region_name": "",
+		"region_code": "",
+		"country_name": "United Kingdom",
+		"country_code": "UK",
+		"postal_code": "PO94 6QJ",
+		"company_name": "",
+		"type": "RESIDENTIAL"
+	  },
+	  "destination_address": {
+		"line1": "512 New Street",
+		"line2": "",
+		"city": "PORTSMOUTH",
+		"region_name": "",
+		"region_code": "",
+		"country_name": "United Kingdom",
+		"country_code": "UK",
+		"postal_code": "PO94 6QJ",
+		"company_name": "",
+		"type": "RESIDENTIAL"
+	  },
+	  "origin_address": {
+		"line1": "512 New Street",
+		"line2": "",
+		"city": "PORTSMOUTH",
+		"region_name": "",
+		"region_code": "",
+		"country_name": "United Kingdom",
+		"country_code": "UK",
+		"postal_code": "PO94 6QJ",
+		"company_name": "BigCommerce",
+		"type": "COMMERCIAL"
+	  },
+	  "shipping": {
+		"id": "shipping-1",
+		"item_code": "Shipping",
+		"name": "Shipping to PA US",
+		"price": {
+		  "amount": 10,
+		  "tax_inclusive": false
+		},
+		"quantity": 1,
+		"tax_class": {
+		  "class_id": "1",
+		  "code": "",
+		  "name": ""
+		},
+		"tax_exempt": false,
+		"type": "shipping",
+		"wrapping": null
+	  },
+	  "handling": {
+		"id": "handling-1",
+		"item_code": "Handling",
+		"name": "Handling for US",
+		"price": {
+		  "amount": 5,
+		  "tax_inclusive": false
+		},
+		"quantity": 1,
+		"tax_class": {
+		  "class_id": "2",
+		  "code": "",
+		  "name": ""
+		},
+		"tax_exempt": false,
+		"type": "handling",
+		"wrapping": null
+	  },
+	  "items": [
+		{
+		  "id": "item-1",
+		  "item_code": "ABC-123",
+		  "name": "Stylish Sunglasses",
+		  "price": {
+			"amount": 150,
+			"tax_inclusive": false
+		  },
+		  "quantity": 1,
+		  "tax_class": {
+			"class_id": "0",
+			"code": "",
+			"name": ""
+		  },
+		  "tax_exempt": false,
+		  "type": "item",
+		  "wrapping": null
+		}
+	  ]
+	}
+  ]
+}

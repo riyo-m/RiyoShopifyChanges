@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_Regression">
+	<test verbose="2" preserve-order="true"
+		  name="C:/connector-quality-java/ConnectorQuality/src/com/vertex/quality/connectors/taxlink">
+		<groups>
+			<run>
+				<include name="taxlink_ui_regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkConditionSetsTests">
+				<methods>
+					<include name="viewSYSTEMConditionSetsTest"/>
+					<include name="addAndVerifyConditionSetsTest"/>
+					<include name="viewUSERConditionSetsTest"/>
+					<include name="editUSERConditionSetsTest"/>
+					<include name="verifyPreCalcRulesForDefaultConditionSetTest"/>
+					<include name="verifyPostCalcRulesForDefaultConditionSetTest"/>
+					<include name="verifyPreCalcRulesForUserDefinedConditionSetTest"/>
+					<include name="verifyPostCalcRulesForUserDefinedConditionSetTest"/>
+					<include name="verifyViewPreCalcRulesForUserDefinedConditionSetTest"/>
+					<include name="verifyViewPostCalcRulesForUserDefinedConditionSetTest"/>
+					<include name="verifyCopyConditionSetTest"/>
+					<include name="verifyPostCalcRuleInCopiedConditionSetTest"/>
+					<include name="verifyPreCalcRuleInCopiedConditionSetTest"/>
+					<include name="verifyDisabledRulesForDisabledConditionSetTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkInvConditionSetsTests">
+				<methods>
+					<include name="addAndVerifyInvConditionSetsTest"/>
+					<include name="viewUSERInvConditionSetsTest"/>
+					<include name="editUSERInvConditionSetsTest"/>
+					<include name="verifyInvPreCalcRulesForUserDefinedConditionSetTest"/>
+					<include name="verifyViewInvPreCalcRulesForUserDefinedConditionSetTest"/>
+					<include name="verifyCopyInvConditionSetTest"/>
+					<include name="verifyInvPreCalcRuleInCopiedInvConditionSetTest"/>
+					<include name="verifyDisabledInvRulesForDisabledInvConditionSetTest"/>
+					<include name="viewInvSystemConditionSetTest"/>
+					<include name="verifyPreCalcRulesForInvConditionSetTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

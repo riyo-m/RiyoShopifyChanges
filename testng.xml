@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "IntegrationTests">
+    <test verbose="2" preserve-order="true" name="C:/connector-quality-java/ConnectorQuality/src/com/vertex/quality/connectors/dynamics365" group-by-instances="true">
+        <groups>
+            <run>
+                <include name="FO_Integration"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailExchangeAndBuyMoreTests">
+                <methods>
+                    <include name="salesOrderCreationTest"/>
+                    <include name="ExchangeInStoreAndBuyingMoreCausingTest"/>
+                    <include name="validateReturnOrderTaxTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.finance.tests.DFinanceReturnOrderPOSTests">
+                <methods>
+                    <include name="createdSalesOrderForReturnTest"/>
+                    <include name="returnOrderTest"/>
+                    <include name="validateXMLTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailPOSOrderTests">
+                <methods>
+                    <include name="validateSalesTaxForRetailTransactionTest"/>
+                    <include name="validateAdministrativePhysicalCustomerAddressAndInvoiceResponseForRetailOrderTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.finance.tests.DFinanceStatementAndTransactionTests">
+                <methods>
+                    <include name="createTransactionTest"/>
+                    <include name="verifyDistributeTaxRequestTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailPOSAdministrativeOriginTests">
+                <methods>
+                    <include name="posTransactionTest"/>
+                    <include name="verifyPOSAdministrativeOriginAddressTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.finance.tests.DFinancePOSCustomerOrderAndStatementTests">
+                <methods>
+                    <include name="createCustomerOrderPOSTest"/>
+                    <include name="verifyTaxForPOSOrderWhenCreatingAStatementTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailCreateNewTransactionTests">
+                <methods>
+                    <include name="createTransactionAndOverrideLineProductTaxListTest"/>
+                    <include name="verifyUsageClassExistenceTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.finance.tests.DFinancePurchaseOrderTests">
+                <methods>
+                    <include name="verifySalesTaxAndSalesTaxLineForPOWhenARIsDisabledTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.finance.tests.DFinanceAPInvoiceJournalTests">
+                <methods>
+                    <include name="verifySalesTaxAndSalesTaxLineForAPInvoiceJournalWhenARIsDisabledTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.finance.tests.DFinanceRedesignBackupTaxGroupFunctionalityTests">
+                <methods>
+                    <include name="redesignedBackupTaxGroupWithInvalidUrlTest"/>
+                    <include name="invalidSecondCloudURLPOSTest"/>
+                    <include name="puttingBackCorrectURLTest"/>
+                    <include name="validSecondCloudURLPOSTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailValidateTaxForCustomerTests">
+                <methods>
+                    <include name="createPOSOrderAddTwoItemsAndCompleteCashAndCarryTaxTest"/>
+                    <include name="verifyTaxForPOSOrderWhenCreatingTwoInvoicesTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailPOSMultilineOrderAndValidateTaxTests">
+                <methods>
+                    <include name="addMultiLineItemPOSTest"/>
+                    <include name="verifyPOSOrderHasNoTaxDuplicatesWhenInvoicingTest"/>
+                </methods>
+            </class>
+            <class name="com.vertex.quality.connectors.dynamics365.retail.tests.DRetailValidateTaxAfterRecallAndChangingQuantityTests">
+                <methods>
+                    <include name="salesOrderCreationWithMultipleQuantityTest"/>
+                    <include name="recallPOSOrderWithMultipleQuantityAdjustQuantityAndValidateTaxTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

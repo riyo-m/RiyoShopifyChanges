@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_RulesMapping_Regression_e2e" configfailurepolicy="continue"
+	   preserve-order="true">
+	<groups>
+		<run>
+			<include name="taxlink_rulesmapping_regression"/>
+		</run>
+	</groups>
+	<test verbose="2"
+		  name="DisableApplyHoldRecords">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkAPTaxActionRangesTests">
+				<methods>
+					<include name="disableApplyHoldRecordsTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DisableAPTaxCalcRecords">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkApTaxCalcExclTests">
+				<methods>
+					<include name="disableApTaxCalcExclTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Map">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForMapFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Map">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Upper">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleUpperFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForUpperFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Upper">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleUpperFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Lower">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleLowerFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForLowerFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Lower">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleLowerFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Concat">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleConcatFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForConcatFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Concat">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleConcatFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Constant">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleConstantFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForConstantFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Constant">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleConstantFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_NVL">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleNVLFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForNVLFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_NVL">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleNVLFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Split">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleSplitFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForSplitFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Split">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleSplitFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Substring">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addPreCalcRuleSubstringFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForSubstringFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_Substring">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPreCalcRuleSubstringFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Map_PostCalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="addPostCalcRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForMapPostCalcFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_MapPostCalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPostCalcRuleMapFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="Rule_Substring_PostCalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="addPostCalcRuleSubstringFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="CreateInvoiceForSubstringPostCalcFunction">
+		<classes>
+			<class name="com.vertex.quality.connectors.oraclecloud.tests.OracleCloudRulesMappingTests">
+				<methods>
+					<include name="createInvoiceRulesMappingTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test verbose="2"
+		  name="DB_SubstringPostCalc">
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="verifyDBPostCalcRuleSubstringFunction_e2e_Test"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

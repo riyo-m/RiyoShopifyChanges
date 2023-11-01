@@ -1,0 +1,188 @@
+{
+  "purchaseMessageType": "PURCHASE_ORDER",
+  "currency": {
+	"isoCurrencyName": "United States dollar",
+	"isoCurrencyCodeAlpha": "USD",
+	"isoCurrencyCodeNum": 123412
+  },
+  "chargedTax": 1.100000023841858,
+  "lineItems": [
+	{
+	  "buyer": {
+		"destination": {
+		  "taxAreaId": 391013000,
+		  "locationCustomsStatus": "FREE_CIRCULATION",
+		  "streetAddress1": "2301 Renaissance Blvd",
+		  "streetAddress2": "\b\b\b\b\ba",
+		  "city": "King of Prussia",
+		  "mainDivision": "PA",
+		  "subDivision": "King of Prussia",
+		  "postalCode": "19406",
+		  "country": "United States"
+		},
+		"administrativeDestination": {
+		  "city": "King of Prussia",
+		  "country": "UNITED STATES",
+		  "locationCustomsStatus": "FREE_CIRCULATION",
+		  "mainDivision": "PA",
+		  "postalCode": "19406",
+		  "streetAddress1": "2301 Renaissance Blvd",
+		  "streetAddress2": "",
+		  "subDivision": "King of Prussia",
+		  "taxAreaId": 391013000
+		},
+		"taxRegistrations": [
+		  {
+			"taxRegistrationNumber": "string",
+			"isoCountryCode": "US",
+			"mainDivision": "PA",
+			"hasPhysicalPresenceIndicator": true,
+			"impositionType": "string"
+		  }
+		],
+		"nexusIndicator": true,
+		"nexusReasonCode": "string",
+		"company": "Vertex Inc.",
+		"division": "Software Testing",
+		"department": "Software Testing"
+	  },
+	  "vendor": {
+		"vendorCode": {
+		  "isBusinessIndicator": true,
+		  "classCode": "string",
+		  "value": "string"
+		},
+		"exemptionCertificate": {
+		  "exemptionCertificateNumber": "string",
+		  "value": "string"
+		},
+		"isTaxExempt": true,
+		"exemptionReasonCode": "1"
+	  },
+	  "taxOverride": {
+		"overrideType": "TAXABLE",
+		"overrideReasonCode": "1"
+	  },
+	  "impositionInclusions": [
+		{
+		  "impositionType": "string",
+		  "value": "APO"
+		}
+	  ],
+	  "jurisdictionOverrides": [
+		{
+		  "deductionOverride": {
+			"exemptOverride": {
+			  "overrideExemptReasonCode": "0",
+			  "value": 0
+			},
+			"nonTaxableOverride": {
+			  "overrideNonTaxableReasonCode": "0",
+			  "value": 0
+			}
+		  },
+		  "rateOverride": {
+			"value": 0
+		  },
+		  "jurisdictionLevel": "APO",
+		  "impositionType": "string"
+		}
+	  ],
+	  "situsOverride": {
+		"taxingLocation": "ADMINISTRATIVE_DESTINATION"
+	  },
+	  "purchase": {
+		"purchaseClass": "string",
+		"value": "string"
+	  },
+	  "quantity": {
+		"unitOfMeasure": "1",
+		"value": 0
+	  },
+	  "previousTaxPaid": 0,
+	  "freight": 0,
+	  "fairMarketValue": 1.100000023841858,
+	  "cost": 99,
+	  "unitPrice": 1.100000023841858,
+	  "extendedPrice": 99,
+	  "chargedTax": 0,
+	  "vendorTaxes": [
+		{
+		  "taxingJurisdictionLocation": {
+			"taxAreaId": 391013000,
+			"locationCustomsStatus": "FREE_CIRCULATION",
+			"jurisdictionLevel": "APO",
+			"impositionType": "string",
+			"streetAddress1": "2301 Renaissance Blvd",
+			"streetAddress2": "",
+			"city": "King of Prussia",
+			"mainDivision": "PA",
+			"subDivision": "King of Prussia",
+			"postalCode": "19406",
+			"country": "United States"
+		  },
+		  "inputAmount": 19,
+		  "invoiceTaxRate": 19,
+		  "blockingOverridePercent": 19,
+		  "partialExemptRecoverableOverridePercent": 19
+		}
+	  ],
+	  "inputTotalTax": 19,
+	  "landedCost": 19,
+	  "amountBilledToDate": 19,
+	  "flexibleFields": {
+		"flexibleCodeFields": [
+		  {
+			"fieldId": 19,
+			"value": "string"
+		  }
+		],
+		"flexibleNumericFields": [
+		  {
+			"fieldId": 10.99999999999999911182158029987476766109466552734374999999999999999999999999999,
+			"value": 1.2
+		  }
+		],
+		"flexibleDateFields": [
+		  {
+			"fieldId": 1,
+			"value": "2015-07-20"
+		  }
+		]
+	  },
+	  "lineItemNumber": 55555,
+	  "taxDate": "2015-07-20",
+	  "isMulticomponent": true,
+	  "deliveryTerm": "EXW",
+	  "postingDate": "2015-07-20",
+	  "costCenter": "string",
+	  "departmentCode": "string",
+	  "generalLedgerAccount": "string",
+	  "materialCode": "string",
+	  "projectNumber": "string",
+	  "usage": "string",
+	  "usageClass": "string",
+	  "vendorSKU": "string",
+	  "lineItemId": "string",
+	  "taxIncludedIndicator": true,
+	  "transactionType": "PURCHASE",
+	  "simplificationCode": "CONSIGNMENT",
+	  "titleTransfer": "ORIGIN",
+	  "chainTransactionPhase": "MANUFACTURER",
+	  "exportProcedure": "string"
+	}
+  ],
+  "documentNumber": "123",
+  "postingDate": "2015-07-20",
+  "returnAssistedParametersIndicator": true,
+  "returnGeneratedLineItemsIndicator": true,
+  "deliveryTerm": "EXW",
+  "documentDate": "2015-07-20",
+  "transactionId": "string",
+  "transactionType": "PURCHASE",
+  "simplificationCode": "CONSIGNMENT",
+  "isTaxOnlyAdjustmentIndicator": true,
+  "postToJournal": true,
+  "paymentDate": "2015-07-20",
+  "documentSequenceId": "string"
+}

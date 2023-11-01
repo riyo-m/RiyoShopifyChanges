@@ -1,0 +1,153 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.vertexinc.com/vertextl/taxIntegration/types/">
+	<soapenv:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:MessageID>uuid:874480e4-21f3-430c-9ef7-d4a7473a384c</wsa:MessageID>
+		<wsa:Action>calculation</wsa:Action>
+	</soapenv:Header>
+	<soapenv:Body>
+		<typ:calculation>
+			<typ:trxHeader>
+				<typ:ApplicationId>200</typ:ApplicationId>
+				<typ:ApplicationShortname>AP</typ:ApplicationShortname>
+				<typ:CtrlHdrTxApplFlag>N</typ:CtrlHdrTxApplFlag>
+				<typ:DefaultTaxationCountry>US</typ:DefaultTaxationCountry>
+				<typ:DocEventStatus>CREATED</typ:DocEventStatus>
+				<typ:EntityCode>AP_INVOICES</typ:EntityCode>
+				<typ:EventClassCode>STANDARD INVOICES</typ:EventClassCode>
+				<typ:EstablishmentId>300000001140071</typ:EstablishmentId>
+				<typ:EstablishmentNumber>1004</typ:EstablishmentNumber>
+				<typ:EventClassMappingId>1</typ:EventClassMappingId>
+				<typ:EventTypeCode>STANDARD CREATED</typ:EventTypeCode>
+				<typ:EndPointUrl>https://ecog-test.fa.us2.oraclecloud.com</typ:EndPointUrl>
+				<typ:FirstPtyOrgId>300000004221936</typ:FirstPtyOrgId>
+				<typ:FirstPtyRegId>300000018810124</typ:FirstPtyRegId>
+				<typ:FirstPtyRegNumber>987654321</typ:FirstPtyRegNumber>
+				<typ:HdrTrxUserKey1>CALCULATEISP</typ:HdrTrxUserKey1>
+				<typ:HistoricalFlag>N</typ:HistoricalFlag>
+				<typ:HqEstbPartyTaxProfId>300000001140209</typ:HqEstbPartyTaxProfId>
+				<typ:InternalOrganizationId>300000005503393</typ:InternalOrganizationId>
+				<typ:LedgerId>300000001139008</typ:LedgerId>
+				<typ:LegalEntityId>300000001140053</typ:LegalEntityId>
+				<typ:LegalEntityNumber>RIUS104111</typ:LegalEntityNumber>
+				<typ:LogLevel>SEVERE</typ:LogLevel>
+				<typ:TrxCurrencyCode>USD</typ:TrxCurrencyCode>
+				<typ:TrxDate>2022-09-22</typ:TrxDate>
+				<typ:TrxHeaderAmt>1000</typ:TrxHeaderAmt>
+				<typ:TrxId>986964</typ:TrxId>
+				<typ:TrxLevelType>ITEM</typ:TrxLevelType>
+				<typ:TrxSource>ISP</typ:TrxSource>
+				<typ:TrxNumber>AUTOTST_APISUPPINVCHARGETAXEQCALCTAX_11769</typ:TrxNumber>
+			</typ:trxHeader>
+			<typ:trxLineList>
+				<typ:trxLine>
+					<typ:ApplicationId>200</typ:ApplicationId>
+					<typ:AssessableValue>1000</typ:AssessableValue>
+					<typ:AssetFlag>N</typ:AssetFlag>
+					<typ:BillFromGeographyType1>ADDRESS1</typ:BillFromGeographyType1>
+					<typ:BillFromGeographyType10>PROVINCE</typ:BillFromGeographyType10>
+					<typ:BillFromGeographyType2>ADDRESS2</typ:BillFromGeographyType2>
+					<typ:BillFromGeographyType3>ADDRESS3</typ:BillFromGeographyType3>
+					<typ:BillFromGeographyType4>ADDRESS4</typ:BillFromGeographyType4>
+					<typ:BillFromGeographyType5>COUNTRY</typ:BillFromGeographyType5>
+					<typ:BillFromGeographyType6>STATE</typ:BillFromGeographyType6>
+					<typ:BillFromGeographyType7>COUNTY</typ:BillFromGeographyType7>
+					<typ:BillFromGeographyType8>CITY</typ:BillFromGeographyType8>
+					<typ:BillFromGeographyType9>POSTALCODE</typ:BillFromGeographyType9>
+					<typ:BillFromGeographyValue1>5600 Independence Ave</typ:BillFromGeographyValue1>
+					<typ:BillFromGeographyValue2>Suite 100</typ:BillFromGeographyValue2>
+					<typ:BillFromGeographyValue5>US</typ:BillFromGeographyValue5>
+					<typ:BillFromGeographyValue6>California</typ:BillFromGeographyValue6>
+					<typ:BillFromGeographyValue7>Fresno</typ:BillFromGeographyValue7>
+					<typ:BillFromGeographyValue8>Fresno</typ:BillFromGeographyValue8>
+					<typ:BillFromGeographyValue9>93650</typ:BillFromGeographyValue9>
+					<typ:BillFromLocationId>300000004277754</typ:BillFromLocationId>
+					<typ:BillFromPartyName>MCC Calif</typ:BillFromPartyName>
+					<typ:BillFromPartyNumber>11011</typ:BillFromPartyNumber>
+					<typ:BillThirdPtyAcctId>300000004277749</typ:BillThirdPtyAcctId>
+					<typ:BillThirdPtyAcctSiteId>300000004277762</typ:BillThirdPtyAcctSiteId>
+					<typ:BillToGeographyType1>ADDRESS1</typ:BillToGeographyType1>
+					<typ:BillToGeographyType10>PROVINCE</typ:BillToGeographyType10>
+					<typ:BillToGeographyType2>ADDRESS2</typ:BillToGeographyType2>
+					<typ:BillToGeographyType3>ADDRESS3</typ:BillToGeographyType3>
+					<typ:BillToGeographyType4>ADDRESS4</typ:BillToGeographyType4>
+					<typ:BillToGeographyType5>COUNTRY</typ:BillToGeographyType5>
+					<typ:BillToGeographyType6>STATE</typ:BillToGeographyType6>
+					<typ:BillToGeographyType7>COUNTY</typ:BillToGeographyType7>
+					<typ:BillToGeographyType8>CITY</typ:BillToGeographyType8>
+					<typ:BillToGeographyType9>POSTALCODE</typ:BillToGeographyType9>
+					<typ:BillToGeographyValue1>5430 One Shields Avenue</typ:BillToGeographyValue1>
+					<typ:BillToGeographyValue5>US</typ:BillToGeographyValue5>
+					<typ:BillToGeographyValue6>Pennsylvania</typ:BillToGeographyValue6>
+					<typ:BillToGeographyValue8>Berwyn</typ:BillToGeographyValue8>
+					<typ:BillToGeographyValue9>19312</typ:BillToGeographyValue9>
+					<typ:BillToLocationId>300000001141673</typ:BillToLocationId>
+					<typ:EntityCode>AP_INVOICES</typ:EntityCode>
+					<typ:EventClassCode>STANDARD INVOICES</typ:EventClassCode>
+					<typ:LineAmt>1000</typ:LineAmt>
+					<typ:LineAmtIncludesTaxFlag>S</typ:LineAmtIncludesTaxFlag>
+					<typ:LineClass>STANDARD INVOICES</typ:LineClass>
+					<typ:LineLevelAction>CREATE</typ:LineLevelAction>
+					<typ:LinesDetFactorId>6036192</typ:LinesDetFactorId>
+					<typ:MatchType>NOT_MATCHED</typ:MatchType>
+					<typ:MinimumAccountableUnit>0.01</typ:MinimumAccountableUnit>
+					<typ:Precision>2</typ:Precision>
+					<typ:ShipFromGeographyType1>ADDRESS1</typ:ShipFromGeographyType1>
+					<typ:ShipFromGeographyType10>PROVINCE</typ:ShipFromGeographyType10>
+					<typ:ShipFromGeographyType2>ADDRESS2</typ:ShipFromGeographyType2>
+					<typ:ShipFromGeographyType3>ADDRESS3</typ:ShipFromGeographyType3>
+					<typ:ShipFromGeographyType4>ADDRESS4</typ:ShipFromGeographyType4>
+					<typ:ShipFromGeographyType5>COUNTRY</typ:ShipFromGeographyType5>
+					<typ:ShipFromGeographyType6>STATE</typ:ShipFromGeographyType6>
+					<typ:ShipFromGeographyType7>COUNTY</typ:ShipFromGeographyType7>
+					<typ:ShipFromGeographyType8>CITY</typ:ShipFromGeographyType8>
+					<typ:ShipFromGeographyType9>POSTALCODE</typ:ShipFromGeographyType9>
+					<typ:ShipFromGeographyValue1>5600 Independence Ave</typ:ShipFromGeographyValue1>
+					<typ:ShipFromGeographyValue2>Suite 100</typ:ShipFromGeographyValue2>
+					<typ:ShipFromGeographyValue5>US</typ:ShipFromGeographyValue5>
+					<typ:ShipFromGeographyValue6>California</typ:ShipFromGeographyValue6>
+					<typ:ShipFromGeographyValue7>Fresno</typ:ShipFromGeographyValue7>
+					<typ:ShipFromGeographyValue8>Fresno</typ:ShipFromGeographyValue8>
+					<typ:ShipFromGeographyValue9>93650</typ:ShipFromGeographyValue9>
+					<typ:ShipFromLocationId>300000004277754</typ:ShipFromLocationId>
+					<typ:ShipFromPartyName>MCC Calif</typ:ShipFromPartyName>
+					<typ:ShipFromPartyNumber>11011</typ:ShipFromPartyNumber>
+					<typ:ShipThirdPtyAcctId>300000004277749</typ:ShipThirdPtyAcctId>
+					<typ:ShipThirdPtyAcctSiteId>300000004277762</typ:ShipThirdPtyAcctSiteId>
+					<typ:ShipToGeographyType1>ADDRESS1</typ:ShipToGeographyType1>
+					<typ:ShipToGeographyType10>PROVINCE</typ:ShipToGeographyType10>
+					<typ:ShipToGeographyType2>ADDRESS2</typ:ShipToGeographyType2>
+					<typ:ShipToGeographyType3>ADDRESS3</typ:ShipToGeographyType3>
+					<typ:ShipToGeographyType4>ADDRESS4</typ:ShipToGeographyType4>
+					<typ:ShipToGeographyType5>COUNTRY</typ:ShipToGeographyType5>
+					<typ:ShipToGeographyType6>STATE</typ:ShipToGeographyType6>
+					<typ:ShipToGeographyType7>COUNTY</typ:ShipToGeographyType7>
+					<typ:ShipToGeographyType8>CITY</typ:ShipToGeographyType8>
+					<typ:ShipToGeographyType9>POSTALCODE</typ:ShipToGeographyType9>
+					<typ:ShipToGeographyValue1>852 Penn Park</typ:ShipToGeographyValue1>
+					<typ:ShipToGeographyValue5>US</typ:ShipToGeographyValue5>
+					<typ:ShipToGeographyValue6>Pennsylvania</typ:ShipToGeographyValue6>
+					<typ:ShipToGeographyValue7>Chester</typ:ShipToGeographyValue7>
+					<typ:ShipToGeographyValue8>Exton</typ:ShipToGeographyValue8>
+					<typ:ShipToGeographyValue9>19341</typ:ShipToGeographyValue9>
+					<typ:ShipToLocationId>300000006692952</typ:ShipToLocationId>
+					<typ:TaxProcessingCompletedFlag>C</typ:TaxProcessingCompletedFlag>
+					<typ:TaxReportingFlag>Y</typ:TaxReportingFlag>
+					<typ:TrxBusinessCategory>PURCHASE_TRANSACTION</typ:TrxBusinessCategory>
+					<typ:TrxId>986964</typ:TrxId>
+					<typ:TrxLineCurrencyCode>USD</typ:TrxLineCurrencyCode>
+					<typ:TrxLineDate>2022-09-22</typ:TrxLineDate>
+					<typ:TrxLineGlDate>2022-09-22</typ:TrxLineGlDate>
+					<typ:TrxLineId>1</typ:TrxLineId>
+					<typ:TrxLineMau>0.01</typ:TrxLineMau>
+					<typ:TrxLineNumber>1</typ:TrxLineNumber>
+					<typ:TrxLinePrecision>2</typ:TrxLinePrecision>
+					<typ:TrxLineQuantity>1</typ:TrxLineQuantity>
+					<typ:TrxLineType>ITEM</typ:TrxLineType>
+					<typ:TrxLevelType>LINE</typ:TrxLevelType>
+					<typ:UnitPrice>1000</typ:UnitPrice>
+					<typ:VendorTypeLookupCode>SUPPLIER</typ:VendorTypeLookupCode>
+					<typ:VendorNumber>10021</typ:VendorNumber>
+				</typ:trxLine>
+			</typ:trxLineList>
+		</typ:calculation>
+	</soapenv:Body>
+</soapenv:Envelope>

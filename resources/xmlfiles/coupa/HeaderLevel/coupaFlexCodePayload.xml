@@ -1,0 +1,1534 @@
+<invoice-header>
+    <id type="integer">2293</id>
+    <created-at type="dateTime">2020-06-29T12:13:05-07:00</created-at>
+    <updated-at type="dateTime">2020-06-29T12:29:22-07:00</updated-at>
+    <comments nil="true"/>
+    <compliant type="boolean">false</compliant>
+    <handling-amount type="decimal">0.0</handling-amount>
+    <internal-note nil="true"/>
+    <invoice-date type="dateTime">2020-06-29T00:00:00-07:00</invoice-date>
+    <delivery-number/>
+    <delivery-date type="dateTime">2020-06-29T00:00:00-07:00</delivery-date>
+    <invoice-number>8289362</invoice-number>
+    <line-level-taxation type="boolean">false</line-level-taxation>
+    <misc-amount type="decimal">0.0</misc-amount>
+    <shipping-amount type="decimal">0.0</shipping-amount>
+    <status>on_hold</status>
+    <total-with-taxes type="decimal">1000.00</total-with-taxes>
+    <gross-total type="decimal">1000.00</gross-total>
+    <supplier-total type="decimal">0.00</supplier-total>
+    <supplier-note/>
+    <discount-due-date nil="true"/>
+    <net-due-date type="dateTime">2020-07-29T23:59:59-07:00</net-due-date>
+    <discount-amount nil="true"/>
+    <tax-code nil="true"/>
+    <tax-rate type="float">0.0</tax-rate>
+    <tax-amount type="decimal">0.00</tax-amount>
+    <tolerance-failures>po_missing header_tae_pct_tolerance header_tae_amt_tolerance</tolerance-failures>
+    <paid type="boolean">false</paid>
+    <payment-date nil="true"/>
+    <payment-notes nil="true"/>
+    <exported type="boolean">false</exported>
+    <canceled type="boolean">false</canceled>
+    <tax-amount-engine type="decimal">60.0</tax-amount-engine>
+    <last-exported-at nil="true"/>
+    <image-scan nil="true"/>
+    <image-scan-url/>
+    <supplier-created type="boolean">false</supplier-created>
+    <early-payment-provisions nil="true"/>
+    <margin-scheme nil="true"/>
+    <cash-accounting-scheme-reference nil="true"/>
+    <exchange-rate nil="true"/>
+    <late-payment-penalties nil="true"/>
+    <credit-reason nil="true"/>
+    <origin-currency-net type="decimal">0.00</origin-currency-net>
+    <taxes-in-origin-country-currency type="decimal">0.00</taxes-in-origin-country-currency>
+    <origin-currency-gross type="decimal">0.00</origin-currency-gross>
+    <pre-payment-date nil="true"/>
+    <self-billing-reference nil="true"/>
+    <reverse-charge-reference nil="true"/>
+    <discount-percent nil="true"/>
+    <credit-note-differences-with-original-invoice nil="true"/>
+    <original-value-of-supply nil="true"/>
+    <correct-value-of-supply nil="true"/>
+    <customs-declaration-number nil="true"/>
+    <customs-office nil="true"/>
+    <customs-declaration-date nil="true"/>
+    <payment-order-reference nil="true"/>
+    <advance-payment-received-amount nil="true"/>
+    <lock-version-key type="integer">2</lock-version-key>
+    <series nil="true"/>
+    <folio-number nil="true"/>
+    <use-of-invoice nil="true"/>
+    <form-of-payment nil="true"/>
+    <type-of-receipt nil="true"/>
+    <payment-method nil="true"/>
+    <issuance-place nil="true"/>
+    <confirmation nil="true"/>
+    <original-invoice-date nil="true"/>
+    <withholding-tax-override nil="true"/>
+    <clearance-document nil="true"/>
+    <coupa-accelerate-status nil="true"/>
+    <type-of-relationship nil="true"/>
+    <invoice-reference-number nil="true"/>
+    <dispute-method nil="true"/>
+    <date-received nil="true"/>
+    <sender-email nil="true"/>
+    <inbox-name nil="true"/>
+    <amount-due type="decimal">1000.00</amount-due>
+    <tax-due-to-supplier type="decimal">0.00</tax-due-to-supplier>
+    <customer-accounting-tax type="decimal">0.00</customer-accounting-tax>
+    <payment-channel>erp</payment-channel>
+    <show-tax-information type="boolean">true</show-tax-information>
+    <document-type>Invoice</document-type>
+    <original-invoice-number nil="true"/>
+    <date-of-discovery-of-facts-decisive-for-correction nil="true"/>
+    <place-of-supply nil="true"/>
+    <split-payment-mechanism type="boolean">false</split-payment-mechanism>
+    <gross-total-less-discount type="decimal">0.00</gross-total-less-discount>
+    <net-total-less-discount type="decimal">0.00</net-total-less-discount>
+    <total-taxes-less-discount type="decimal">0.00</total-taxes-less-discount>
+    <customer-accounting-tax-less-discount type="decimal">0.00</customer-accounting-tax-less-discount>
+    <amount-due-less-discount type="decimal">0.00</amount-due-less-discount>
+    <endorsement-on-invoices nil="true"/>
+    <new-means-of-transport nil="true"/>
+    <place-of-issuance nil="true"/>
+    <amount-of-advance-payment nil="true"/>
+    <transaction-uuid nil="true"/>
+    <transaction-notification-date nil="true"/>
+    <content-validation type="boolean">false</content-validation>
+    <supplier-invoice-issuer-name nil="true"/>
+    <supplier-invoice-reviewer-name nil="true"/>
+    <supplier-payment-collector-name nil="true"/>
+    <signed-qr-code nil="true"/>
+    <vertex-tax-amount>0</vertex-tax-amount>
+    <vertex-use-tax-amount/>
+    <recorded-to-vertex type="boolean">true</recorded-to-vertex>
+    <payments type="array"/>
+    <account-type>
+        <id type="integer">2</id>
+        <created-at type="dateTime">2012-12-13T11:59:34-08:00</created-at>
+        <updated-at type="dateTime">2018-02-28T12:07:22-08:00</updated-at>
+        <name>CHART100</name>
+        <active type="boolean">true</active>
+        <legal-entity-name/>
+        <dynamic-flag type="boolean">true</dynamic-flag>
+        <currency>
+            <id type="integer">1</id>
+            <code>USD</code>
+            <decimals type="integer">2</decimals>
+            <updated-by>
+                <id type="integer">350</id>
+                <login>cnye</login>
+                <email>upgrade+cnye@coupa.com</email>
+                <employee-number/>
+                <firstname>Carroll</firstname>
+                <lastname>Nye</lastname>
+                <fullname>Carroll Nye</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                <assignee/>
+            </updated-by>
+        </currency>
+        <primary-address>
+            <id type="integer">1183</id>
+            <created-at type="dateTime">2016-09-28T01:18:08-07:00</created-at>
+            <updated-at type="dateTime">2018-02-27T10:00:51-08:00</updated-at>
+            <name/>
+            <location-code nil="true"/>
+            <street1>100 Winter St</street1>
+            <street2/>
+            <city>Media</city>
+            <state>PA</state>
+            <postal-code>19063</postal-code>
+            <attention nil="true"/>
+            <active type="boolean">true</active>
+            <business-group-name nil="true"/>
+            <vat-number/>
+            <local-tax-number/>
+            <country>
+                <id type="integer">223</id>
+                <code>US</code>
+                <name>United States</name>
+            </country>
+            <vat-country>
+                <id type="integer">223</id>
+                <code>US</code>
+                <name>United States</name>
+            </vat-country>
+        </primary-address>
+        <created-by>
+            <id type="integer">1</id>
+            <login>coupasupport</login>
+            <email>upgrade@coupa.com</email>
+            <employee-number/>
+            <firstname>Coupa</firstname>
+            <lastname>Support</lastname>
+            <fullname>Coupa Support</fullname>
+            <salesforce-id nil="true"/>
+            <avatar-thumb-url nil="true"/>
+            <assignee/>
+        </created-by>
+        <updated-by>
+            <id type="integer">431</id>
+            <login>ron.kandah@coupa.com</login>
+            <email>ron.kandah@coupa.com</email>
+            <employee-number nil="true"/>
+            <firstname>Ronney</firstname>
+            <lastname>Kandah</lastname>
+            <fullname>Ronney Kandah</fullname>
+            <salesforce-id nil="true"/>
+            <avatar-thumb-url nil="true"/>
+            <assignee/>
+        </updated-by>
+    </account-type>
+    <currency>
+        <id type="integer">1</id>
+        <code>USD</code>
+        <decimals type="integer">2</decimals>
+        <updated-by>
+            <id type="integer">350</id>
+            <login>cnye</login>
+            <email>upgrade+cnye@coupa.com</email>
+            <employee-number/>
+            <firstname>Carroll</firstname>
+            <lastname>Nye</lastname>
+            <fullname>Carroll Nye</fullname>
+            <salesforce-id nil="true"/>
+            <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+            <assignee/>
+        </updated-by>
+    </currency>
+    <payment-term>
+        <id type="integer">1</id>
+        <created-at nil="true"/>
+        <updated-at type="dateTime">2014-04-30T15:28:26-07:00</updated-at>
+        <code>Net 30</code>
+        <description/>
+        <days-for-net-payment type="integer">30</days-for-net-payment>
+        <days-for-discount-payment nil="true"/>
+        <discount-rate nil="true"/>
+        <active type="boolean">true</active>
+        <content-groups type="array">
+            <content-group>
+                <id type="integer">1</id>
+                <created-at type="dateTime">2006-08-27T19:40:04-07:00</created-at>
+                <updated-at type="dateTime">2013-11-20T13:26:41-08:00</updated-at>
+                <name>Everyone</name>
+                <description>All users can see documents assigned to this group</description>
+                <updated-by>
+                    <id type="integer">16</id>
+                    <login>dleck</login>
+                    <email>upgrade+dleck@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Derrick</firstname>
+                    <lastname>Leck</lastname>
+                    <fullname>Derrick Leck</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </content-group>
+        </content-groups>
+        <updated-by>
+            <id type="integer">4</id>
+            <login>sjones</login>
+            <email>upgrade+sjones@coupa.com</email>
+            <employee-number/>
+            <firstname>Sally (Director)</firstname>
+            <lastname>Jones</lastname>
+            <fullname>Sally (Director) Jones</fullname>
+            <salesforce-id nil="true"/>
+            <avatar-thumb-url>/users/4/avatar?style=thumb</avatar-thumb-url>
+            <assignee>superuser US</assignee>
+        </updated-by>
+    </payment-term>
+    <bill-to-address>
+        <id type="integer">1183</id>
+        <created-at type="dateTime">2016-09-28T01:18:08-07:00</created-at>
+        <updated-at type="dateTime">2018-02-27T10:00:51-08:00</updated-at>
+        <name/>
+        <location-code nil="true"/>
+        <street1>100 Winter Street</street1>
+        <street2/>
+        <city>Media</city>
+        <state>PA</state>
+        <postal-code>19063</postal-code>
+        <attention nil="true"/>
+        <active type="boolean">true</active>
+        <business-group-name nil="true"/>
+        <vat-number/>
+        <local-tax-number/>
+        <country>
+            <id type="integer">223</id>
+            <code>US</code>
+            <name>United States</name>
+        </country>
+        <vat-country>
+            <id type="integer">223</id>
+            <code>US</code>
+            <name>United States</name>
+        </vat-country>
+    </bill-to-address>
+    <supplier>
+        <id type="integer">423</id>
+        <name>coupatestsupplier000</name>
+        <display-name>Coupa Test US Supplier </display-name>
+        <number nil="true"/>
+        <risk-level/>
+        <primary-contact>
+            <id type="integer">489</id>
+            <created-at type="dateTime">2020-06-25T11:49:05-07:00</created-at>
+            <updated-at type="dateTime">2020-06-25T11:49:05-07:00</updated-at>
+            <email>vertexconnectors+coupatestsupplier000@gmail.com</email>
+            <name-prefix nil="true"/>
+            <name-suffix nil="true"/>
+            <name-additional nil="true"/>
+            <name-given>Carson</name-given>
+            <name-family>Wentz</name-family>
+            <name-fullname nil="true"/>
+            <notes nil="true"/>
+            <purposes type="array"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </primary-contact>
+        <primary-address>
+            <id type="integer">1191</id>
+            <created-at type="dateTime">2020-06-25T11:49:05-07:00</created-at>
+            <updated-at type="dateTime">2020-06-25T11:49:05-07:00</updated-at>
+            <name nil="true"/>
+            <location-code nil="true"/>
+            <street1 nil="true"/>
+            <street2 nil="true"/>
+            <city nil="true"/>
+            <state nil="true"/>
+            <postal-code nil="true"/>
+            <attention nil="true"/>
+            <active type="boolean">true</active>
+            <business-group-name nil="true"/>
+            <vat-number nil="true"/>
+            <local-tax-number nil="true"/>
+        </primary-address>
+    </supplier>
+    <attachments type="array"/>
+    <invoice-payment-receipts type="array"/>
+    <invoice-charges type="array">
+        <invoice-charge>
+            <id type="integer">1000</id>
+            <created-at type="dateTime">2020-06-29T12:13:05-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:21-07:00</updated-at>
+            <type>InvoiceShippingCharge</type>
+            <line-num type="integer">1</line-num>
+            <distributed nil="true"/>
+            <description nil="true"/>
+            <total type="decimal">0.00</total>
+            <accounting-total type="decimal">0.00</accounting-total>
+            <pct nil="true"/>
+            <billing-note nil="true"/>
+            <account-allocations type="array"/>
+            <accounting-total-currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </accounting-total-currency>
+            <currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </currency>
+            <tax-lines type="array"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </invoice-charge>
+        <invoice-charge>
+            <id type="integer">1001</id>
+            <created-at type="dateTime">2020-06-29T12:13:05-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:21-07:00</updated-at>
+            <type>InvoiceHandlingCharge</type>
+            <line-num type="integer">2</line-num>
+            <distributed nil="true"/>
+            <description nil="true"/>
+            <total type="decimal">0.00</total>
+            <accounting-total type="decimal">0.00</accounting-total>
+            <pct nil="true"/>
+            <billing-note nil="true"/>
+            <account-allocations type="array"/>
+            <accounting-total-currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </accounting-total-currency>
+            <currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </currency>
+            <tax-lines type="array"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </invoice-charge>
+        <invoice-charge>
+            <id type="integer">1002</id>
+            <created-at type="dateTime">2020-06-29T12:13:05-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:21-07:00</updated-at>
+            <type>InvoiceMiscCharge</type>
+            <line-num type="integer">3</line-num>
+            <distributed nil="true"/>
+            <description nil="true"/>
+            <total type="decimal">0.00</total>
+            <accounting-total type="decimal">0.00</accounting-total>
+            <pct nil="true"/>
+            <billing-note nil="true"/>
+            <account-allocations type="array"/>
+            <accounting-total-currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </accounting-total-currency>
+            <currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </currency>
+            <tax-lines type="array"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </invoice-charge>
+    </invoice-charges>
+    <invoice-lines type="array">
+        <invoice-line>
+            <id type="integer">2609</id>
+            <created-at type="dateTime">2020-06-29T12:13:05-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:35-07:00</updated-at>
+            <accounting-total type="decimal">1000.00</accounting-total>
+            <description>lap</description>
+            <line-num type="integer">1</line-num>
+            <order-header-num nil="true"/>
+            <po-number nil="true"/>
+            <order-line-id nil="true"/>
+            <order-line-num nil="true"/>
+            <price type="decimal">1000.00</price>
+            <net-weight nil="true"/>
+            <price-per-uom type="decimal">0.00</price-per-uom>
+            <quantity type="decimal">1.0</quantity>
+            <status>missing_po</status>
+            <tax-rate nil="true"/>
+            <tax-location nil="true"/>
+            <tax-amount type="decimal">0.00</tax-amount>
+            <tax-description nil="true"/>
+            <tax-supply-date nil="true"/>
+            <total type="decimal">1000.00</total>
+            <type>InvoiceQuantityLine</type>
+            <tax-amount-engine nil="true"/>
+            <tax-distribution-total nil="true"/>
+            <shipping-distribution-total nil="true"/>
+            <handling-distribution-total nil="true"/>
+            <misc-distribution-total nil="true"/>
+            <match-reference nil="true"/>
+            <original-date-of-supply nil="true"/>
+            <delivery-note-number nil="true"/>
+            <discount-amount nil="true"/>
+            <company-uom nil="true"/>
+            <property-tax-account nil="true"/>
+            <source-part-num>laptop0</source-part-num>
+            <customs-declaration-number nil="true"/>
+            <hsn-sac-code nil="true"/>
+            <unspsc nil="true"/>
+            <billing-note nil="true"/>
+            <category nil="true"/>
+            <subcategory nil="true"/>
+            <deductibility nil="true"/>
+            <vertex-tax-amount/>
+            <vertex-tax-code/>
+            <vertex-use-tax-amount/>
+            <account>
+                <id type="integer">1493</id>
+                <created-at type="dateTime">2017-04-21T11:17:33-07:00</created-at>
+                <updated-at type="dateTime">2020-06-29T12:25:48-07:00</updated-at>
+                <name>Company 01-Central-Finance-Assets-1111-1 Facility Upgrade</name>
+                <code>01-300-3400-140000-45004</code>
+                <active type="boolean">true</active>
+                <segment-1>01</segment-1>
+                <segment-2>300</segment-2>
+                <segment-3>3400</segment-3>
+                <segment-4>140000</segment-4>
+                <segment-5>45004</segment-5>
+                <segment-6 nil="true"/>
+                <segment-7 nil="true"/>
+                <segment-8 nil="true"/>
+                <segment-9 nil="true"/>
+                <segment-10 nil="true"/>
+                <segment-11 nil="true"/>
+                <segment-12 nil="true"/>
+                <segment-13 nil="true"/>
+                <segment-14 nil="true"/>
+                <segment-15 nil="true"/>
+                <segment-16 nil="true"/>
+                <segment-17 nil="true"/>
+                <segment-18> FlexCodeTest</segment-18>/&gt;
+                <segment-19 nil="true"/>
+                <segment-20 nil="true"/>
+                <account-type>
+                    <id type="integer">2</id>
+                    <created-at type="dateTime">2012-12-13T11:59:34-08:00</created-at>
+                    <updated-at type="dateTime">2018-02-28T12:07:22-08:00</updated-at>
+                    <name>CHART100</name>
+                    <active type="boolean">true</active>
+                    <legal-entity-name/>
+                    <dynamic-flag type="boolean">true</dynamic-flag>
+                    <currency>
+                        <id type="integer">1</id>
+                        <code>USD</code>
+                        <decimals type="integer">2</decimals>
+                        <updated-by>
+                            <id type="integer">350</id>
+                            <login>cnye</login>
+                            <email>upgrade+cnye@coupa.com</email>
+                            <employee-number/>
+                            <firstname>Carroll</firstname>
+                            <lastname>Nye</lastname>
+                            <fullname>Carroll Nye</fullname>
+                            <salesforce-id nil="true"/>
+                            <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                            <assignee/>
+                        </updated-by>
+                    </currency>
+                    <primary-address>
+                        <id type="integer">1183</id>
+                        <created-at type="dateTime">2016-09-28T01:18:08-07:00</created-at>
+                        <updated-at type="dateTime">2018-02-27T10:00:51-08:00</updated-at>
+                        <name/>
+                        <location-code nil="true"/>
+                        <street1>100 Winter Street</street1>
+                        <street2/>
+                        <city>Media</city>
+                        <state>PA</state>
+                        <postal-code>94304</postal-code>
+                        <attention nil="true"/>
+                        <active type="boolean">true</active>
+                        <business-group-name nil="true"/>
+                        <vat-number/>
+                        <local-tax-number/>
+                        <country>
+                            <id type="integer">223</id>
+                            <code>US</code>
+                            <name>United States</name>
+                        </country>
+                        <vat-country>
+                            <id type="integer">223</id>
+                            <code>US</code>
+                            <name>United States</name>
+                        </vat-country>
+                    </primary-address>
+                    <created-by>
+                        <id type="integer">1</id>
+                        <login>coupasupport</login>
+                        <email>upgrade@coupa.com</email>
+                        <employee-number/>
+                        <firstname>Coupa</firstname>
+                        <lastname>Support</lastname>
+                        <fullname>Coupa Support</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url nil="true"/>
+                        <assignee/>
+                    </created-by>
+                    <updated-by>
+                        <id type="integer">431</id>
+                        <login>ron.kandah@coupa.com</login>
+                        <email>ron.kandah@coupa.com</email>
+                        <employee-number nil="true"/>
+                        <firstname>Ronney</firstname>
+                        <lastname>Kandah</lastname>
+                        <fullname>Ronney Kandah</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url nil="true"/>
+                        <assignee/>
+                    </updated-by>
+                </account-type>
+                <created-by>
+                    <id type="integer">431</id>
+                    <login>ron.kandah@coupa.com</login>
+                    <email>ron.kandah@coupa.com</email>
+                    <employee-number nil="true"/>
+                    <firstname>Ronney</firstname>
+                    <lastname>Kandah</lastname>
+                    <fullname>Ronney Kandah</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </created-by>
+                <updated-by>
+                    <id type="integer">452</id>
+                    <login>kjones</login>
+                    <email>riyaz.samnani+vertex@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Kristin</firstname>
+                    <lastname>Jones</lastname>
+                    <fullname>Kristin Jones</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </updated-by>
+            </account>
+            <account-allocations type="array"/>
+            <accounting-total-currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </accounting-total-currency>
+            <currency>
+                <id type="integer">1</id>
+                <code>USD</code>
+                <decimals type="integer">2</decimals>
+                <updated-by>
+                    <id type="integer">350</id>
+                    <login>cnye</login>
+                    <email>upgrade+cnye@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Carroll</firstname>
+                    <lastname>Nye</lastname>
+                    <fullname>Carroll Nye</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                    <assignee/>
+                </updated-by>
+            </currency>
+            <uom>
+                <id type="integer">1</id>
+                <created-at nil="true"/>
+                <updated-at type="dateTime">2016-08-18T14:38:34-07:00</updated-at>
+                <code>EA</code>
+                <name>Each</name>
+                <allowable-precision type="integer">0</allowable-precision>
+                <active type="boolean">true</active>
+                <updated-by>
+                    <id type="integer">398</id>
+                    <login>david.nuno@coupa.com</login>
+                    <email>david.nuno@coupa.com</email>
+                    <employee-number nil="true"/>
+                    <firstname>David</firstname>
+                    <lastname>Nuno Heredia</lastname>
+                    <fullname>David Nuno Heredia</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </updated-by>
+            </uom>
+            <period>
+                <id type="integer">132</id>
+                <created-at type="dateTime">2016-10-02T21:22:19-07:00</created-at>
+                <updated-at type="dateTime">2016-10-02T21:30:49-07:00</updated-at>
+                <start-date type="dateTime">2016-10-01T00:00:00-07:00</start-date>
+                <end-date type="dateTime">2016-12-31T00:00:00-08:00</end-date>
+                <is-open type="boolean">true</is-open>
+                <segment-1 type="boolean">true</segment-1>
+                <segment-2 type="boolean">true</segment-2>
+                <segment-3 type="boolean">true</segment-3>
+                <segment-4 type="boolean">true</segment-4>
+                <segment-5 type="boolean">false</segment-5>
+                <segment-6 type="boolean">false</segment-6>
+                <segment-7 type="boolean">false</segment-7>
+                <segment-8 type="boolean">false</segment-8>
+                <segment-9 type="boolean">false</segment-9>
+                <segment-10 type="boolean">false</segment-10>
+                <segment-11 type="boolean">false</segment-11>
+                <segment-12 type="boolean">false</segment-12>
+                <segment-13 type="boolean">false</segment-13>
+                <segment-14 type="boolean">false</segment-14>
+                <segment-15 type="boolean">false</segment-15>
+                <segment-16 type="boolean">false</segment-16>
+                <segment-17 type="boolean">false</segment-17>
+                <segment-18 type="boolean">false</segment-18>
+                <segment-19 type="boolean">false</segment-19>
+                <segment-20 type="boolean">false</segment-20>
+                <name>2016 Q4 - C100</name>
+                <account-type>
+                    <id type="integer">2</id>
+                    <created-at type="dateTime">2012-12-13T11:59:34-08:00</created-at>
+                    <updated-at type="dateTime">2018-02-28T12:07:22-08:00</updated-at>
+                    <name>CHART100</name>
+                    <active type="boolean">true</active>
+                    <legal-entity-name/>
+                    <dynamic-flag type="boolean">true</dynamic-flag>
+                    <currency>
+                        <id type="integer">1</id>
+                        <code>USD</code>
+                        <decimals type="integer">2</decimals>
+                        <updated-by>
+                            <id type="integer">350</id>
+                            <login>cnye</login>
+                            <email>upgrade+cnye@coupa.com</email>
+                            <employee-number/>
+                            <firstname>Carroll</firstname>
+                            <lastname>Nye</lastname>
+                            <fullname>Carroll Nye</fullname>
+                            <salesforce-id nil="true"/>
+                            <avatar-thumb-url>/users/350/avatar?style=thumb</avatar-thumb-url>
+                            <assignee/>
+                        </updated-by>
+                    </currency>
+                    <primary-address>
+                        <id type="integer">1183</id>
+                        <created-at type="dateTime">2016-09-28T01:18:08-07:00</created-at>
+                        <updated-at type="dateTime">2018-02-27T10:00:51-08:00</updated-at>
+                        <name/>
+                        <location-code nil="true"/>
+                        <street1>100 Winter Street</street1>
+                        <street2/>
+                        <city>Palo Alto</city>
+                        <state>PA</state>
+                        <postal-code>919063</postal-code>
+                        <attention nil="true"/>
+                        <active type="boolean">true</active>
+                        <business-group-name nil="true"/>
+                        <vat-number/>
+                        <local-tax-number/>
+                        <country>
+                            <id type="integer">223</id>
+                            <code>US</code>
+                            <name>United States</name>
+                        </country>
+                        <vat-country>
+                            <id type="integer">223</id>
+                            <code>US</code>
+                            <name>United States</name>
+                        </vat-country>
+                    </primary-address>
+                    <created-by>
+                        <id type="integer">1</id>
+                        <login>coupasupport</login>
+                        <email>upgrade@coupa.com</email>
+                        <employee-number/>
+                        <firstname>Coupa</firstname>
+                        <lastname>Support</lastname>
+                        <fullname>Coupa Support</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url nil="true"/>
+                        <assignee/>
+                    </created-by>
+                    <updated-by>
+                        <id type="integer">431</id>
+                        <login>ron.kandah@coupa.com</login>
+                        <email>ron.kandah@coupa.com</email>
+                        <employee-number nil="true"/>
+                        <firstname>Ronney</firstname>
+                        <lastname>Kandah</lastname>
+                        <fullname>Ronney Kandah</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url nil="true"/>
+                        <assignee/>
+                    </updated-by>
+                </account-type>
+                <created-by>
+                    <id type="integer">326</id>
+                    <login>peter.difalco@coupa.com</login>
+                    <email>peter.difalco@coupa.com</email>
+                    <employee-number nil="true"/>
+                    <firstname>Peter</firstname>
+                    <lastname>DiFalco</lastname>
+                    <fullname>Peter DiFalco</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </created-by>
+                <updated-by>
+                    <id type="integer">326</id>
+                    <login>peter.difalco@coupa.com</login>
+                    <email>peter.difalco@coupa.com</email>
+                    <employee-number nil="true"/>
+                    <firstname>Peter</firstname>
+                    <lastname>DiFalco</lastname>
+                    <fullname>Peter DiFalco</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </updated-by>
+            </period>
+            <tax-lines type="array"/>
+            <withholding-tax-lines type="array"/>
+            <tags type="array"/>
+            <taggings type="array"/>
+            <failed-tolerances type="array">
+                <failed-tolerance>
+                    <id type="integer">156</id>
+                    <created-at type="dateTime">2020-06-29T12:28:35-07:00</created-at>
+                    <updated-at type="dateTime">2020-06-29T12:28:35-07:00</updated-at>
+                    <code>po_missing</code>
+                    <failable-id type="integer">2609</failable-id>
+                    <failable-type>InvoiceLine</failable-type>
+                    <account-type-id type="integer">2</account-type-id>
+                    <resolved type="boolean">false</resolved>
+                    <resolution-strategy nil="true"/>
+                    <breach-amount nil="true"/>
+                    <breach-limit nil="true"/>
+                    <breach-detail-1 nil="true"/>
+                    <breach-detail-2 nil="true"/>
+                    <breach-detail-3 nil="true"/>
+                    <breach-detail-4 nil="true"/>
+                </failed-tolerance>
+            </failed-tolerances>
+            <commodity>
+                <id type="integer">36</id>
+                <created-at type="dateTime">2012-12-12T08:46:56-08:00</created-at>
+                <updated-at type="dateTime">2016-09-29T07:58:05-07:00</updated-at>
+                <active type="boolean">true</active>
+                <name>Laptops and Tablets</name>
+                <deductibility nil="true"/>
+                <category nil="true"/>
+                <subcategory nil="true"/>
+                <gl>Assets</gl>
+                <common-gl-acct>
+                    <id type="integer">141</id>
+                    <created-at type="dateTime">2016-09-27T23:42:38-07:00</created-at>
+                    <updated-at type="dateTime">2016-09-30T15:22:26-07:00</updated-at>
+                    <active type="boolean">true</active>
+                    <name>Assets</name>
+                    <description>Assets</description>
+                    <external-ref-num>140000</external-ref-num>
+                    <external-ref-code>140000</external-ref-code>
+                    <parent-id nil="true"/>
+                    <lookup-id type="integer">1</lookup-id>
+                    <depth type="integer">0</depth>
+                    <is-default type="boolean">false</is-default>
+                    <lookup>
+                        <id type="integer">1</id>
+                        <created-at type="dateTime">2013-05-03T07:25:09-07:00</created-at>
+                        <updated-at type="dateTime">2016-09-27T23:41:29-07:00</updated-at>
+                        <active type="boolean">true</active>
+                        <name>Common_GL_Acct</name>
+                        <description>Common to SAP and Oracle</description>
+                        <fixed-depth type="boolean">false</fixed-depth>
+                        <level-1-name/>
+                        <level-2-name/>
+                        <level-3-name/>
+                        <level-4-name/>
+                        <level-5-name/>
+                        <level-6-name/>
+                        <level-7-name/>
+                        <level-8-name/>
+                        <level-9-name/>
+                        <level-10-name/>
+                        <content-groups type="array">
+                            <content-group>
+                                <id type="integer">1</id>
+                                <created-at type="dateTime">2006-08-27T19:40:04-07:00</created-at>
+                                <updated-at type="dateTime">2013-11-20T13:26:41-08:00</updated-at>
+                                <name>Everyone</name>
+                                <description>All users can see documents assigned to this group</description>
+                                <updated-by>
+                                    <id type="integer">16</id>
+                                    <login>dleck</login>
+                                    <email>upgrade+dleck@coupa.com</email>
+                                    <employee-number/>
+                                    <firstname>Derrick</firstname>
+                                    <lastname>Leck</lastname>
+                                    <fullname>Derrick Leck</fullname>
+                                    <salesforce-id nil="true"/>
+                                    <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                                    <assignee/>
+                                </updated-by>
+                            </content-group>
+                        </content-groups>
+                    </lookup>
+                </common-gl-acct>
+                <parent>
+                    <id type="integer">10</id>
+                    <created-at type="dateTime">2011-04-12T09:28:24-07:00</created-at>
+                    <updated-at type="dateTime">2016-10-03T22:42:27-07:00</updated-at>
+                    <active type="boolean">true</active>
+                    <name>Hardware</name>
+                    <deductibility nil="true"/>
+                    <category nil="true"/>
+                    <subcategory nil="true"/>
+                    <gl>Assets</gl>
+                    <common-gl-acct>
+                        <id type="integer">141</id>
+                        <created-at type="dateTime">2016-09-27T23:42:38-07:00</created-at>
+                        <updated-at type="dateTime">2016-09-30T15:22:26-07:00</updated-at>
+                        <active type="boolean">true</active>
+                        <name>Assets</name>
+                        <description>Assets</description>
+                        <external-ref-num>140000</external-ref-num>
+                        <external-ref-code>140000</external-ref-code>
+                        <parent-id nil="true"/>
+                        <lookup-id type="integer">1</lookup-id>
+                        <depth type="integer">0</depth>
+                        <is-default type="boolean">false</is-default>
+                        <lookup>
+                            <id type="integer">1</id>
+                            <created-at type="dateTime">2013-05-03T07:25:09-07:00</created-at>
+                            <updated-at type="dateTime">2016-09-27T23:41:29-07:00</updated-at>
+                            <active type="boolean">true</active>
+                            <name>Common_GL_Acct</name>
+                            <description>Common to SAP and Oracle</description>
+                            <fixed-depth type="boolean">false</fixed-depth>
+                            <level-1-name/>
+                            <level-2-name/>
+                            <level-3-name/>
+                            <level-4-name/>
+                            <level-5-name/>
+                            <level-6-name/>
+                            <level-7-name/>
+                            <level-8-name/>
+                            <level-9-name/>
+                            <level-10-name/>
+                            <content-groups type="array">
+                                <content-group>
+                                    <id type="integer">1</id>
+                                    <created-at type="dateTime">2006-08-27T19:40:04-07:00</created-at>
+                                    <updated-at type="dateTime">2013-11-20T13:26:41-08:00</updated-at>
+                                    <name>Everyone</name>
+                                    <description>All users can see documents assigned to this group</description>
+                                    <updated-by>
+                                        <id type="integer">16</id>
+                                        <login>dleck</login>
+                                        <email>upgrade+dleck@coupa.com</email>
+                                        <employee-number/>
+                                        <firstname>Derrick</firstname>
+                                        <lastname>Leck</lastname>
+                                        <fullname>Derrick Leck</fullname>
+                                        <salesforce-id nil="true"/>
+                                        <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                                        <assignee/>
+                                    </updated-by>
+                                </content-group>
+                            </content-groups>
+                        </lookup>
+                    </common-gl-acct>
+                    <parent>
+                        <id type="integer">2</id>
+                        <created-at type="dateTime">2008-10-27T13:04:00-07:00</created-at>
+                        <updated-at type="dateTime">2016-10-05T16:50:34-07:00</updated-at>
+                        <active type="boolean">true</active>
+                        <name>IT</name>
+                        <deductibility nil="true"/>
+                        <category nil="true"/>
+                        <subcategory nil="true"/>
+                        <gl>Assets</gl>
+                        <common-gl-acct>
+                            <id type="integer">141</id>
+                            <created-at type="dateTime">2016-09-27T23:42:38-07:00</created-at>
+                            <updated-at type="dateTime">2016-09-30T15:22:26-07:00</updated-at>
+                            <active type="boolean">true</active>
+                            <name>Assets</name>
+                            <description>Assets</description>
+                            <external-ref-num>140000</external-ref-num>
+                            <external-ref-code>140000</external-ref-code>
+                            <parent-id nil="true"/>
+                            <lookup-id type="integer">1</lookup-id>
+                            <depth type="integer">0</depth>
+                            <is-default type="boolean">false</is-default>
+                            <lookup>
+                                <id type="integer">1</id>
+                                <created-at type="dateTime">2013-05-03T07:25:09-07:00</created-at>
+                                <updated-at type="dateTime">2016-09-27T23:41:29-07:00</updated-at>
+                                <active type="boolean">true</active>
+                                <name>Common_GL_Acct</name>
+                                <description>Common to SAP and Oracle</description>
+                                <fixed-depth type="boolean">false</fixed-depth>
+                                <level-1-name/>
+                                <level-2-name/>
+                                <level-3-name/>
+                                <level-4-name/>
+                                <level-5-name/>
+                                <level-6-name/>
+                                <level-7-name/>
+                                <level-8-name/>
+                                <level-9-name/>
+                                <level-10-name/>
+                                <content-groups type="array">
+                                    <content-group>
+                                        <id type="integer">1</id>
+                                        <created-at type="dateTime">2006-08-27T19:40:04-07:00</created-at>
+                                        <updated-at type="dateTime">2013-11-20T13:26:41-08:00</updated-at>
+                                        <name>Everyone</name>
+                                        <description>All users can see documents assigned to this group</description>
+                                        <updated-by>
+                                            <id type="integer">16</id>
+                                            <login>dleck</login>
+                                            <email>upgrade+dleck@coupa.com</email>
+                                            <employee-number/>
+                                            <firstname>Derrick</firstname>
+                                            <lastname>Leck</lastname>
+                                            <fullname>Derrick Leck</fullname>
+                                            <salesforce-id nil="true"/>
+                                            <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                                            <assignee/>
+                                        </updated-by>
+                                    </content-group>
+                                </content-groups>
+                            </lookup>
+                        </common-gl-acct>
+                        <created-by>
+                            <id type="integer">1</id>
+                            <login>coupasupport</login>
+                            <email>upgrade@coupa.com</email>
+                            <employee-number/>
+                            <firstname>Coupa</firstname>
+                            <lastname>Support</lastname>
+                            <fullname>Coupa Support</fullname>
+                            <salesforce-id nil="true"/>
+                            <avatar-thumb-url nil="true"/>
+                            <assignee/>
+                        </created-by>
+                        <updated-by>
+                            <id type="integer">326</id>
+                            <login>peter.difalco@coupa.com</login>
+                            <email>peter.difalco@coupa.com</email>
+                            <employee-number nil="true"/>
+                            <firstname>Peter</firstname>
+                            <lastname>DiFalco</lastname>
+                            <fullname>Peter DiFalco</fullname>
+                            <salesforce-id nil="true"/>
+                            <avatar-thumb-url nil="true"/>
+                            <assignee/>
+                        </updated-by>
+                    </parent>
+                    <created-by>
+                        <id type="integer">16</id>
+                        <login>dleck</login>
+                        <email>upgrade+dleck@coupa.com</email>
+                        <employee-number/>
+                        <firstname>Derrick</firstname>
+                        <lastname>Leck</lastname>
+                        <fullname>Derrick Leck</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                        <assignee/>
+                    </created-by>
+                    <updated-by>
+                        <id type="integer">326</id>
+                        <login>peter.difalco@coupa.com</login>
+                        <email>peter.difalco@coupa.com</email>
+                        <employee-number nil="true"/>
+                        <firstname>Peter</firstname>
+                        <lastname>DiFalco</lastname>
+                        <fullname>Peter DiFalco</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url nil="true"/>
+                        <assignee/>
+                    </updated-by>
+                </parent>
+                <created-by>
+                    <id type="integer">1</id>
+                    <login>coupasupport</login>
+                    <email>upgrade@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Coupa</firstname>
+                    <lastname>Support</lastname>
+                    <fullname>Coupa Support</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </created-by>
+                <updated-by>
+                    <id type="integer">326</id>
+                    <login>peter.difalco@coupa.com</login>
+                    <email>peter.difalco@coupa.com</email>
+                    <employee-number nil="true"/>
+                    <firstname>Peter</firstname>
+                    <lastname>DiFalco</lastname>
+                    <fullname>Peter DiFalco</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </updated-by>
+            </commodity>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </invoice-line>
+    </invoice-lines>
+    <approvals type="array">
+        <approval>
+            <id type="integer">52065</id>
+            <created-at type="dateTime">2020-06-29T12:28:36-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:36-07:00</updated-at>
+            <position type="integer">1</position>
+            <approval-chain-id type="integer">67</approval-chain-id>
+            <status>pending_approval</status>
+            <approval-date nil="true"/>
+            <note nil="true"/>
+            <type>ApprovalChainApproval</type>
+            <approvable-type>InvoiceHeader</approvable-type>
+            <approvable-id type="integer">2293</approvable-id>
+            <delegate-id nil="true"/>
+            <approver>
+                <id type="integer">18</id>
+                <created-at type="dateTime">2019-07-09T10:46:53-07:00</created-at>
+                <updated-at type="dateTime">2019-07-09T10:46:53-07:00</updated-at>
+                <type nil="true"/>
+                <name>Tax Specialist</name>
+                <active type="boolean">true</active>
+                <open type="boolean">false</open>
+                <can-approve type="boolean">true</can-approve>
+                <description/>
+                <mention-name>taxspecialist</mention-name>
+                <users type="array">
+                    <user>
+                        <id type="integer">452</id>
+                        <login>kjones</login>
+                        <email>riyaz.samnani+vertex@coupa.com</email>
+                        <employee-number/>
+                        <firstname>Kristin</firstname>
+                        <lastname>Jones</lastname>
+                        <fullname>Kristin Jones</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url nil="true"/>
+                        <assignee/>
+                    </user>
+                    <user>
+                        <id type="integer">4</id>
+                        <login>sjones</login>
+                        <email>upgrade+sjones@coupa.com</email>
+                        <employee-number/>
+                        <firstname>Sally (Director)</firstname>
+                        <lastname>Jones</lastname>
+                        <fullname>Sally (Director) Jones</fullname>
+                        <salesforce-id nil="true"/>
+                        <avatar-thumb-url>/users/4/avatar?style=thumb</avatar-thumb-url>
+                        <assignee>superuser US</assignee>
+                    </user>
+                </users>
+                <created-by>
+                    <id type="integer">452</id>
+                    <login>kjones</login>
+                    <email>riyaz.samnani+vertex@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Kristin</firstname>
+                    <lastname>Jones</lastname>
+                    <fullname>Kristin Jones</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </created-by>
+                <updated-by>
+                    <id type="integer">452</id>
+                    <login>kjones</login>
+                    <email>riyaz.samnani+vertex@coupa.com</email>
+                    <employee-number/>
+                    <firstname>Kristin</firstname>
+                    <lastname>Jones</lastname>
+                    <fullname>Kristin Jones</fullname>
+                    <salesforce-id nil="true"/>
+                    <avatar-thumb-url nil="true"/>
+                    <assignee/>
+                </updated-by>
+                <content-groups type="array">
+                    <content-group>
+                        <id type="integer">1</id>
+                        <created-at type="dateTime">2006-08-27T19:40:04-07:00</created-at>
+                        <updated-at type="dateTime">2013-11-20T13:26:41-08:00</updated-at>
+                        <name>Everyone</name>
+                        <description>All users can see documents assigned to this group</description>
+                        <updated-by>
+                            <id type="integer">16</id>
+                            <login>dleck</login>
+                            <email>upgrade+dleck@coupa.com</email>
+                            <employee-number/>
+                            <firstname>Derrick</firstname>
+                            <lastname>Leck</lastname>
+                            <fullname>Derrick Leck</fullname>
+                            <salesforce-id nil="true"/>
+                            <avatar-thumb-url>/users/16/avatar?style=thumb</avatar-thumb-url>
+                            <assignee/>
+                        </updated-by>
+                    </content-group>
+                </content-groups>
+            </approver>
+            <reasons type="array"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </approval>
+        <approval>
+            <id type="integer">52066</id>
+            <created-at type="dateTime">2020-06-29T12:28:36-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:36-07:00</updated-at>
+            <position type="integer">2</position>
+            <approval-chain-id type="integer">64</approval-chain-id>
+            <status>pending_approval</status>
+            <approval-date nil="true"/>
+            <note nil="true"/>
+            <type>ApprovalChainApproval</type>
+            <approvable-type>InvoiceHeader</approvable-type>
+            <approvable-id type="integer">2293</approvable-id>
+            <delegate-id nil="true"/>
+            <approver>
+                <id type="integer">10</id>
+                <login>amanning</login>
+                <email>upgrade+amanning@coupa.com</email>
+                <employee-number/>
+                <firstname>Anna (AP Director)</firstname>
+                <lastname>Manning</lastname>
+                <fullname>Anna (AP Director) Manning</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url>/users/10/avatar?style=thumb</avatar-thumb-url>
+                <assignee>AP Director, Invoice Approver</assignee>
+            </approver>
+            <reasons type="array"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </approval>
+    </approvals>
+    <created-by>
+        <id type="integer">452</id>
+        <login>kjones</login>
+        <email>riyaz.samnani+vertex@coupa.com</email>
+        <employee-number/>
+        <firstname>Kristin</firstname>
+        <lastname>Jones</lastname>
+        <fullname>Kristin Jones</fullname>
+        <salesforce-id nil="true"/>
+        <avatar-thumb-url nil="true"/>
+        <assignee/>
+    </created-by>
+    <updated-by>
+        <id type="integer">452</id>
+        <login>kjones</login>
+        <email>riyaz.samnani+vertex@coupa.com</email>
+        <employee-number/>
+        <firstname>Kristin</firstname>
+        <lastname>Jones</lastname>
+        <fullname>Kristin Jones</fullname>
+        <salesforce-id nil="true"/>
+        <avatar-thumb-url nil="true"/>
+        <assignee/>
+    </updated-by>
+    <tax-lines type="array">
+        <tax-line>
+            <id type="integer">1247</id>
+            <created-at type="dateTime">2020-06-29T12:28:21-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:35-07:00</updated-at>
+            <amount type="decimal">0.00</amount>
+            <rate type="float">0.0</rate>
+            <tax-code nil="true"/>
+            <code nil="true"/>
+            <description nil="true"/>
+            <taxable-amount nil="true"/>
+            <kind-of-factor nil="true"/>
+            <basis nil="true"/>
+            <nature-of-tax nil="true"/>
+            <type>TaxLine</type>
+            <base type="decimal">0.0</base>
+            <withholding-amount type="decimal">0.0</withholding-amount>
+            <supplier-rate nil="true"/>
+            <created-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </created-by>
+            <updated-by>
+                <id type="integer">452</id>
+                <login>kjones</login>
+                <email>riyaz.samnani+vertex@coupa.com</email>
+                <employee-number/>
+                <firstname>Kristin</firstname>
+                <lastname>Jones</lastname>
+                <fullname>Kristin Jones</fullname>
+                <salesforce-id nil="true"/>
+                <avatar-thumb-url nil="true"/>
+                <assignee/>
+            </updated-by>
+        </tax-line>
+    </tax-lines>
+    <withholding-tax-lines type="array"/>
+    <current-integration-history-records type="array"/>
+    <tags type="array"/>
+    <taggings type="array"/>
+    <failed-tolerances type="array">
+        <failed-tolerance>
+            <id type="integer">157</id>
+            <created-at type="dateTime">2020-06-29T12:28:35-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:35-07:00</updated-at>
+            <code>header_tae_pct_tolerance</code>
+            <failable-id type="integer">2293</failable-id>
+            <failable-type>InvoiceHeader</failable-type>
+            <account-type-id type="integer">2</account-type-id>
+            <resolved type="boolean">false</resolved>
+            <resolution-strategy nil="true"/>
+            <breach-amount nil="true"/>
+            <breach-limit>0.0%</breach-limit>
+            <breach-detail-1 nil="true"/>
+            <breach-detail-2 nil="true"/>
+            <breach-detail-3 nil="true"/>
+            <breach-detail-4 nil="true"/>
+        </failed-tolerance>
+        <failed-tolerance>
+            <id type="integer">158</id>
+            <created-at type="dateTime">2020-06-29T12:28:35-07:00</created-at>
+            <updated-at type="dateTime">2020-06-29T12:28:35-07:00</updated-at>
+            <code>header_tae_amt_tolerance</code>
+            <failable-id type="integer">2293</failable-id>
+            <failable-type>InvoiceHeader</failable-type>
+            <account-type-id type="integer">2</account-type-id>
+            <resolved type="boolean">false</resolved>
+            <resolution-strategy nil="true"/>
+            <breach-amount nil="true"/>
+            <breach-limit>0.00 USD</breach-limit>
+            <breach-detail-1 nil="true"/>
+            <breach-detail-2 nil="true"/>
+            <breach-detail-3 nil="true"/>
+            <breach-detail-4 nil="true"/>
+        </failed-tolerance>
+    </failed-tolerances>
+    <buyer-tax-registration>
+        <id type="integer">264</id>
+        <created-at type="dateTime">2018-02-27T10:06:34-08:00</created-at>
+        <updated-at type="dateTime">2018-02-28T12:07:22-08:00</updated-at>
+        <number/>
+        <owner-id type="integer">1183</owner-id>
+        <owner-type>Address</owner-type>
+        <active type="boolean">true</active>
+        <local type="boolean">true</local>
+        <country>
+            <id type="integer">223</id>
+            <code>US</code>
+            <name>United States</name>
+        </country>
+    </buyer-tax-registration>
+    <dispute-reasons type="array"/>
+</invoice-header>

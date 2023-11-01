@@ -1,0 +1,112 @@
+{
+  "id": "quote-1",
+  "currency_code": "AUD",
+  "customer": {
+	"customer_id": "1",
+	"customer_group_id": "1",
+	"taxability_code": ""
+  },
+  "transaction_date": "2018-09-15T15:53:00+00:00",
+  "documents": [
+	{
+	  "id": "document-1",
+	  "billing_address": {
+		"line1": "125 Pinetown Road",
+		"line2": "",
+		"city": "Audubon",
+		"region_name": "Pensylvania",
+		"region_code": "PA",
+		"country_name": "United States",
+		"country_code": "US",
+		"postal_code": "19403",
+		"type": "RESIDENTIAL"
+	  },
+	  "destination_address": {
+		"line1": "125 Pinetown Road",
+		"line2": "",
+		"city": "Audubon",
+		"region_name": "Pensylvania",
+		"region_code": "PA",
+		"country_name": "United States",
+		"country_code": "US",
+		"postal_code": "19403",
+		"type": "RESIDENTIAL"
+	  },
+	  "origin_address": {
+		"line1": "685 Market St",
+		"line2": "",
+		"city": "San Francisco",
+		"region_name": "California",
+		"region_code": "CA",
+		"country_name": "United States",
+		"country_code": "US",
+		"postal_code": "94105",
+		"company_name": "BigCommerce",
+		"type": "COMMERCIAL"
+	  },
+	  "shipping": {
+		"id": "shipping-1",
+		"item_code": "Shipping",
+		"name": "Shipping to PA US",
+		"price": {
+		  "amount": 10,
+		  "tax_inclusive": false
+		},
+		"quantity": 1,
+		"tax_class": {
+		  "class_id": "1",
+		  "code": "",
+		  "name": ""
+		},
+		"tax_exempt": false,
+		"type": "shipping",
+		"wrapping": null
+	  },
+	  "handling": {
+		"id": "handling-1",
+		"item_code": "Handling",
+		"name": "Handling for US",
+		"price": {
+		  "amount": 5,
+		  "tax_inclusive": false
+		},
+		"quantity": 1,
+		"tax_class": {
+		  "class_id": "2",
+		  "code": "",
+		  "name": ""
+		},
+		"tax_exempt": false,
+		"type": "handling",
+		"wrapping": null
+	  },
+	  "items": [
+		{
+		  "id": "item-1",
+		  "item_code": "ABC-123",
+		  "name": "Stylish Sunglasses",
+		  "price": {
+			"amount": 150.22,
+			"tax_inclusive": false
+		  },
+		  "quantity": 1,
+		  "tax_class": {
+			"class_id": "0",
+			"code": "",
+			"name": ""
+		  },
+		  "tax_exempt": false,
+		  "type": "item",
+		  "wrapping": {
+			"id": "wrapping-sunglass",
+			"item_code": "wrapping-sunglass",
+			"type": "wrapping",
+			"price": {
+			  "amount": 12.11
+			}
+		  }
+		}
+	  ]
+	}
+  ]
+}

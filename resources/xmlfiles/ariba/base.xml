@@ -1,0 +1,283 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:urn="urn:Ariba:Buyer:TaxAPI">
+	<soapenv:Header>
+		<urn:Headers>
+			<!--You may enter the following 2 items in any order-->
+			<!--Optional:-->
+			<urn:variant></urn:variant>
+			<!--Optional:-->
+			<urn:partition></urn:partition>
+		</urn:Headers>
+	</soapenv:Header>
+	<soapenv:Body>
+		<urn:TaxServiceExportRequest partition="" variant="">
+			<!--Optional:-->
+			<urn:ProcureLineItemCollection_TaxServiceAPIRequest_Item>
+				<!--Zero or more repetitions:-->
+				<urn:item>
+					<!--You may enter the following 11 items in any order-->
+					<!--Optional:-->
+					<urn:CompanyCode>
+						<!--Optional:-->
+						<urn:UniqueName></urn:UniqueName>
+					</urn:CompanyCode>
+					<urn:DocumentDate></urn:DocumentDate>
+					<!--Optional:-->
+					<urn:DocumentSubType></urn:DocumentSubType>
+					<!--Optional:-->
+					<urn:LineItems>
+						<!--Zero or more repetitions:-->
+						<urn:item>
+							<!--You may enter the following 23 items in any order-->
+							<!--Optional:-->
+							<urn:BillingAddress>
+								<!--Optional:-->
+								<urn:PostalAddress>
+									<!--You may enter the following 7 items in any order-->
+									<urn:City></urn:City>
+									<!--Optional:-->
+									<urn:Country>
+										<urn:UniqueName></urn:UniqueName>
+									</urn:Country>
+									<!--Optional:-->
+									<urn:Line1></urn:Line1>
+									<!--Optional:-->
+									<urn:Line2></urn:Line2>
+									<!--Optional:-->
+									<urn:Line3></urn:Line3>
+									<urn:PostalCode></urn:PostalCode>
+									<urn:State></urn:State>
+								</urn:PostalAddress>
+							</urn:BillingAddress>
+							<!--Optional:-->
+							<urn:BuyerTaxRegistrationNumber></urn:BuyerTaxRegistrationNumber>
+							<!--Optional:-->
+							<urn:ChargeDetail>
+								<!--You may enter the following 2 items in any order-->
+								<!--Optional:-->
+								<urn:ChargeAmount>
+									<!--You may enter the following 2 items in any order-->
+									<urn:Amount></urn:Amount>
+									<!--Optional:-->
+									<urn:Currency>
+										<!--Optional:-->
+										<urn:UniqueName></urn:UniqueName>
+									</urn:Currency>
+								</urn:ChargeAmount>
+								<!--Optional:-->
+								<urn:ChargeType>
+									<!--Optional:-->
+									<urn:UniqueName></urn:UniqueName>
+								</urn:ChargeType>
+							</urn:ChargeDetail>
+							<!--Optional:-->
+							<urn:CommodityCode>
+								<urn:UniqueName></urn:UniqueName>
+							</urn:CommodityCode>
+							<!--Optional:-->
+							<urn:Description>
+								<!--You may enter the following 2 items in any order-->
+								<!--Optional:-->
+								<urn:CommonCommodityCode>
+									<!--You may enter the following 2 items in any order-->
+									<urn:Domain></urn:Domain>
+									<urn:UniqueName></urn:UniqueName>
+								</urn:CommonCommodityCode>
+								<!--Optional:-->
+								<urn:UnitOfMeasure>
+									<!--Optional:-->
+									<urn:UniqueName></urn:UniqueName>
+								</urn:UnitOfMeasure>
+							</urn:Description>
+							<!--Optional:-->
+							<urn:IncoTermsCode>
+								<!--Optional:-->
+								<urn:UniqueName></urn:UniqueName>
+							</urn:IncoTermsCode>
+							<!--Optional:-->
+							<urn:IncoTermsDetail></urn:IncoTermsDetail>
+							<!--Optional:-->
+							<urn:LineType>
+								<!--You may enter the following 2 items in any order-->
+								<!--Optional:-->
+								<urn:Category></urn:Category>
+								<urn:UniqueName></urn:UniqueName>
+							</urn:LineType>
+							<!--Optional:-->
+							<urn:NetAmount>
+								<!--You may enter the following 2 items in any order-->
+								<urn:Amount></urn:Amount>
+								<!--Optional:-->
+								<urn:Currency>
+									<!--Optional:-->
+									<urn:UniqueName></urn:UniqueName>
+								</urn:Currency>
+							</urn:NetAmount>
+							<urn:NumberInCollection></urn:NumberInCollection>
+							<!--Optional:-->
+							<urn:OriginalSupplierAmount>
+								<!--You may enter the following 2 items in any order-->
+								<!--Optional:-->
+								<urn:Amount></urn:Amount>
+								<!--Optional:-->
+								<urn:Currency>
+									<!--Optional:-->
+									<urn:UniqueName></urn:UniqueName>
+								</urn:Currency>
+							</urn:OriginalSupplierAmount>
+							<!--Optional:-->
+							<urn:Parent>
+								<!--Optional:-->
+								<urn:NumberInCollection></urn:NumberInCollection>
+							</urn:Parent>
+							<urn:ParentLineNumber></urn:ParentLineNumber>
+							<urn:Quantity></urn:Quantity>
+							<!--Optional:-->
+							<urn:SAPPlant>
+								<!--Optional:-->
+								<urn:UniqueName></urn:UniqueName>
+							</urn:SAPPlant>
+							<!--Optional:-->
+							<urn:SellerTaxRegistrationNumber></urn:SellerTaxRegistrationNumber>
+							<!--Optional:-->
+							<urn:ShipFromAddress>
+								<!--Optional:-->
+								<urn:PostalAddress>
+									<!--You may enter the following 7 items in any order-->
+									<!--Optional:-->
+									<urn:City></urn:City>
+									<!--Optional:-->
+									<urn:Country>
+										<!--Optional:-->
+										<urn:UniqueName></urn:UniqueName>
+									</urn:Country>
+									<!--Optional:-->
+									<urn:Line1></urn:Line1>
+									<!--Optional:-->
+									<urn:Line2></urn:Line2>
+									<!--Optional:-->
+									<urn:Line3></urn:Line3>
+									<!--Optional:-->
+									<urn:PostalCode></urn:PostalCode>
+									<!--Optional:-->
+									<urn:State></urn:State>
+								</urn:PostalAddress>
+							</urn:ShipFromAddress>
+							<!--Optional:-->
+							<urn:ShipTo>
+								<!--Optional:-->
+								<urn:PostalAddress>
+									<!--You may enter the following 7 items in any order-->
+									<urn:City></urn:City>
+									<!--Optional:-->
+									<urn:Country>
+										<urn:UniqueName></urn:UniqueName>
+									</urn:Country>
+									<!--Optional:-->
+									<urn:Line1></urn:Line1>
+									<!--Optional:-->
+									<urn:Line2></urn:Line2>
+									<!--Optional:-->
+									<urn:Line3></urn:Line3>
+									<urn:PostalCode></urn:PostalCode>
+									<urn:State></urn:State>
+								</urn:PostalAddress>
+							</urn:ShipTo>
+							<!--Optional:-->
+							<urn:SupplierID></urn:SupplierID>
+							<!--Optional:-->
+							<urn:SupplierLocation>
+								<!--Optional:-->
+								<urn:PostalAddress>
+									<!--You may enter the following 7 items in any order-->
+									<urn:City></urn:City>
+									<!--Optional:-->
+									<urn:Country>
+										<urn:UniqueName></urn:UniqueName>
+									</urn:Country>
+									<!--Optional:-->
+									<urn:Line1></urn:Line1>
+									<!--Optional:-->
+									<urn:Line2></urn:Line2>
+									<!--Optional:-->
+									<urn:Line3></urn:Line3>
+									<urn:PostalCode></urn:PostalCode>
+									<urn:State></urn:State>
+								</urn:PostalAddress>
+							</urn:SupplierLocation>
+							<urn:TaxExclusion></urn:TaxExclusion>
+							<!--Optional:-->
+							<urn:Taxes>
+								<!--Zero or more repetitions:-->
+								<urn:item>
+									<!--You may enter the following 3 items in any order-->
+									<!--Optional:-->
+									<urn:FinalAmount>
+										<!--You may enter the following 2 items in any order-->
+										<urn:Amount></urn:Amount>
+										<!--Optional:-->
+										<urn:Currency>
+											<urn:UniqueName></urn:UniqueName>
+										</urn:Currency>
+									</urn:FinalAmount>
+									<!--Optional:-->
+									<urn:OriginalSupplierAmount>
+										<!--You may enter the following 2 items in any order-->
+										<urn:Amount></urn:Amount>
+										<!--Optional:-->
+										<urn:Currency>
+											<urn:UniqueName></urn:UniqueName>
+										</urn:Currency>
+									</urn:OriginalSupplierAmount>
+									<!--Optional:-->
+									<urn:TaxType>
+										<urn:UniqueName></urn:UniqueName>
+									</urn:TaxType>
+								</urn:item>
+							</urn:Taxes>
+							<!--Optional:-->
+							<urn:custom>
+								<!--Zero or more repetitions:-->
+								<urn:CustomBoolean name=""></urn:CustomBoolean>
+							</urn:custom>
+						</urn:item>
+					</urn:LineItems>
+					<urn:OrganizationName></urn:OrganizationName>
+					<urn:OrganizationUnit></urn:OrganizationUnit>
+					<!--Optional:-->
+					<urn:RelatedDocument></urn:RelatedDocument>
+					<!--Optional:-->
+					<urn:RequestType></urn:RequestType>
+					<urn:Type></urn:Type>
+					<urn:UniqueName></urn:UniqueName>
+					<!--Optional:-->
+					<urn:custom>
+						<!--Zero or more repetitions:-->
+						<urn:CustomBoolean name=""></urn:CustomBoolean>
+						<!--Zero or more repetitions:-->
+						<urn:CustomInteger name=""></urn:CustomInteger>
+						<!--Zero or more repetitions:-->
+						<urn:CustomMoney name="">
+							<!--You may enter the following 5 items in any order-->
+							<!--Optional:-->
+							<urn:Amount></urn:Amount>
+							<!--Optional:-->
+							<urn:AmountInReportingCurrency></urn:AmountInReportingCurrency>
+							<!--Optional:-->
+							<urn:ApproxAmountInBaseCurrency></urn:ApproxAmountInBaseCurrency>
+							<!--Optional:-->
+							<urn:ConversionDate></urn:ConversionDate>
+							<!--Optional:-->
+							<urn:Currency>
+								<!--Optional:-->
+								<urn:UniqueName></urn:UniqueName>
+							</urn:Currency>
+						</urn:CustomMoney>
+						<!--Zero or more repetitions:-->
+						<urn:CustomString name=""></urn:CustomString>
+					</urn:custom>
+				</urn:item>
+			</urn:ProcureLineItemCollection_TaxServiceAPIRequest_Item>
+		</urn:TaxServiceExportRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

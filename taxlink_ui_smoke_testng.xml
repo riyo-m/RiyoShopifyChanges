@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TaxLink_UI_Smoke">
+	<test verbose="2" preserve-order="true"
+		  name="C:/connector-quality-java/ConnectorQuality/src/com/vertex/quality/connectors/taxlink">
+		<groups>
+			<run>
+				<include name="taxlink_ui_smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkHomeTests">
+				<methods>
+					<include name="verifyHomePageTitleTest"/>
+					<include name="verifyUserRoleAssignedTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkOnboardingDashboardTests">
+				<methods>
+					<include name="addAndVerifyInstanceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkBusinessUnitTests">
+				<methods>
+					<include name="addAndVerifyBusinessUnitTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkLegalEntityTests">
+				<methods>
+					<include name="verifyAddLegalEntityTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPInvoiceSourceTests">
+				<methods>
+					<include name="verifyAddAPInvoiceSourceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkArTransactionTypeTests">
+				<methods>
+					<include name="addAndVerifyArTransactionTypeTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkArTransactionSourceTests">
+				<methods>
+					<include name="addAndVerifyArTransactionSourceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkSupplierTypeTests">
+				<methods>
+					<include name="verifyAddSupplierTypeTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkOfflineBIPExtractJobsTests">
+				<methods>
+					<include name="verifyEnableBIPsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkRealTimeBIPTests">
+				<methods>
+					<include name="verifyEnableRealTimeBIPsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkUserProfileOptionsTests">
+				<methods>
+					<include name="verifyAddEditProfileOptionsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkPreCalcRulesMappingTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionPreRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkPostCalcRulesMappingTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionPostRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkConditionSetsTests">
+				<methods>
+					<include name="addAndVerifyConditionSetsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkDefaultMappingTests">
+				<methods>
+					<include name="viewDefaultMappingTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkInvPreCalcRulesMappingTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionInvPreCalcRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkJournalOutputFileTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionJournalRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkProjectOutputFileTests">
+				<methods>
+					<include name="addAndVerifyMapFunctionProjectRuleTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkInvConditionSetsTests">
+				<methods>
+					<include name="addAndVerifyInvConditionSetsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkSuppliesTests">
+				<methods>
+					<include name="addAndVerifyArTaxCalculationExclusionsTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPScanInvSrcTests">
+				<methods>
+					<include name="addAPScanInvSrcTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPAssumeTaxSrcTests">
+				<methods>
+					<include name="addAPAssumeTaxSrcTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPTaxActOverrideTests">
+				<methods>
+					<include name="addAPTaxActOverrideTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPTaxActRangesTests">
+				<methods>
+					<include name="addAPTaxActRangesTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkAPTaxCalcExclTests">
+				<methods>
+					<include name="addAPTaxCalcExclTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkPoTaxCalcExclTests">
+				<methods>
+					<include name="addAndVerifyPoTaxCalcExclTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkLookupsTests">
+				<methods>
+					<include name="verifyNumberOfRecordsInLookupTableTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkUsersTests">
+				<methods>
+					<include name="viewUsersTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkRolesTests">
+				<methods>
+					<include name="viewRolesTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkGenerateNewPasswordTests">
+				<methods>
+					<include name="verifyGenerateNewPasswordTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui_e2e.tests.TaxLinkOnboardingDashboardTests">
+				<methods>
+					<include name="addAndVerifyCloudAtCustInstanceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkCloneInstanceTests">
+				<methods>
+					<include name="cloneInstanceTest"/>
+				</methods>
+			</class>
+			<class name="com.vertex.quality.connectors.taxlink.ui.tests.TaxLinkCleanUpInstanceTests">
+				<methods>
+					<include name="verifyAllInstancesInSummaryOfCleanUpTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

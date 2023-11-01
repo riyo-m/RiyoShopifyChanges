@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice-header>
+	<id type="integer">770</id>
+	<created-at type="dateTime">2022-01-11T10:15:18-05:00</created-at>
+	<updated-at type="dateTime">2022-01-11T10:38:18-05:00</updated-at>
+	<comments nil="true"/>
+	<compliant type="boolean">false</compliant>
+	<handling-amount type="decimal">0.0</handling-amount>
+	<internal-note nil="true"/>
+	<invoice-date type="dateTime">2022-01-11T00:00:00-05:00</invoice-date>
+	<delivery-number nil="true"/>
+	<delivery-date type="dateTime">2022-01-11T00:00:00-05:00</delivery-date>
+	<invoice-number>PVH-XYZ-456</invoice-number>
+	<line-level-taxation type="boolean">false</line-level-taxation>
+	<misc-amount type="decimal">0.0</misc-amount>
+	<shipping-amount type="decimal">0.0</shipping-amount>
+	<status>draft</status>
+	<total-with-taxes type="decimal">20100.01</total-with-taxes>
+	<gross-total type="decimal">20100.01</gross-total>
+	<supplier-total type="decimal">20100.01</supplier-total>
+	<supplier-note></supplier-note>
+	<discount-due-date nil="true"/>
+	<net-due-date type="dateTime">2022-02-10T23:59:59-05:00</net-due-date>
+	<discount-amount nil="true"/>
+	<tax-code nil="true"/>
+	<tax-rate nil="true"/>
+	<tax-amount type="decimal">100.00</tax-amount>
+	<tolerance-failures>po_missing header_tae_pct_tolerance header_tae_amt_tolerance</tolerance-failures>
+	<paid type="boolean">false</paid>
+	<payment-date nil="true"/>
+	<payment-notes nil="true"/>
+	<exported type="boolean">false</exported>
+	<canceled type="boolean">false</canceled>
+	<tax-amount-engine type="decimal">1225.0</tax-amount-engine>
+	<tax-code-engine nil="true"/>
+	<tax-rate-engine type="decimal">6.12</tax-rate-engine>
+	<last-exported-at nil="true"/>
+	<image-scan nil="true"/>
+	<image-scan-url></image-scan-url>
+	<supplier-created type="boolean">false</supplier-created>
+	<early-payment-provisions nil="true"/>
+	<margin-scheme nil="true"/>
+	<cash-accounting-scheme-reference nil="true"/>
+	<exchange-rate nil="true"/>
+	<late-payment-penalties nil="true"/>
+	<credit-reason nil="true"/>
+	<origin-currency-net type="decimal">0.00</origin-currency-net>
+	<taxes-in-origin-country-currency type="decimal">0.00</taxes-in-origin-country-currency>
+	<origin-currency-gross type="decimal">0.00</origin-currency-gross>
+	<pre-payment-date nil="true"/>
+	<self-billing-reference nil="true"/>
+	<reverse-charge-reference nil="true"/>
+	<discount-percent nil="true"/>
+	<credit-note-differences-with-original-invoice nil="true"/>
+	<original-value-of-supply nil="true"/>
+	<correct-value-of-supply nil="true"/>
+	<customs-declaration-number nil="true"/>
+	<customs-office nil="true"/>
+	<customs-declaration-date nil="true"/>
+	<payment-order-reference nil="true"/>
+	<payment-order-number nil="true"/>
+	<advance-payment-received-amount nil="true"/>
+	<lock-version-key type="integer">15</lock-version-key>
+	<series nil="true"/>
+	<folio-number nil="true"/>
+	<use-of-invoice nil="true"/>
+	<form-of-payment nil="true"/>
+	<type-of-receipt nil="true"/>
+	<payment-method nil="true"/>
+	<issuance-place nil="true"/>
+	<confirmation nil="true"/>
+	<original-invoice-date nil="true"/>
+	<withholding-tax-override nil="true"/>
+	<clearance-document nil="true"/>
+	<coupa-accelerate-status nil="true"/>
+	<type-of-relationship nil="true"/>
+	<invoice-reference-number nil="true"/>
+	<dispute-method nil="true"/>
+	<date-received nil="true"/>
+	<sender-email nil="true"/>
+	<inbox-name nil="true"/>
+	<amount-due type="decimal">20100.01</amount-due>
+	<tax-due-to-supplier type="decimal">100.00</tax-due-to-supplier>
+	<customer-accounting-tax type="decimal">0.00</customer-accounting-tax>
+	<payment-channel>coupapay_invoice_payment</payment-channel>
+	<show-tax-information type="boolean">true</show-tax-information>
+	<document-type>Invoice</document-type>
+	<original-invoice-number nil="true"/>
+	<date-of-discovery-of-facts-decisive-for-correction nil="true"/>
+	<place-of-supply nil="true"/>
+	<split-payment-mechanism type="boolean">false</split-payment-mechanism>
+	<gross-total-less-discount type="decimal">0.00</gross-total-less-discount>
+	<net-total-less-discount type="decimal">0.00</net-total-less-discount>
+	<total-taxes-less-discount type="decimal">0.00</total-taxes-less-discount>
+	<customer-accounting-tax-less-discount type="decimal">0.00</customer-accounting-tax-less-discount>
+	<amount-due-less-discount type="decimal">0.00</amount-due-less-discount>
+	<endorsement-on-invoices nil="true"/>
+	<new-means-of-transport nil="true"/>
+	<place-of-issuance nil="true"/>
+	<amount-of-advance-payment nil="true"/>
+	<transaction-uuid nil="true"/>
+	<transaction-notification-date nil="true"/>
+	<content-validation type="boolean">false</content-validation>
+	<supplier-invoice-issuer-name nil="true"/>
+	<supplier-invoice-reviewer-name nil="true"/>
+	<supplier-payment-collector-name nil="true"/>
+	<signed-qr-code nil="true"/>
+	<archive-entity-id nil="true"/>
+	<invoice-issuance-time nil="true"/>
+	<cash-register-operator nil="true"/>
+	<means-of-payment nil="true"/>
+	<unique-identification-code-of-cash-receipt nil="true"/>
+	<security-code-of-issuer nil="true"/>
+	<state-tax-number nil="true"/>
+	<state-tax-number-for-substitute-taxpayer nil="true"/>
+	<municipal-tax-number nil="true"/>
+	<serial-code-of-fiscal-invoice nil="true"/>
+	<verification-code nil="true"/>
+	<type-of-document nil="true"/>
+	<protocol-number nil="true"/>
+	<nature-of-operation nil="true"/>
+	<type-of-operation nil="true"/>
+	<freight-type nil="true"/>
+	<vehicle-license-plate nil="true"/>
+	<national-enrollment-of-conveyor nil="true"/>
+	<volume-amount nil="true"/>
+	<volume-gross-weight nil="true"/>
+	<volume-liquid-weight nil="true"/>
+	<volume-brand nil="true"/>
+	<volume-type nil="true"/>
+	<volume-numbering nil="true"/>
+	<image-scan-content-type nil="true"/>
+	<image-scan-file-name nil="true"/>
+	<image-scan-file-size type="integer">0</image-scan-file-size>
+	<is-credit-note type="boolean">false</is-credit-note>
+	<channel>enterprise</channel>
+	<currency-id type="integer">1</currency-id>
+	<line-count type="integer">1</line-count>
+	<custom-fields>
+		<expense-purpose>
+			<id type="integer">4115</id>
+			<created-at type="dateTime">2021-11-01T21:53:18-04:00</created-at>
+			<updated-at type="dateTime">2021-11-11T11:14:08-05:00</updated-at>
+			<active type="boolean">true</active>
+			<name>Internal/Administration</name>
+			<description></description>
+			<external-ref-num>60</external-ref-num>
+			<external-ref-code>60</external-ref-code>
+			<parent-id nil="true"/>
+			<lookup-id type="integer">14</lookup-id>
+			<depth type="integer">0</depth>
+			<is-default type="boolean">true</is-default>
+			<custom-fields>
+				<test-inv-user-field></test-inv-user-field>
+				<region-approver></region-approver>
+			</custom-fields>
+			<lookup>
+				<id type="integer">14</id>
+				<created-at type="dateTime">2021-10-28T13:30:06-04:00</created-at>
+				<updated-at type="dateTime">2021-12-10T11:32:30-05:00</updated-at>
+				<active type="boolean">true</active>
+				<name>Expense Purpose</name>
+				<description>Business Purpose</description>
+				<fixed-depth type="boolean">false</fixed-depth>
+				<level-1-name></level-1-name>
+				<level-2-name></level-2-name>
+				<level-3-name></level-3-name>
+				<level-4-name></level-4-name>
+				<level-5-name></level-5-name>
+				<level-6-name></level-6-name>
+				<level-7-name></level-7-name>
+				<level-8-name></level-8-name>
+				<level-9-name></level-9-name>
+				<level-10-name></level-10-name>
+				<content-groups type="array">
+					<content-group>
+						<id type="integer">1</id>
+						<created-at type="dateTime">2006-08-27T22:40:04-04:00</created-at>
+						<updated-at type="dateTime">2007-05-24T08:53:00-04:00</updated-at>
+						<name>Everyone</name>
+						<description>All users can see documents assigned to this group</description>
+						<updated-by>
+							<id type="integer">1</id>
+							<login>coupasupport</login>
+							<email>coupasupport@coupa.com</email>
+							<employee-number nil="true"/>
+							<firstname>Coupa</firstname>
+							<lastname>Support</lastname>
+							<fullname>Coupa Support</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company></default-company>
+								<default-cost-center></default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</updated-by>
+					</content-group>
+				</content-groups>
+			</lookup>
+		</expense-purpose>
+		<test-inv-user-field></test-inv-user-field>
+		<payment-reference></payment-reference>
+		<default-bu></default-bu>
+		<gartner-invoice-type></gartner-invoice-type>
+		<prepayment-flag type="boolean">false</prepayment-flag>
+		<deposit type="boolean">false</deposit>
+		<external-system></external-system>
+		<foreign-source type="boolean">false</foreign-source>
+	</custom-fields>
+	<payments type="array"/>
+	<account-type>
+		<id type="integer">1</id>
+		<created-at type="dateTime">2019-04-07T16:54:54-04:00</created-at>
+		<updated-at type="dateTime">2021-12-17T13:43:46-05:00</updated-at>
+		<name>Gartner US</name>
+		<active type="boolean">true</active>
+		<legal-entity-name></legal-entity-name>
+		<dynamic-flag type="boolean">true</dynamic-flag>
+		<currency>
+			<id type="integer">1</id>
+			<code>USD</code>
+			<decimals type="integer">2</decimals>
+		</currency>
+		<primary-contact>
+			<id type="integer">5</id>
+			<created-at type="dateTime">2021-08-28T23:41:54-04:00</created-at>
+			<updated-at type="dateTime">2021-12-17T13:43:46-05:00</updated-at>
+			<email></email>
+			<name-prefix nil="true"/>
+			<name-suffix nil="true"/>
+			<name-additional nil="true"/>
+			<name-given></name-given>
+			<name-family></name-family>
+			<name-fullname nil="true"/>
+			<notes nil="true"/>
+			<active type="boolean">true</active>
+			<purposes type="array"/>
+			<created-by>
+				<id type="integer">61</id>
+				<login>coupa-admin@acquisconsulting.com</login>
+				<email>coupa-admin@acquisconsulting.com</email>
+				<employee-number></employee-number>
+				<firstname>Acquis</firstname>
+				<lastname>Admin</lastname>
+				<fullname>Acquis Admin</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company>001</default-company>
+					<default-cost-center>1302</default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">50</id>
+				<login>emily.sibert@gartner.com</login>
+				<email>emily.sibert@gartner.com</email>
+				<employee-number>28423</employee-number>
+				<firstname>Emily</firstname>
+				<lastname>Sibert-Amoris</lastname>
+				<fullname>Emily Sibert-Amoris</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company>001</default-company>
+					<default-cost-center>0766</default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</primary-contact>
+		<primary-address>
+			<id type="integer">794</id>
+			<created-at type="dateTime">2021-08-28T23:41:54-04:00</created-at>
+			<updated-at type="dateTime">2021-11-11T10:52:20-05:00</updated-at>
+			<name></name>
+			<location-code nil="true"/>
+			<street1>13200 Paul J Doherty Parkway</street1>
+			<street2></street2>
+			<city>Fort Myers</city>
+			<state>FL</state>
+			<postal-code>33913</postal-code>
+			<attention nil="true"/>
+			<active type="boolean">true</active>
+			<business-group-name nil="true"/>
+			<vat-number></vat-number>
+			<local-tax-number nil="true"/>
+			<type nil="true"/>
+			<custom-fields>
+				<default-currency></default-currency>
+				<site-tax-code></site-tax-code>
+			</custom-fields>
+			<country>
+				<id type="integer">223</id>
+				<code>US</code>
+				<name>United States</name>
+			</country>
+			<vat-country>
+				<id type="integer">223</id>
+				<code>US</code>
+				<name>United States</name>
+			</vat-country>
+		</primary-address>
+		<created-by>
+			<id type="integer">7</id>
+			<login>sonali.thakur@coupa.com</login>
+			<email>sonali.thakur@coupa.com</email>
+			<employee-number nil="true"/>
+			<firstname>Sonali</firstname>
+			<lastname>Thakur</lastname>
+			<fullname>Sonali Thakur</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company></default-company>
+				<default-cost-center></default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</created-by>
+		<updated-by>
+			<id type="integer">50</id>
+			<login>emily.sibert@gartner.com</login>
+			<email>emily.sibert@gartner.com</email>
+			<employee-number>28423</employee-number>
+			<firstname>Emily</firstname>
+			<lastname>Sibert-Amoris</lastname>
+			<fullname>Emily Sibert-Amoris</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>0766</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</updated-by>
+	</account-type>
+	<currency>
+		<id type="integer">1</id>
+		<code>USD</code>
+		<decimals type="integer">2</decimals>
+	</currency>
+	<payment-term>
+		<id type="integer">11</id>
+		<created-at type="dateTime">2021-09-02T19:44:47-04:00</created-at>
+		<updated-at type="dateTime">2021-09-08T15:43:18-04:00</updated-at>
+		<code>NET 30</code>
+		<description>30 days from invoice date</description>
+		<days-for-net-payment type="integer">30</days-for-net-payment>
+		<days-for-discount-payment nil="true"/>
+		<discount-rate nil="true"/>
+		<active type="boolean">true</active>
+		<type>DaysAfterNetPaymentTerm</type>
+		<net-cutoff-day nil="true"/>
+		<net-due-month nil="true"/>
+		<net-due-day nil="true"/>
+		<discount-cutoff-day nil="true"/>
+		<discount-due-month nil="true"/>
+		<discount-due-day nil="true"/>
+		<content-groups type="array">
+			<content-group>
+				<id type="integer">1</id>
+				<created-at type="dateTime">2006-08-27T22:40:04-04:00</created-at>
+				<updated-at type="dateTime">2007-05-24T08:53:00-04:00</updated-at>
+				<name>Everyone</name>
+				<description>All users can see documents assigned to this group</description>
+				<updated-by>
+					<id type="integer">1</id>
+					<login>coupasupport</login>
+					<email>coupasupport@coupa.com</email>
+					<employee-number nil="true"/>
+					<firstname>Coupa</firstname>
+					<lastname>Support</lastname>
+					<fullname>Coupa Support</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company></default-company>
+						<default-cost-center></default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</updated-by>
+			</content-group>
+		</content-groups>
+		<created-by>
+			<id type="integer">61</id>
+			<login>coupa-admin@acquisconsulting.com</login>
+			<email>coupa-admin@acquisconsulting.com</email>
+			<employee-number></employee-number>
+			<firstname>Acquis</firstname>
+			<lastname>Admin</lastname>
+			<fullname>Acquis Admin</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>1302</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</created-by>
+		<updated-by>
+			<id type="integer">61</id>
+			<login>coupa-admin@acquisconsulting.com</login>
+			<email>coupa-admin@acquisconsulting.com</email>
+			<employee-number></employee-number>
+			<firstname>Acquis</firstname>
+			<lastname>Admin</lastname>
+			<fullname>Acquis Admin</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>1302</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</updated-by>
+	</payment-term>
+	<remit-to-address>
+		<id type="integer">369</id>
+		<created-at type="dateTime">2021-10-14T20:16:35-04:00</created-at>
+		<updated-at type="dateTime">2021-12-20T09:07:26-05:00</updated-at>
+		<remit-to-code>001:PITT-15264-A</remit-to-code>
+		<name>PITTSBURGH</name>
+		<street1>PO BOX 640382</street1>
+		<street2>PITTSBG NTNL BNK - PITT 640382</street2>
+		<city>PITTSBURGH</city>
+		<state>PA</state>
+		<postal-code>15264-0382</postal-code>
+		<active type="boolean">true</active>
+		<vat-number>34-6565596</vat-number>
+		<local-tax-number nil="true"/>
+		<external-src-ref nil="true"/>
+		<external-src-name nil="true"/>
+		<custom-fields>
+			<default-currency>
+				<id type="integer">27561</id>
+				<created-at type="dateTime">2021-11-17T16:14:24-05:00</created-at>
+				<updated-at type="dateTime">2021-11-17T16:14:24-05:00</updated-at>
+				<active type="boolean">true</active>
+				<name>USD</name>
+				<description></description>
+				<external-ref-num nil="true"/>
+				<external-ref-code>USD</external-ref-code>
+				<parent-id nil="true"/>
+				<lookup-id type="integer">21</lookup-id>
+				<depth type="integer">0</depth>
+				<is-default type="boolean">false</is-default>
+				<custom-fields>
+					<test-inv-user-field></test-inv-user-field>
+					<region-approver></region-approver>
+				</custom-fields>
+				<lookup>
+					<id type="integer">21</id>
+					<created-at type="dateTime">2021-11-17T16:11:28-05:00</created-at>
+					<updated-at type="dateTime">2021-11-17T16:11:28-05:00</updated-at>
+					<active type="boolean">true</active>
+					<name>Supplier Currency</name>
+					<description>Used to compare transaction currency to the supplier currency</description>
+					<fixed-depth type="boolean">false</fixed-depth>
+					<level-1-name></level-1-name>
+					<level-2-name></level-2-name>
+					<level-3-name></level-3-name>
+					<level-4-name></level-4-name>
+					<level-5-name></level-5-name>
+					<level-6-name></level-6-name>
+					<level-7-name></level-7-name>
+					<level-8-name></level-8-name>
+					<level-9-name></level-9-name>
+					<level-10-name></level-10-name>
+					<content-groups type="array">
+						<content-group>
+							<id type="integer">1</id>
+							<created-at type="dateTime">2006-08-27T22:40:04-04:00</created-at>
+							<updated-at type="dateTime">2007-05-24T08:53:00-04:00</updated-at>
+							<name>Everyone</name>
+							<description>All users can see documents assigned to this group</description>
+							<updated-by>
+								<id type="integer">1</id>
+								<login>coupasupport</login>
+								<email>coupasupport@coupa.com</email>
+								<employee-number nil="true"/>
+								<firstname>Coupa</firstname>
+								<lastname>Support</lastname>
+								<fullname>Coupa Support</fullname>
+								<salesforce-id nil="true"/>
+								<avatar-thumb-url nil="true"/>
+								<custom-fields>
+									<default-company></default-company>
+									<default-cost-center></default-cost-center>
+									<default-geography></default-geography>
+									<default-intercompany></default-intercompany>
+									<default-bu></default-bu>
+								</custom-fields>
+							</updated-by>
+						</content-group>
+					</content-groups>
+				</lookup>
+			</default-currency>
+			<site-tax-code></site-tax-code>
+		</custom-fields>
+		<country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</country>
+		<vat-country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</vat-country>
+	</remit-to-address>
+	<ship-to-address>
+		<id type="integer">202</id>
+		<created-at type="dateTime">2021-08-28T22:55:54-04:00</created-at>
+		<updated-at type="dateTime">2022-01-05T12:22:06-05:00</updated-at>
+		<name>Fort Myers - Building 1</name>
+		<location-code>Fort Myers - Building 1</location-code>
+		<street1>12651 Gateway Blvd </street1>
+		<street2 nil="true"/>
+		<city>Fort Myers</city>
+		<state>FL</state>
+		<postal-code>33913</postal-code>
+		<attention nil="true"/>
+		<active type="boolean">true</active>
+		<business-group-name>Everyone</business-group-name>
+		<vat-number nil="true"/>
+		<local-tax-number nil="true"/>
+		<type nil="true"/>
+		<custom-fields>
+			<default-currency></default-currency>
+			<site-tax-code></site-tax-code>
+		</custom-fields>
+		<country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</country>
+	</ship-to-address>
+	<bill-to-address>
+		<id type="integer">794</id>
+		<created-at type="dateTime">2021-08-28T23:41:54-04:00</created-at>
+		<updated-at type="dateTime">2021-11-11T10:52:20-05:00</updated-at>
+		<name></name>
+		<location-code nil="true"/>
+		<street1>13200 Paul J Doherty Parkway</street1>
+		<street2></street2>
+		<city>Fort Myers</city>
+		<state>FL</state>
+		<postal-code>33913</postal-code>
+		<attention nil="true"/>
+		<active type="boolean">true</active>
+		<business-group-name nil="true"/>
+		<vat-number></vat-number>
+		<local-tax-number nil="true"/>
+		<type nil="true"/>
+		<custom-fields>
+			<default-currency></default-currency>
+			<site-tax-code></site-tax-code>
+		</custom-fields>
+		<country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</country>
+		<vat-country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</vat-country>
+	</bill-to-address>
+	<supplier>
+		<id type="integer">19</id>
+		<name>ERNST AND YOUNG  LLP</name>
+		<display-name>ERNST AND YOUNG  LLP</display-name>
+		<number>2165</number>
+		<custom-fields>
+			<failed-risk-review type="boolean">false</failed-risk-review>
+			<foreign-source type="boolean">false</foreign-source>
+		</custom-fields>
+		<primary-contact>
+			<id type="integer">24</id>
+			<created-at type="dateTime">2021-10-14T20:05:03-04:00</created-at>
+			<updated-at type="dateTime">2021-10-14T20:11:57-04:00</updated-at>
+			<email>Tia.mitchelle@cscglobal.com</email>
+			<name-prefix nil="true"/>
+			<name-suffix nil="true"/>
+			<name-additional nil="true"/>
+			<name-given>Tia</name-given>
+			<name-family>Mitchelle</name-family>
+			<name-fullname nil="true"/>
+			<notes nil="true"/>
+			<active type="boolean">true</active>
+			<purposes type="array"/>
+			<created-by>
+				<id type="integer">61</id>
+				<login>coupa-admin@acquisconsulting.com</login>
+				<email>coupa-admin@acquisconsulting.com</email>
+				<employee-number></employee-number>
+				<firstname>Acquis</firstname>
+				<lastname>Admin</lastname>
+				<fullname>Acquis Admin</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company>001</default-company>
+					<default-cost-center>1302</default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">61</id>
+				<login>coupa-admin@acquisconsulting.com</login>
+				<email>coupa-admin@acquisconsulting.com</email>
+				<employee-number></employee-number>
+				<firstname>Acquis</firstname>
+				<lastname>Admin</lastname>
+				<fullname>Acquis Admin</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company>001</default-company>
+					<default-cost-center>1302</default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</primary-contact>
+		<primary-address>
+			<id type="integer">366</id>
+			<created-at type="dateTime">2021-10-14T20:05:03-04:00</created-at>
+			<updated-at type="dateTime">2021-11-05T18:54:41-04:00</updated-at>
+			<name>ERNST AND YOUNG  LLP</name>
+			<location-code nil="true"/>
+			<street1>200 PLAZA DRIVE</street1>
+			<street2>SUITE 2222</street2>
+			<city>SECAUCUS</city>
+			<state>NJ</state>
+			<postal-code>07094</postal-code>
+			<attention nil="true"/>
+			<active type="boolean">true</active>
+			<business-group-name nil="true"/>
+			<vat-number>34-6565596</vat-number>
+			<local-tax-number nil="true"/>
+			<type>SupplierAddress</type>
+			<custom-fields>
+				<default-currency></default-currency>
+				<site-tax-code></site-tax-code>
+			</custom-fields>
+			<country>
+				<id type="integer">223</id>
+				<code>US</code>
+				<name>United States</name>
+			</country>
+			<vat-country>
+				<id type="integer">223</id>
+				<code>US</code>
+				<name>United States</name>
+			</vat-country>
+		</primary-address>
+	</supplier>
+	<attachments type="array"/>
+	<invoice-payment-receipts type="array"/>
+	<invoice-charges type="array">
+		<invoice-charge>
+			<id type="integer">2076</id>
+			<created-at type="dateTime">2022-01-11T10:15:18-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:15:18-05:00</updated-at>
+			<type>InvoiceHandlingCharge</type>
+			<line-num type="integer">1</line-num>
+			<distributed nil="true"/>
+			<description nil="true"/>
+			<total type="decimal">0.00</total>
+			<accounting-total type="decimal">0.00</accounting-total>
+			<pct nil="true"/>
+			<billing-note nil="true"/>
+			<account-allocations type="array"/>
+			<accounting-total-currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</accounting-total-currency>
+			<currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</currency>
+			<tax-lines type="array"/>
+			<created-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</invoice-charge>
+		<invoice-charge>
+			<id type="integer">2077</id>
+			<created-at type="dateTime">2022-01-11T10:15:18-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:15:18-05:00</updated-at>
+			<type>InvoiceMiscCharge</type>
+			<line-num type="integer">2</line-num>
+			<distributed nil="true"/>
+			<description nil="true"/>
+			<total type="decimal">0.00</total>
+			<accounting-total type="decimal">0.00</accounting-total>
+			<pct nil="true"/>
+			<billing-note nil="true"/>
+			<account-allocations type="array"/>
+			<accounting-total-currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</accounting-total-currency>
+			<currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</currency>
+			<tax-lines type="array"/>
+			<created-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</invoice-charge>
+		<invoice-charge>
+			<id type="integer">2078</id>
+			<created-at type="dateTime">2022-01-11T10:15:18-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:15:18-05:00</updated-at>
+			<type>InvoiceShippingCharge</type>
+			<line-num type="integer">3</line-num>
+			<distributed nil="true"/>
+			<description nil="true"/>
+			<total type="decimal">0.00</total>
+			<accounting-total type="decimal">0.00</accounting-total>
+			<pct nil="true"/>
+			<billing-note nil="true"/>
+			<account-allocations type="array"/>
+			<accounting-total-currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</accounting-total-currency>
+			<currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</currency>
+			<tax-lines type="array"/>
+			<created-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</invoice-charge>
+	</invoice-charges>
+	<invoice-lines type="array">
+		<invoice-line>
+			<id type="integer">919</id>
+			<created-at type="dateTime">2022-01-11T10:15:18-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:38:18-05:00</updated-at>
+			<accounting-total type="decimal">20000.01</accounting-total>
+			<description>202111 Payment for 202112 Rents</description>
+			<line-num type="integer">1</line-num>
+			<order-header-num type="integer">148</order-header-num>
+			<po-number>US148</po-number>
+			<order-line-id type="integer">159</order-line-id>
+			<order-line-num>1</order-line-num>
+			<price type="decimal">20000.01</price>
+			<net-weight nil="true"/>
+			<price-per-uom type="decimal">0.00</price-per-uom>
+			<quantity nil="true"/>
+			<adjustment-type nil="true"/>
+			<status>missing_po</status>
+			<tax-rate nil="true"/>
+			<tax-location nil="true"/>
+			<tax-amount type="decimal">0.00</tax-amount>
+			<tax-description nil="true"/>
+			<tax-supply-date nil="true"/>
+			<total type="decimal">20000.01</total>
+			<type>InvoiceAmountLine</type>
+			<tax-amount-engine nil="true"/>
+			<tax-code-engine nil="true"/>
+			<tax-rate-engine nil="true"/>
+			<tax-distribution-total type="decimal">100.0</tax-distribution-total>
+			<shipping-distribution-total type="decimal">0.0</shipping-distribution-total>
+			<handling-distribution-total type="decimal">0.0</handling-distribution-total>
+			<misc-distribution-total type="decimal">0.0</misc-distribution-total>
+			<match-reference nil="true"/>
+			<original-date-of-supply nil="true"/>
+			<delivery-note-number nil="true"/>
+			<discount-amount nil="true"/>
+			<company-uom nil="true"/>
+			<property-tax-account nil="true"/>
+			<source-part-num></source-part-num>
+			<supp-aux-part-num nil="true"/>
+			<customs-declaration-number nil="true"/>
+			<hsn-sac-code nil="true"/>
+			<unspsc></unspsc>
+			<billing-note nil="true"/>
+			<fiscal-code nil="true"/>
+			<classification-of-goods nil="true"/>
+			<municipality-taxation-code nil="true"/>
+			<item-barcode nil="true"/>
+			<category>Services</category>
+			<subcategory nil="true"/>
+			<deductibility nil="true"/>
+			<custom-fields>
+				<site-code-for-trx>157: PITT-15264-A</site-code-for-trx>
+				<expense-purpose>
+					<id type="integer">4115</id>
+					<created-at type="dateTime">2021-11-01T21:53:18-04:00</created-at>
+					<updated-at type="dateTime">2021-11-11T11:14:08-05:00</updated-at>
+					<active type="boolean">true</active>
+					<name>Internal/Administration</name>
+					<description></description>
+					<external-ref-num>60</external-ref-num>
+					<external-ref-code>60</external-ref-code>
+					<parent-id nil="true"/>
+					<lookup-id type="integer">14</lookup-id>
+					<depth type="integer">0</depth>
+					<is-default type="boolean">true</is-default>
+					<custom-fields>
+						<test-inv-user-field></test-inv-user-field>
+						<region-approver></region-approver>
+					</custom-fields>
+					<lookup>
+						<id type="integer">14</id>
+						<created-at type="dateTime">2021-10-28T13:30:06-04:00</created-at>
+						<updated-at type="dateTime">2021-12-10T11:32:30-05:00</updated-at>
+						<active type="boolean">true</active>
+						<name>Expense Purpose</name>
+						<description>Business Purpose</description>
+						<fixed-depth type="boolean">false</fixed-depth>
+						<level-1-name></level-1-name>
+						<level-2-name></level-2-name>
+						<level-3-name></level-3-name>
+						<level-4-name></level-4-name>
+						<level-5-name></level-5-name>
+						<level-6-name></level-6-name>
+						<level-7-name></level-7-name>
+						<level-8-name></level-8-name>
+						<level-9-name></level-9-name>
+						<level-10-name></level-10-name>
+						<content-groups type="array">
+							<content-group>
+								<id type="integer">1</id>
+								<created-at type="dateTime">2006-08-27T22:40:04-04:00</created-at>
+								<updated-at type="dateTime">2007-05-24T08:53:00-04:00</updated-at>
+								<name>Everyone</name>
+								<description>All users can see documents assigned to this group</description>
+								<updated-by>
+									<id type="integer">1</id>
+									<login>coupasupport</login>
+									<email>coupasupport@coupa.com</email>
+									<employee-number nil="true"/>
+									<firstname>Coupa</firstname>
+									<lastname>Support</lastname>
+									<fullname>Coupa Support</fullname>
+									<salesforce-id nil="true"/>
+									<avatar-thumb-url nil="true"/>
+									<custom-fields>
+										<default-company></default-company>
+										<default-cost-center></default-cost-center>
+										<default-geography></default-geography>
+										<default-intercompany></default-intercompany>
+										<default-bu></default-bu>
+									</custom-fields>
+								</updated-by>
+							</content-group>
+						</content-groups>
+					</lookup>
+				</expense-purpose>
+				<failed-risk-review type="boolean">false</failed-risk-review>
+				<supplier-currency></supplier-currency>
+			</custom-fields>
+			<account>
+				<id type="integer">97</id>
+				<created-at type="dateTime">2021-11-09T12:39:00-05:00</created-at>
+				<updated-at type="dateTime">2022-01-06T15:43:09-05:00</updated-at>
+				<name>Gartner, Inc.-FIN - Controller's Office    STACC-Office Exp. - Supplies-Default-Default-Default-000000</name>
+				<code>001-0766-422201-0000-000-000-000000</code>
+				<active type="boolean">true</active>
+				<account-type-id type="integer">1</account-type-id>
+				<segment-1>001</segment-1>
+				<segment-2>0766</segment-2>
+				<segment-3>422201</segment-3>
+				<segment-4>0000</segment-4>
+				<segment-5>000</segment-5>
+				<segment-6>000</segment-6>
+				<segment-7>000000</segment-7>
+				<segment-8 nil="true"/>
+				<segment-9 nil="true"/>
+				<segment-10 nil="true"/>
+				<segment-11 nil="true"/>
+				<segment-12 nil="true"/>
+				<segment-13 nil="true"/>
+				<segment-14 nil="true"/>
+				<segment-15 nil="true"/>
+				<segment-16 nil="true"/>
+				<segment-17 nil="true"/>
+				<segment-18 nil="true"/>
+				<segment-19 nil="true"/>
+				<segment-20 nil="true"/>
+				<account-type>
+					<id type="integer">1</id>
+					<created-at type="dateTime">2019-04-07T16:54:54-04:00</created-at>
+					<updated-at type="dateTime">2021-12-17T13:43:46-05:00</updated-at>
+					<name>Gartner US</name>
+					<active type="boolean">true</active>
+					<legal-entity-name></legal-entity-name>
+					<dynamic-flag type="boolean">true</dynamic-flag>
+					<currency>
+						<id type="integer">1</id>
+						<code>USD</code>
+						<decimals type="integer">2</decimals>
+					</currency>
+					<primary-contact>
+						<id type="integer">5</id>
+						<created-at type="dateTime">2021-08-28T23:41:54-04:00</created-at>
+						<updated-at type="dateTime">2021-12-17T13:43:46-05:00</updated-at>
+						<email></email>
+						<name-prefix nil="true"/>
+						<name-suffix nil="true"/>
+						<name-additional nil="true"/>
+						<name-given></name-given>
+						<name-family></name-family>
+						<name-fullname nil="true"/>
+						<notes nil="true"/>
+						<active type="boolean">true</active>
+						<purposes type="array"/>
+						<created-by>
+							<id type="integer">61</id>
+							<login>coupa-admin@acquisconsulting.com</login>
+							<email>coupa-admin@acquisconsulting.com</email>
+							<employee-number></employee-number>
+							<firstname>Acquis</firstname>
+							<lastname>Admin</lastname>
+							<fullname>Acquis Admin</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company>001</default-company>
+								<default-cost-center>1302</default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</created-by>
+						<updated-by>
+							<id type="integer">50</id>
+							<login>emily.sibert@gartner.com</login>
+							<email>emily.sibert@gartner.com</email>
+							<employee-number>28423</employee-number>
+							<firstname>Emily</firstname>
+							<lastname>Sibert-Amoris</lastname>
+							<fullname>Emily Sibert-Amoris</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company>001</default-company>
+								<default-cost-center>0766</default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</updated-by>
+					</primary-contact>
+					<primary-address>
+						<id type="integer">794</id>
+						<created-at type="dateTime">2021-08-28T23:41:54-04:00</created-at>
+						<updated-at type="dateTime">2021-11-11T10:52:20-05:00</updated-at>
+						<name></name>
+						<location-code nil="true"/>
+						<street1>13200 Paul J Doherty Parkway</street1>
+						<street2></street2>
+						<city>Fort Myers</city>
+						<state>FL</state>
+						<postal-code>33913</postal-code>
+						<attention nil="true"/>
+						<active type="boolean">true</active>
+						<business-group-name nil="true"/>
+						<vat-number></vat-number>
+						<local-tax-number nil="true"/>
+						<type nil="true"/>
+						<custom-fields>
+							<default-currency></default-currency>
+							<site-tax-code></site-tax-code>
+						</custom-fields>
+						<country>
+							<id type="integer">223</id>
+							<code>US</code>
+							<name>United States</name>
+						</country>
+						<vat-country>
+							<id type="integer">223</id>
+							<code>US</code>
+							<name>United States</name>
+						</vat-country>
+					</primary-address>
+					<created-by>
+						<id type="integer">7</id>
+						<login>sonali.thakur@coupa.com</login>
+						<email>sonali.thakur@coupa.com</email>
+						<employee-number nil="true"/>
+						<firstname>Sonali</firstname>
+						<lastname>Thakur</lastname>
+						<fullname>Sonali Thakur</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company></default-company>
+							<default-cost-center></default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</created-by>
+					<updated-by>
+						<id type="integer">50</id>
+						<login>emily.sibert@gartner.com</login>
+						<email>emily.sibert@gartner.com</email>
+						<employee-number>28423</employee-number>
+						<firstname>Emily</firstname>
+						<lastname>Sibert-Amoris</lastname>
+						<fullname>Emily Sibert-Amoris</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>0766</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</updated-by>
+				</account-type>
+				<created-by>
+					<id type="integer">50</id>
+					<login>emily.sibert@gartner.com</login>
+					<email>emily.sibert@gartner.com</email>
+					<employee-number>28423</employee-number>
+					<firstname>Emily</firstname>
+					<lastname>Sibert-Amoris</lastname>
+					<fullname>Emily Sibert-Amoris</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>0766</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</created-by>
+				<updated-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</updated-by>
+			</account>
+			<account-allocations type="array"/>
+			<accounting-total-currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</accounting-total-currency>
+			<currency>
+				<id type="integer">1</id>
+				<code>USD</code>
+				<decimals type="integer">2</decimals>
+			</currency>
+			<uom>
+				<id type="integer">7</id>
+				<created-at type="dateTime">2021-08-29T00:34:03-04:00</created-at>
+				<updated-at type="dateTime">2021-08-29T00:34:03-04:00</updated-at>
+				<code>BTH</code>
+				<name>Booth</name>
+				<allowable-precision type="integer">0</allowable-precision>
+				<active type="boolean">true</active>
+				<created-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</created-by>
+				<updated-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</updated-by>
+			</uom>
+			<order-line-commodity>
+				<id type="integer">426</id>
+				<created-at type="dateTime">2021-10-13T12:32:56-04:00</created-at>
+				<updated-at type="dateTime">2021-12-01T22:03:25-05:00</updated-at>
+				<active type="boolean">true</active>
+				<name>Outside Counsel</name>
+				<translated-name>Outside Counsel</translated-name>
+				<deductibility></deductibility>
+				<category></category>
+				<subcategory></subcategory>
+				<custom-fields>
+					<default-subaccount>442001</default-subaccount>
+					<category-manager>
+						<id type="integer">107</id>
+						<login>nicole.o'brien@gartner.com</login>
+						<email>nicole.o'brien@gartner.com</email>
+						<employee-number>92345</employee-number>
+						<firstname>Nicole</firstname>
+						<lastname>O'Brien</lastname>
+						<fullname>Nicole O'Brien</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>0766</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</category-manager>
+					<bu-it-approver></bu-it-approver>
+					<bu-hr-approver></bu-hr-approver>
+					<bu-finance--travel-></bu-finance--travel->
+					<bu-gre-approver></bu-gre-approver>
+					<bu-gdm--marketing-approver></bu-gdm--marketing-approver>
+					<bu-sales-approver></bu-sales-approver>
+					<bu-research-approver></bu-research-approver>
+					<bu-gpm-approver></bu-gpm-approver>
+					<bu-gsd-approver></bu-gsd-approver>
+					<bu-conferences></bu-conferences>
+					<conference-approver--150k></conference-approver--150k>
+					<conference-approver-between-150-and-500k></conference-approver-between-150-and-500k>
+					<conference-approver--500k></conference-approver--500k>
+				</custom-fields>
+				<parent>
+					<id type="integer">139</id>
+					<created-at type="dateTime">2021-10-13T12:17:41-04:00</created-at>
+					<updated-at type="dateTime">2021-10-13T12:17:41-04:00</updated-at>
+					<active type="boolean">true</active>
+					<name>Legal Services</name>
+					<translated-name>Legal Services</translated-name>
+					<deductibility nil="true"/>
+					<category nil="true"/>
+					<subcategory nil="true"/>
+					<custom-fields>
+						<default-subaccount></default-subaccount>
+						<category-manager></category-manager>
+						<bu-it-approver></bu-it-approver>
+						<bu-hr-approver></bu-hr-approver>
+						<bu-finance--travel-></bu-finance--travel->
+						<bu-gre-approver></bu-gre-approver>
+						<bu-gdm--marketing-approver></bu-gdm--marketing-approver>
+						<bu-sales-approver></bu-sales-approver>
+						<bu-research-approver></bu-research-approver>
+						<bu-gpm-approver></bu-gpm-approver>
+						<bu-gsd-approver></bu-gsd-approver>
+						<bu-conferences></bu-conferences>
+						<conference-approver--150k></conference-approver--150k>
+						<conference-approver-between-150-and-500k></conference-approver-between-150-and-500k>
+						<conference-approver--500k></conference-approver--500k>
+					</custom-fields>
+					<parent>
+						<id type="integer">77</id>
+						<created-at type="dateTime">2021-10-13T12:15:28-04:00</created-at>
+						<updated-at type="dateTime">2021-10-13T12:15:28-04:00</updated-at>
+						<active type="boolean">true</active>
+						<name>Professional Services</name>
+						<translated-name>Professional Services</translated-name>
+						<deductibility nil="true"/>
+						<category nil="true"/>
+						<subcategory nil="true"/>
+						<custom-fields>
+							<default-subaccount></default-subaccount>
+							<category-manager></category-manager>
+							<bu-it-approver></bu-it-approver>
+							<bu-hr-approver></bu-hr-approver>
+							<bu-finance--travel-></bu-finance--travel->
+							<bu-gre-approver></bu-gre-approver>
+							<bu-gdm--marketing-approver></bu-gdm--marketing-approver>
+							<bu-sales-approver></bu-sales-approver>
+							<bu-research-approver></bu-research-approver>
+							<bu-gpm-approver></bu-gpm-approver>
+							<bu-gsd-approver></bu-gsd-approver>
+							<bu-conferences></bu-conferences>
+							<conference-approver--150k></conference-approver--150k>
+							<conference-approver-between-150-and-500k></conference-approver-between-150-and-500k>
+							<conference-approver--500k></conference-approver--500k>
+						</custom-fields>
+						<created-by>
+							<id type="integer">61</id>
+							<login>coupa-admin@acquisconsulting.com</login>
+							<email>coupa-admin@acquisconsulting.com</email>
+							<employee-number></employee-number>
+							<firstname>Acquis</firstname>
+							<lastname>Admin</lastname>
+							<fullname>Acquis Admin</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company>001</default-company>
+								<default-cost-center>1302</default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</created-by>
+						<updated-by>
+							<id type="integer">61</id>
+							<login>coupa-admin@acquisconsulting.com</login>
+							<email>coupa-admin@acquisconsulting.com</email>
+							<employee-number></employee-number>
+							<firstname>Acquis</firstname>
+							<lastname>Admin</lastname>
+							<fullname>Acquis Admin</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company>001</default-company>
+								<default-cost-center>1302</default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</updated-by>
+					</parent>
+					<created-by>
+						<id type="integer">61</id>
+						<login>coupa-admin@acquisconsulting.com</login>
+						<email>coupa-admin@acquisconsulting.com</email>
+						<employee-number></employee-number>
+						<firstname>Acquis</firstname>
+						<lastname>Admin</lastname>
+						<fullname>Acquis Admin</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>1302</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</created-by>
+					<updated-by>
+						<id type="integer">61</id>
+						<login>coupa-admin@acquisconsulting.com</login>
+						<email>coupa-admin@acquisconsulting.com</email>
+						<employee-number></employee-number>
+						<firstname>Acquis</firstname>
+						<lastname>Admin</lastname>
+						<fullname>Acquis Admin</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>1302</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</updated-by>
+				</parent>
+				<created-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</created-by>
+				<updated-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</updated-by>
+			</order-line-commodity>
+			<order-line-custom-fields>
+				<custom-fields>
+					<site-code-for-trx>157: PITT-15264-A</site-code-for-trx>
+					<expense-purpose>
+						<id type="integer">4115</id>
+						<created-at type="dateTime">2021-11-01T21:53:18-04:00</created-at>
+						<updated-at type="dateTime">2021-11-11T11:14:08-05:00</updated-at>
+						<active type="boolean">true</active>
+						<name>Internal/Administration</name>
+						<description></description>
+						<external-ref-num>60</external-ref-num>
+						<external-ref-code>60</external-ref-code>
+						<parent-id nil="true"/>
+						<lookup-id type="integer">14</lookup-id>
+						<depth type="integer">0</depth>
+						<is-default type="boolean">true</is-default>
+						<custom-fields>
+							<test-inv-user-field></test-inv-user-field>
+							<region-approver></region-approver>
+						</custom-fields>
+						<lookup>
+							<id type="integer">14</id>
+							<created-at type="dateTime">2021-10-28T13:30:06-04:00</created-at>
+							<updated-at type="dateTime">2021-12-10T11:32:30-05:00</updated-at>
+							<active type="boolean">true</active>
+							<name>Expense Purpose</name>
+							<description>Business Purpose</description>
+							<fixed-depth type="boolean">false</fixed-depth>
+							<level-1-name></level-1-name>
+							<level-2-name></level-2-name>
+							<level-3-name></level-3-name>
+							<level-4-name></level-4-name>
+							<level-5-name></level-5-name>
+							<level-6-name></level-6-name>
+							<level-7-name></level-7-name>
+							<level-8-name></level-8-name>
+							<level-9-name></level-9-name>
+							<level-10-name></level-10-name>
+							<content-groups type="array">
+								<content-group>
+									<id type="integer">1</id>
+									<created-at type="dateTime">2006-08-27T22:40:04-04:00</created-at>
+									<updated-at type="dateTime">2007-05-24T08:53:00-04:00</updated-at>
+									<name>Everyone</name>
+									<description>All users can see documents assigned to this group</description>
+									<updated-by>
+										<id type="integer">1</id>
+										<login>coupasupport</login>
+										<email>coupasupport@coupa.com</email>
+										<employee-number nil="true"/>
+										<firstname>Coupa</firstname>
+										<lastname>Support</lastname>
+										<fullname>Coupa Support</fullname>
+										<salesforce-id nil="true"/>
+										<avatar-thumb-url nil="true"/>
+										<custom-fields>
+											<default-company></default-company>
+											<default-cost-center></default-cost-center>
+											<default-geography></default-geography>
+											<default-intercompany></default-intercompany>
+											<default-bu></default-bu>
+										</custom-fields>
+									</updated-by>
+								</content-group>
+							</content-groups>
+						</lookup>
+					</expense-purpose>
+					<failed-risk-review type="boolean">false</failed-risk-review>
+					<supplier-currency></supplier-currency>
+				</custom-fields>
+			</order-line-custom-fields>
+			<tax-lines type="array"/>
+			<withholding-tax-lines type="array"/>
+			<tags type="array"/>
+			<taggings type="array"/>
+			<failed-tolerances type="array">
+				<failed-tolerance>
+					<id type="integer">569</id>
+					<created-at type="dateTime">2022-01-11T10:16:30-05:00</created-at>
+					<updated-at type="dateTime">2022-01-11T10:16:30-05:00</updated-at>
+					<code>not_received</code>
+					<failable-id type="integer">919</failable-id>
+					<failable-type>InvoiceLine</failable-type>
+					<account-type-id type="integer">1</account-type-id>
+					<resolved type="boolean">true</resolved>
+					<resolution-strategy>submission</resolution-strategy>
+					<breach-amount>20,000.01 USD</breach-amount>
+					<breach-limit>99,999.99 USD</breach-limit>
+					<breach-detail-1>20,000.01 USD</breach-detail-1>
+					<breach-detail-2>0.00 USD</breach-detail-2>
+					<breach-detail-3>2</breach-detail-3>
+					<breach-detail-4>0.00 USD</breach-detail-4>
+				</failed-tolerance>
+				<failed-tolerance>
+					<id type="integer">570</id>
+					<created-at type="dateTime">2022-01-11T10:25:26-05:00</created-at>
+					<updated-at type="dateTime">2022-01-11T10:25:26-05:00</updated-at>
+					<code>po_missing</code>
+					<failable-id type="integer">919</failable-id>
+					<failable-type>InvoiceLine</failable-type>
+					<account-type-id type="integer">1</account-type-id>
+					<resolved type="boolean">false</resolved>
+					<resolution-strategy nil="true"/>
+					<breach-amount nil="true"/>
+					<breach-limit nil="true"/>
+					<breach-detail-1 nil="true"/>
+					<breach-detail-2 nil="true"/>
+					<breach-detail-3 nil="true"/>
+					<breach-detail-4 nil="true"/>
+				</failed-tolerance>
+			</failed-tolerances>
+			<commodity>
+				<id type="integer">426</id>
+				<created-at type="dateTime">2021-10-13T12:32:56-04:00</created-at>
+				<updated-at type="dateTime">2021-12-01T22:03:25-05:00</updated-at>
+				<active type="boolean">true</active>
+				<name>Outside Counsel</name>
+				<translated-name>Outside Counsel</translated-name>
+				<deductibility></deductibility>
+				<category></category>
+				<subcategory></subcategory>
+				<custom-fields>
+					<default-subaccount>442001</default-subaccount>
+					<category-manager>
+						<id type="integer">107</id>
+						<login>nicole.o'brien@gartner.com</login>
+						<email>nicole.o'brien@gartner.com</email>
+						<employee-number>92345</employee-number>
+						<firstname>Nicole</firstname>
+						<lastname>O'Brien</lastname>
+						<fullname>Nicole O'Brien</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>0766</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</category-manager>
+					<bu-it-approver></bu-it-approver>
+					<bu-hr-approver></bu-hr-approver>
+					<bu-finance--travel-></bu-finance--travel->
+					<bu-gre-approver></bu-gre-approver>
+					<bu-gdm--marketing-approver></bu-gdm--marketing-approver>
+					<bu-sales-approver></bu-sales-approver>
+					<bu-research-approver></bu-research-approver>
+					<bu-gpm-approver></bu-gpm-approver>
+					<bu-gsd-approver></bu-gsd-approver>
+					<bu-conferences></bu-conferences>
+					<conference-approver--150k></conference-approver--150k>
+					<conference-approver-between-150-and-500k></conference-approver-between-150-and-500k>
+					<conference-approver--500k></conference-approver--500k>
+				</custom-fields>
+				<parent>
+					<id type="integer">139</id>
+					<created-at type="dateTime">2021-10-13T12:17:41-04:00</created-at>
+					<updated-at type="dateTime">2021-10-13T12:17:41-04:00</updated-at>
+					<active type="boolean">true</active>
+					<name>Legal Services</name>
+					<translated-name>Legal Services</translated-name>
+					<deductibility nil="true"/>
+					<category nil="true"/>
+					<subcategory nil="true"/>
+					<custom-fields>
+						<default-subaccount></default-subaccount>
+						<category-manager></category-manager>
+						<bu-it-approver></bu-it-approver>
+						<bu-hr-approver></bu-hr-approver>
+						<bu-finance--travel-></bu-finance--travel->
+						<bu-gre-approver></bu-gre-approver>
+						<bu-gdm--marketing-approver></bu-gdm--marketing-approver>
+						<bu-sales-approver></bu-sales-approver>
+						<bu-research-approver></bu-research-approver>
+						<bu-gpm-approver></bu-gpm-approver>
+						<bu-gsd-approver></bu-gsd-approver>
+						<bu-conferences></bu-conferences>
+						<conference-approver--150k></conference-approver--150k>
+						<conference-approver-between-150-and-500k></conference-approver-between-150-and-500k>
+						<conference-approver--500k></conference-approver--500k>
+					</custom-fields>
+					<parent>
+						<id type="integer">77</id>
+						<created-at type="dateTime">2021-10-13T12:15:28-04:00</created-at>
+						<updated-at type="dateTime">2021-10-13T12:15:28-04:00</updated-at>
+						<active type="boolean">true</active>
+						<name>Professional Services</name>
+						<translated-name>Professional Services</translated-name>
+						<deductibility nil="true"/>
+						<category nil="true"/>
+						<subcategory nil="true"/>
+						<custom-fields>
+							<default-subaccount></default-subaccount>
+							<category-manager></category-manager>
+							<bu-it-approver></bu-it-approver>
+							<bu-hr-approver></bu-hr-approver>
+							<bu-finance--travel-></bu-finance--travel->
+							<bu-gre-approver></bu-gre-approver>
+							<bu-gdm--marketing-approver></bu-gdm--marketing-approver>
+							<bu-sales-approver></bu-sales-approver>
+							<bu-research-approver></bu-research-approver>
+							<bu-gpm-approver></bu-gpm-approver>
+							<bu-gsd-approver></bu-gsd-approver>
+							<bu-conferences></bu-conferences>
+							<conference-approver--150k></conference-approver--150k>
+							<conference-approver-between-150-and-500k></conference-approver-between-150-and-500k>
+							<conference-approver--500k></conference-approver--500k>
+						</custom-fields>
+						<created-by>
+							<id type="integer">61</id>
+							<login>coupa-admin@acquisconsulting.com</login>
+							<email>coupa-admin@acquisconsulting.com</email>
+							<employee-number></employee-number>
+							<firstname>Acquis</firstname>
+							<lastname>Admin</lastname>
+							<fullname>Acquis Admin</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company>001</default-company>
+								<default-cost-center>1302</default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</created-by>
+						<updated-by>
+							<id type="integer">61</id>
+							<login>coupa-admin@acquisconsulting.com</login>
+							<email>coupa-admin@acquisconsulting.com</email>
+							<employee-number></employee-number>
+							<firstname>Acquis</firstname>
+							<lastname>Admin</lastname>
+							<fullname>Acquis Admin</fullname>
+							<salesforce-id nil="true"/>
+							<avatar-thumb-url nil="true"/>
+							<custom-fields>
+								<default-company>001</default-company>
+								<default-cost-center>1302</default-cost-center>
+								<default-geography></default-geography>
+								<default-intercompany></default-intercompany>
+								<default-bu></default-bu>
+							</custom-fields>
+						</updated-by>
+					</parent>
+					<created-by>
+						<id type="integer">61</id>
+						<login>coupa-admin@acquisconsulting.com</login>
+						<email>coupa-admin@acquisconsulting.com</email>
+						<employee-number></employee-number>
+						<firstname>Acquis</firstname>
+						<lastname>Admin</lastname>
+						<fullname>Acquis Admin</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>1302</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</created-by>
+					<updated-by>
+						<id type="integer">61</id>
+						<login>coupa-admin@acquisconsulting.com</login>
+						<email>coupa-admin@acquisconsulting.com</email>
+						<employee-number></employee-number>
+						<firstname>Acquis</firstname>
+						<lastname>Admin</lastname>
+						<fullname>Acquis Admin</fullname>
+						<salesforce-id nil="true"/>
+						<avatar-thumb-url nil="true"/>
+						<custom-fields>
+							<default-company>001</default-company>
+							<default-cost-center>1302</default-cost-center>
+							<default-geography></default-geography>
+							<default-intercompany></default-intercompany>
+							<default-bu></default-bu>
+						</custom-fields>
+					</updated-by>
+				</parent>
+				<created-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</created-by>
+				<updated-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</updated-by>
+			</commodity>
+			<created-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</invoice-line>
+	</invoice-lines>
+	<approvals type="array"/>
+	<created-by>
+		<id type="integer">584</id>
+		<login>peter.hristov@coupa.com</login>
+		<email>peter.hristov@coupa.com</email>
+		<employee-number nil="true"/>
+		<firstname>Peter</firstname>
+		<lastname>Hristov</lastname>
+		<fullname>Peter Hristov</fullname>
+		<salesforce-id nil="true"/>
+		<avatar-thumb-url nil="true"/>
+		<custom-fields>
+			<default-company></default-company>
+			<default-cost-center></default-cost-center>
+			<default-geography></default-geography>
+			<default-intercompany></default-intercompany>
+			<default-bu></default-bu>
+		</custom-fields>
+	</created-by>
+	<updated-by>
+		<id type="integer">584</id>
+		<login>peter.hristov@coupa.com</login>
+		<email>peter.hristov@coupa.com</email>
+		<employee-number nil="true"/>
+		<firstname>Peter</firstname>
+		<lastname>Hristov</lastname>
+		<fullname>Peter Hristov</fullname>
+		<salesforce-id nil="true"/>
+		<avatar-thumb-url nil="true"/>
+		<custom-fields>
+			<default-company></default-company>
+			<default-cost-center></default-cost-center>
+			<default-geography></default-geography>
+			<default-intercompany></default-intercompany>
+			<default-bu></default-bu>
+		</custom-fields>
+	</updated-by>
+	<tax-lines type="array">
+		<tax-line>
+			<id type="integer">722</id>
+			<created-at type="dateTime">2022-01-11T10:16:30-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:25:26-05:00</updated-at>
+			<amount type="decimal">100.00</amount>
+			<rate nil="true"/>
+			<code nil="true"/>
+			<description nil="true"/>
+			<taxable-amount nil="true"/>
+			<kind-of-factor nil="true"/>
+			<basis nil="true"/>
+			<nature-of-tax nil="true"/>
+			<type>TaxLine</type>
+			<base type="decimal">0.0</base>
+			<withholding-amount type="decimal">0.0</withholding-amount>
+			<supplier-rate nil="true"/>
+			<amount-engine type="decimal">1225.0</amount-engine>
+			<code-engine nil="true"/>
+			<rate-engine type="decimal">6.12</rate-engine>
+			<product-tax-classification nil="true"/>
+			<created-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</tax-line>
+	</tax-lines>
+	<withholding-tax-lines type="array"/>
+	<tcs-tax-lines type="array"/>
+	<current-integration-history-records type="array"/>
+	<requested-by>
+		<id type="integer">203</id>
+		<login>karen.webber@gartner.com</login>
+		<email>karen.webber@gartner.com</email>
+		<employee-number>11110</employee-number>
+		<firstname>Karen</firstname>
+		<lastname>Webber</lastname>
+		<fullname>Karen Webber</fullname>
+		<salesforce-id nil="true"/>
+		<avatar-thumb-url nil="true"/>
+		<custom-fields>
+			<default-company>100</default-company>
+			<default-cost-center>0766</default-cost-center>
+			<default-geography></default-geography>
+			<default-intercompany></default-intercompany>
+			<default-bu></default-bu>
+		</custom-fields>
+	</requested-by>
+	<tags type="array">
+		<tag>
+			<id type="integer">3</id>
+			<created-at type="dateTime">2021-09-30T10:30:42-04:00</created-at>
+			<updated-at type="dateTime">2021-09-30T10:30:42-04:00</updated-at>
+			<name>Invoice Approval</name>
+			<system-tag type="boolean">false</system-tag>
+			<created-by>
+				<id type="integer">61</id>
+				<login>coupa-admin@acquisconsulting.com</login>
+				<email>coupa-admin@acquisconsulting.com</email>
+				<employee-number></employee-number>
+				<firstname>Acquis</firstname>
+				<lastname>Admin</lastname>
+				<fullname>Acquis Admin</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company>001</default-company>
+					<default-cost-center>1302</default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+			<updated-by>
+				<id type="integer">61</id>
+				<login>coupa-admin@acquisconsulting.com</login>
+				<email>coupa-admin@acquisconsulting.com</email>
+				<employee-number></employee-number>
+				<firstname>Acquis</firstname>
+				<lastname>Admin</lastname>
+				<fullname>Acquis Admin</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company>001</default-company>
+					<default-cost-center>1302</default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</updated-by>
+		</tag>
+	</tags>
+	<taggings type="array">
+		<tagging>
+			<id type="integer">224</id>
+			<created-at type="dateTime">2022-01-11T10:16:51-05:00</created-at>
+			<description>Testing inv routing</description>
+			<active type="boolean">true</active>
+			<tag>
+				<id type="integer">3</id>
+				<created-at type="dateTime">2021-09-30T10:30:42-04:00</created-at>
+				<updated-at type="dateTime">2021-09-30T10:30:42-04:00</updated-at>
+				<name>Invoice Approval</name>
+				<system-tag type="boolean">false</system-tag>
+				<created-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</created-by>
+				<updated-by>
+					<id type="integer">61</id>
+					<login>coupa-admin@acquisconsulting.com</login>
+					<email>coupa-admin@acquisconsulting.com</email>
+					<employee-number></employee-number>
+					<firstname>Acquis</firstname>
+					<lastname>Admin</lastname>
+					<fullname>Acquis Admin</fullname>
+					<salesforce-id nil="true"/>
+					<avatar-thumb-url nil="true"/>
+					<custom-fields>
+						<default-company>001</default-company>
+						<default-cost-center>1302</default-cost-center>
+						<default-geography></default-geography>
+						<default-intercompany></default-intercompany>
+						<default-bu></default-bu>
+					</custom-fields>
+				</updated-by>
+			</tag>
+			<created-by>
+				<id type="integer">584</id>
+				<login>peter.hristov@coupa.com</login>
+				<email>peter.hristov@coupa.com</email>
+				<employee-number nil="true"/>
+				<firstname>Peter</firstname>
+				<lastname>Hristov</lastname>
+				<fullname>Peter Hristov</fullname>
+				<salesforce-id nil="true"/>
+				<avatar-thumb-url nil="true"/>
+				<custom-fields>
+					<default-company></default-company>
+					<default-cost-center></default-cost-center>
+					<default-geography></default-geography>
+					<default-intercompany></default-intercompany>
+					<default-bu></default-bu>
+				</custom-fields>
+			</created-by>
+		</tagging>
+	</taggings>
+	<failed-tolerances type="array">
+		<failed-tolerance>
+			<id type="integer">571</id>
+			<created-at type="dateTime">2022-01-11T10:25:26-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:25:26-05:00</updated-at>
+			<code>header_tae_pct_tolerance</code>
+			<failable-id type="integer">770</failable-id>
+			<failable-type>InvoiceHeader</failable-type>
+			<account-type-id type="integer">1</account-type-id>
+			<resolved type="boolean">false</resolved>
+			<resolution-strategy nil="true"/>
+			<breach-amount nil="true"/>
+			<breach-limit>10.0%</breach-limit>
+			<breach-detail-1 nil="true"/>
+			<breach-detail-2 nil="true"/>
+			<breach-detail-3 nil="true"/>
+			<breach-detail-4 nil="true"/>
+		</failed-tolerance>
+		<failed-tolerance>
+			<id type="integer">572</id>
+			<created-at type="dateTime">2022-01-11T10:25:26-05:00</created-at>
+			<updated-at type="dateTime">2022-01-11T10:25:26-05:00</updated-at>
+			<code>header_tae_amt_tolerance</code>
+			<failable-id type="integer">770</failable-id>
+			<failable-type>InvoiceHeader</failable-type>
+			<account-type-id type="integer">1</account-type-id>
+			<resolved type="boolean">false</resolved>
+			<resolution-strategy nil="true"/>
+			<breach-amount nil="true"/>
+			<breach-limit>250.00 USD</breach-limit>
+			<breach-detail-1 nil="true"/>
+			<breach-detail-2 nil="true"/>
+			<breach-detail-3 nil="true"/>
+			<breach-detail-4 nil="true"/>
+		</failed-tolerance>
+	</failed-tolerances>
+	<supplier-tax-registration>
+		<id type="integer">7</id>
+		<created-at type="dateTime">2021-10-14T20:16:35-04:00</created-at>
+		<updated-at type="dateTime">2021-10-14T20:16:35-04:00</updated-at>
+		<number>34-6565596</number>
+		<owner-id type="integer">369</owner-id>
+		<owner-type>Address</owner-type>
+		<active type="boolean">true</active>
+		<local type="boolean">false</local>
+		<country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</country>
+		<created-by>
+			<id type="integer">61</id>
+			<login>coupa-admin@acquisconsulting.com</login>
+			<email>coupa-admin@acquisconsulting.com</email>
+			<employee-number></employee-number>
+			<firstname>Acquis</firstname>
+			<lastname>Admin</lastname>
+			<fullname>Acquis Admin</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>1302</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</created-by>
+		<updated-by>
+			<id type="integer">61</id>
+			<login>coupa-admin@acquisconsulting.com</login>
+			<email>coupa-admin@acquisconsulting.com</email>
+			<employee-number></employee-number>
+			<firstname>Acquis</firstname>
+			<lastname>Admin</lastname>
+			<fullname>Acquis Admin</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>1302</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</updated-by>
+	</supplier-tax-registration>
+	<buyer-tax-registration>
+		<id type="integer">184</id>
+		<created-at type="dateTime">2021-10-31T22:41:45-04:00</created-at>
+		<updated-at type="dateTime">2021-10-31T22:41:45-04:00</updated-at>
+		<number></number>
+		<owner-id type="integer">794</owner-id>
+		<owner-type>Address</owner-type>
+		<active type="boolean">true</active>
+		<local type="boolean">false</local>
+		<country>
+			<id type="integer">223</id>
+			<code>US</code>
+			<name>United States</name>
+		</country>
+		<created-by>
+			<id type="integer">50</id>
+			<login>emily.sibert@gartner.com</login>
+			<email>emily.sibert@gartner.com</email>
+			<employee-number>28423</employee-number>
+			<firstname>Emily</firstname>
+			<lastname>Sibert-Amoris</lastname>
+			<fullname>Emily Sibert-Amoris</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>0766</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</created-by>
+		<updated-by>
+			<id type="integer">50</id>
+			<login>emily.sibert@gartner.com</login>
+			<email>emily.sibert@gartner.com</email>
+			<employee-number>28423</employee-number>
+			<firstname>Emily</firstname>
+			<lastname>Sibert-Amoris</lastname>
+			<fullname>Emily Sibert-Amoris</fullname>
+			<salesforce-id nil="true"/>
+			<avatar-thumb-url nil="true"/>
+			<custom-fields>
+				<default-company>001</default-company>
+				<default-cost-center>0766</default-cost-center>
+				<default-geography></default-geography>
+				<default-intercompany></default-intercompany>
+				<default-bu></default-bu>
+			</custom-fields>
+		</updated-by>
+	</buyer-tax-registration>
+	<dispute-reasons type="array"/>
+	<payment-agreement-notes type="array"/>
+</invoice-header>

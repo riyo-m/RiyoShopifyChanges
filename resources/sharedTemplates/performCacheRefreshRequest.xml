@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:vertexinc:oseries:ws:cacheref:9:0">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:PerformCacheRefreshRequest>
+            <urn:Login>
+                <urn:UserName>****</urn:UserName>
+                <urn:Password>****</urn:Password>
+            </urn:Login>
+        </urn:PerformCacheRefreshRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
